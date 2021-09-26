@@ -21,7 +21,7 @@
 }
 
 .product-specifications{
-    padding: 0 11rem 0 3rem;
+    width: 100%;
 }
 .product-description {
     font-family: Serif;
@@ -33,7 +33,7 @@
 #product-green-scarf {
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: opacity 0.3s;
 }
 
 #product-green-scarf:hover {opacity: 0.7;}
@@ -159,7 +159,7 @@
 
 }
 hr {
-    margin: 2rem 0 2rem 0;
+    /*margin: 2rem 0 2rem 0;*/
     color: gainsboro;
 }
 #add {
