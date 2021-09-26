@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color:rgb(244,239,222);
+}
+.title{
+    width: 43.515rem;
+    align-items: center;
+    text-align: center;
+}
+.title>p{
+    font-size: 1.16667rem;
+}
+h1{
+    font-weight: inherit;
+    font-size: 4rem;
+    font-style: italic;
+    font-family: "Playfair Display SC",serif;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.features{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+hr{
+    text-align: center;
+    width: 50%;
+}
+.feature{
+    width: 25.75rem;
+}
+.feature>h3{
+    font-weight:normal;
+    font-size: 2rem;
+    font-family: "Playfair Display SC",serif;
+}
+.feature>p{
+    font-family: Alice,serif;
+    text-align: justify;
+}
