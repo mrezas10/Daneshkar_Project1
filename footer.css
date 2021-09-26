@@ -1,0 +1,70 @@
+@font-face {
+    font-family:"Alicee";
+    src: url("/font/BeautyQueen.otf")format("opentype");
+}
+@font-face {
+    font-family:"Alie";
+    src: url("/font/Alice-Regular.ttf")format("truetype");
+}
+#footer{width: 100%;
+    height:100%;
+    background-color: #f5a432;
+    position: relative;
+    top: 15rem;
+    text-align: center;}
+.avatar{width: 8%;
+    height: 20%;
+    margin-top: 2%;}
+h5{
+    color: white;
+    font-weight: lighter;
+    position: relative;
+    bottom: 4%;
+    font-family: Alie;
+    font-weight: normal;
+    font-size: 0.5rem;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+.mail{margin-right: 3rem;}
+.instagram{margin-right: 3rem;
+}
+h4{color: white;
+    font-family: Alie;
+    font-weight: lighter}
+.last-item{
+
+    width: 100%;
+    height: 1.5rem;
+    background-color: #bb7a0c;}
+.copy-detail{
+    font-size: 0.6rem;
+    text-align: center;
+    color: white;
+    font-family: Alie;
+}
+
+.copy-write{text-align: center;
+    position: relative;
+    top: 20%;}
+.login{width: 15%;
+    height: 80%;
+    background-color: purple;
+    position: fixed;
+    left: 80%;
+    top: 93%;
+    width: 15%;
+    margin-right: 2rem;
+    margin-top: 0.3rem;
+    font-size: 0.5rem;
+    background-color: #c4ea33;
+    border-radius: 1%;}
+.login-text{position: relative;
+    top: 2%;
+    font-family: Alicee;
+    font-weight: bold;
+    color: white;
+
+}
