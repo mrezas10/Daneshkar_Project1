@@ -12,7 +12,8 @@ hr
 }
 .shop-container {
     display: grid;
-    width: 100vw;
+    margin: 0 5vw;
+    width: 90vw;
     height: 100vh;
     grid-template: 100fr / 60fr 40fr;
     grid-template-areas: "picture ttext";
@@ -89,5 +90,4 @@ hr
 }
 .shop-product-text-preview-selected:hover {
     opacity: 0.6;
-
 }
