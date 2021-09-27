@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@0;1&display=swap');
+.shopwrapper{
+    display: flex;
+    flex-direction: column;
+}
+.shoprows{
+    display: flex;
+    flex-direction: column;
+}
