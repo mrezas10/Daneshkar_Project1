@@ -1,0 +1,54 @@
+@font-face {
+    font-family:"Alicee";
+    src: url("/font/Alice-Regular.ttf")format("truetype");}
+body{height: 100%;}
+
+#header{
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 0.6rem;
+    line-height: 2rem;
+
+
+}
+
+.avatar-logo{
+    width: 5%;
+
+    line-height: 2em;
+
+}
+.basket{position: absolute;
+    right: 1rem;
+    top: 1rem;
+
+}
+.line{display: flex;
+    flex-direction: row;
+
+}
+.left{width: 18%;
+    margin-left:23%;
+    margin-top: 0;
+    height: 0;
+}
+.right{width: 20%;
+    margin-right: 23%;
+    margin-top: 0;
+    height: 0;
+}
+.catscarf-logo{width: 10%;
+    background-color: white;
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 0.5rem;
+    line-height: 3em;
+    text-align: center;
+
+}
