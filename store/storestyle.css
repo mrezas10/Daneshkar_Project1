@@ -7,4 +7,31 @@
 .shoprows{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.rowtitle{
+    text-align: center;
+}
+h1{
+    font-family: "Playfair Display SC", serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 4rem;
+    border-bottom: 1px solid #49423b;
+}
+p{
+    font-family: "Playfair Display SC", serif;
+}
+.rowitems{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+.shopitem{
+    width: 20rem;
+    height: 30rem;
+}
+img{
+    max-width: 100%;
 }
