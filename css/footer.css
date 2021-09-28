@@ -62,9 +62,9 @@ h4{color: white;
     background-color: #c4ea33;
     border-radius: 1%;}
 .login-text{position: relative;
-    top: 2%;
+    top: 2.5%;
     font-family: Alice;
     font-weight: bold;
     color: white;
-
+    text-decoration: none;
 }

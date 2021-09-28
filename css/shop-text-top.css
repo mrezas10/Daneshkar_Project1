@@ -91,12 +91,4 @@ hr
     opacity: 0.6;
 }
 
-@media screen and (max-width: 1000px) {
-    .shop-container {
-        display: grid;
-        margin: 0 5vw;
-        width: 90vw;
-        grid-template: repeat(2, auto) / 100fr;
-        grid-template-areas: "picture" "ttext";
-    }
-}
+
