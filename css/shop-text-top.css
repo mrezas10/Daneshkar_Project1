@@ -12,7 +12,7 @@ hr
 }
 .shop-container {
     display: grid;
-    margin: 0 5vw;
+    margin: 5rem 5vw;
     width: 90vw;
     grid-template: 100fr / 60fr 40fr;
     grid-template-areas: "picture ttext";
