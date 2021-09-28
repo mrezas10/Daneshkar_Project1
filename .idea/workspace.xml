@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96e0762b-b6fc-4dce-8229-29c68c0795bc" name="Changes" comment="minor changes">
+      <change afterPath="$PROJECT_DIR$/components/thoughts-picture.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/thoughts-posts-box.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/thoughts-posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/thoughts-main-posts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/thoughts-picture.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/thoughts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cat-picture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/catscarfwhite.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img_blog_header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yasEu2vNCzXOpSOAeLpJ6UYgl7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1\components" />
+      <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1" />
+      <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1\css" />
+      <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96e0762b-b6fc-4dce-8229-29c68c0795bc" name="Changes" comment="" />
+      <created>1632500924957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632500924957</updated>
+      <workItem from="1632500927241" duration="3261000" />
+      <workItem from="1632574609788" duration="8000" />
+      <workItem from="1632667244898" duration="5228000" />
+      <workItem from="1632683265726" duration="438000" />
+      <workItem from="1632745443744" duration="13557000" />
+      <workItem from="1632813077977" duration="10293000" />
+    </task>
+    <task id="LOCAL-00001" summary="added shop text top and preload animation">
+      <created>1632501193291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632501193291</updated>
+    </task>
+    <task id="LOCAL-00002" summary="shop main merged together">
+      <created>1632669669671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1632669669671</updated>
+    </task>
+    <task id="LOCAL-00003" summary="minor adjustments">
+      <created>1632682106580</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1632682106580</updated>
+    </task>
+    <task id="LOCAL-00004" summary="merged the product page into a new branch">
+      <created>1632813174950</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1632813174950</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixed the scaling issues">
+      <created>1632818339642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632818339642</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added header and other adjustments to media query">
+      <created>1632819002008</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632819002008</updated>
+    </task>
+    <task id="LOCAL-00007" summary="minor changes">
+      <created>1632829688359</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632829688359</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="added shop text top and preload animation" />
+    <MESSAGE value="shop main merged together" />
+    <MESSAGE value="minor adjustments" />
+    <MESSAGE value="merged the product page into a new branch" />
+    <MESSAGE value="fixed the scaling issues" />
+    <MESSAGE value="added header and other adjustments to media query" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+  </component>
+</project>
