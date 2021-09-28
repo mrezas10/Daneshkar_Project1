@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../image/Sleepy Cat Slider.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.divider {
+    -webkit-text-size-adjust: 100%;
+    hyphens: auto;
+    color: #444;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center 100%;
+    background-image: url("//cdn.shopify.com/s/files/1/0261/4687/t/7/assets/img_homepage_divider.jpg?v=10908527258020221636");
+    min-height: 242.667px;
+    background-position-y: -25.325px;
+}
