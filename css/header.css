@@ -5,11 +5,11 @@
 }
 #header{
     width: 100%;
-    height: 1.7rem;
+    height: 4rem;
     display: flex;
     flex-direction: row;
-    font-size:0.5rem;
-    font-family: Alie;
+    font-size:1rem;
+    font-family: Alice;
     color: #3e413b;
     font-weight: lighter;
 
@@ -25,7 +25,8 @@
     margin-top: 1.2%;
     position: relative;
     right: 4%;
-    font-family: "Alie";
+    font-family: "Alice";
+
 }
 .About{
     margin-left: 3%;
@@ -45,24 +46,25 @@
     position: relative;
     left: 4%;
 }
-p{background-color: white;
+p{
+    background-color: white;
     width: 14%;
     height: 20%;
     text-align: center;
     position: relative;
     bottom: 1.2rem;
     left: 45%;
-    font-family: Alie;
+    font-family: Alice;
     font-weight: lighter;
-    font-size: 0.4rem;
+    font-size: .6rem;
 }
-hr{
-    color: #3e413b;
-    margin-left: 33%;
-    margin-right: 27%;
-    position: relative;
-    bottom: 0.5rem;
-}
+/*hr{*/
+/*    color: #3e413b;*/
+/*    margin-left: 33%;*/
+/*    margin-right: 27%;*/
+/*    position: relative;*/
+/*    bottom: 0.5rem;*/
+/*}*/
 .basket{width: 2%;
     height: 50%;
     position: relative;

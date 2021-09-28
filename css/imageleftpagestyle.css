@@ -12,8 +12,7 @@
 }
 
 #product-green-scarf{
-    width: 60fr;
-    height: 80rem;
+    width: 100%;
 }
 
 #product-green-scarf:hover {
@@ -50,15 +49,17 @@
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     cursor: crosshair;
-
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
 }
 
 /* Modal Content (image) */
 .modal-content {
-    margin: auto;
+    margin: 3% auto;
     display: block;
     width: 80%;
-    max-width: 700px;
+    max-width: 80vw;
+    border-radius: 10px;
 }
 
 

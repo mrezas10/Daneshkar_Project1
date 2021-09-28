@@ -14,7 +14,6 @@ hr
     display: grid;
     margin: 0 5vw;
     width: 90vw;
-    height: 100vh;
     grid-template: 100fr / 60fr 40fr;
     grid-template-areas: "picture ttext";
 }
@@ -90,4 +89,14 @@ hr
 }
 .shop-product-text-preview-selected:hover {
     opacity: 0.6;
+}
+
+@media screen and (max-width: 1000px) {
+    .shop-container {
+        display: grid;
+        margin: 0 5vw;
+        width: 90vw;
+        grid-template: repeat(2, auto) / 100fr;
+        grid-template-areas: "picture" "ttext";
+    }
 }
