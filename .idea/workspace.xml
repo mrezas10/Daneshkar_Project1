@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96e0762b-b6fc-4dce-8229-29c68c0795bc" name="Changes" comment="minor changes">
-      <change afterPath="$PROJECT_DIR$/components/thoughts-picture.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/thoughts-posts-box.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/thoughts-posts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/thoughts-main-posts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/thoughts-picture.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/thoughts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cat-picture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/catscarfwhite.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img_blog_header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
-    </list>
+    <list default="true" id="96e0762b-b6fc-4dce-8229-29c68c0795bc" name="Changes" comment="added thoughts top picture and blog posts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +77,7 @@
       <workItem from="1632667244898" duration="5228000" />
       <workItem from="1632683265726" duration="438000" />
       <workItem from="1632745443744" duration="13557000" />
-      <workItem from="1632813077977" duration="10293000" />
+      <workItem from="1632813077977" duration="10352000" />
     </task>
     <task id="LOCAL-00001" summary="added shop text top and preload animation">
       <created>1632501193291</created>
@@ -140,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632829688359</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added thoughts top picture and blog posts">
+      <created>1632834443725</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1632834443725</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +162,7 @@
     <MESSAGE value="fixed the scaling issues" />
     <MESSAGE value="added header and other adjustments to media query" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="added thoughts top picture and blog posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added thoughts top picture and blog posts" />
   </component>
 </project>
