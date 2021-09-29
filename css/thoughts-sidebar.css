@@ -398,6 +398,7 @@ time {
 
 
 .recent-post {
+    width: 60%;
     display: grid;
     font-family: "Playfair Display SC",serif;
     font-weight: normal;
@@ -424,4 +425,11 @@ div #list-recent-post a {
     color: #a8a802;
     text-decoration: none;
 
+}
+.thoughts-sidebar {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }

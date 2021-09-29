@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750aab5e-e6fc-4ba6-8a87-c5533e676663" name="Changes" comment="added sidebar">
-      <change afterPath="$PROJECT_DIR$/img/Long-tongued cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Long-tongued-cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Terrified cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Terrified-cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Tired cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Tired-cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/img_homepage_footer.jpg" afterDir="false" />
+    <list default="true" id="750aab5e-e6fc-4ba6-8a87-c5533e676663" name="Changes" comment="added images">
+      <change afterPath="$PROJECT_DIR$/img/logocat.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_28_2021_10_53_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_28_2021_10_53_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_28_2021_10_53_AM__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_28_2021_10_53_AM__Changes_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/thoughts-sidebar.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/thoughts-sidebar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/thoughts-main-posts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-main-posts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/thoughts-sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-sidebar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/thoughts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +77,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="96e0762b-b6fc-4dce-8229-29c68c0795bc" name="Changes" comment="" />
+      <changelist id="750aab5e-e6fc-4ba6-8a87-c5533e676663" name="Changes" comment="added images" />
       <created>1632500924957</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -90,6 +88,7 @@
       <workItem from="1632683265726" duration="438000" />
       <workItem from="1632745443744" duration="13557000" />
       <workItem from="1632813077977" duration="10352000" />
+      <workItem from="1632932463780" duration="182000" />
     </task>
     <task id="LOCAL-00001" summary="added shop text top and preload animation">
       <created>1632501193291</created>

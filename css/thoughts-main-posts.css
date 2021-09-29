@@ -18,9 +18,10 @@ hr
 .thoughts-main {
     display: grid;
     width: 100vw;
-    grid-template: 100fr / 60fr 40fr;
+    grid-template: 100fr / 70fr 30fr;
     grid-template-areas: "posts" "sidebar";
 }
+
 
 .thoughts-main-posts {
     margin: 1.5rem 5%;
