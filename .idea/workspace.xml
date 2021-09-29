@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96e0762b-b6fc-4dce-8229-29c68c0795bc" name="Changes" comment="added footer + minor adjustments">
-      <change afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
+    <list default="true" id="750aab5e-e6fc-4ba6-8a87-c5533e676663" name="Changes" comment="added sidebar">
+      <change afterPath="$PROJECT_DIR$/img/Long-tongued cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Long-tongued-cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Terrified cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Terrified-cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Tired cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Tired-cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/img_homepage_footer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_28_2021_10_53_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_28_2021_10_53_AM__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_28_2021_10_53_AM__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_28_2021_10_53_AM__Changes_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/thoughts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -60,13 +67,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1\components" />
       <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1" />
+      <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1\img" />
       <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1" />
       <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1\css" />
-      <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
