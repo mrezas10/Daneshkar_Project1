@@ -1,0 +1,38 @@
+
+.gird-page {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding-right: 8rem;
+
+
+}
+
+
+.recent-post {
+    display: grid;
+    font-family: "Playfair Display SC",serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    line-height: 1.8rem;
+
+}
+#list-recent-post {
+    display: grid;
+    font-size: 1.125rem;
+    font-family: Serif;
+}
+div #list-recent-post a {
+    text-decoration: none;
+    color: #444444;
+}
+#list-recent-post span:nth-child(even){
+    font-size: 0.703125rem;
+    color: silver;
+
+}
+#list-recent-post span:nth-child(odd):hover{
+    color: #a8a802;
+    text-decoration: none;
+
+}
