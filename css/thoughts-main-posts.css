@@ -89,3 +89,24 @@ hr
     gap: 2rem;
     font-size: 1.5rem;
 }
+@media screen and (max-width:1166px){
+    .thoughts-main {
+        grid-template: 100fr / 100fr;
+        grid-template-areas: "posts";
+    }
+    .thoughts-sidebar {
+        visibility: hidden;
+        height: 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .thoughts-main-posts-box-title{
+        font-size: 1.5rem;
+
+    }
+    .thoughts-main-posts-box-date{
+
+
+    }
+
+}
