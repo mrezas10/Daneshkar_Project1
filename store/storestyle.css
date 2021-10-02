@@ -19,6 +19,8 @@ h1{
     font-style: italic;
     font-weight: 400;
     font-size: 4rem;
+}
+.rowtitle h1{
     border-bottom: 1px solid #49423b;
 }
 p{
@@ -39,4 +41,19 @@ img{
 }
 .shopitem:hover .overlay{
     visibility: visible;
+}
+@media screen and (max-width: 1166px){
+    .shopwrapper{
+        align-items: center;
+    }
+    .shoprows{
+        align-content: center;
+    }
+    .rowitems{
+        flex-direction: column;
+        align-items: center;
+    }
+    .shopitem{
+        align-items: center;
+    }
 }
