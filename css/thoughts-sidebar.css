@@ -40,7 +40,7 @@ h1 {
     line-height: 0.9rem;
 
 }
-h3 {
+.sidebar-h3 {
     font-size: 0.7rem;
     font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
     line-height: 0;
@@ -100,7 +100,7 @@ div .under-text-id a{
 
 
 }
-h2 {
+.sidebar-h2 {
     font-size: 0.7rem;
     padding: 0 0 0 1rem;
     line-height: 0;
@@ -179,7 +179,7 @@ h1 {
     line-height: 0.9rem;
 
 }
-h3 {
+.sidebar-h3 {
     font-size: 0.7rem;
     font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
     line-height: 0;
@@ -239,7 +239,7 @@ div .under-text-id-post-two a{
 
 
 }
-h2 {
+.sidebar-h2 {
     font-size: 0.7rem;
     padding: 0 0 0 1rem;
     line-height: 0;
@@ -301,7 +301,7 @@ h1 {
     line-height: 0.9rem;
 
 }
-h3 {
+.sidebar-h3 {
     font-size: 0.7rem;
     font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
     line-height: 0;
@@ -361,7 +361,7 @@ div .under-text-id-post-three a{
 
 
 }
-h2 {
+.sidebar-h2 {
     font-size: 0.7rem;
     padding: 0 0 0 1rem;
     line-height: 0;
