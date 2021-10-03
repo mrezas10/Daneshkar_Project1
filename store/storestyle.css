@@ -43,6 +43,9 @@ img{
     visibility: visible;
 }
 @media screen and (max-width: 1166px){
+    .shopitem:hover .overlay{
+        display: none;
+    }
     .shopwrapper{
         align-items: center;
     }
