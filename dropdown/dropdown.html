@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="dropDstyle.css">
+</head>
+<body>
+
+<div class="topnav" id="menu" >
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">gorbe</a>
+    <a href="#shop">shop</a>
+    <a href="#About">About</a>
+    <a href="#Thoughts">Thoughts</a>
+    <a href="#Contact">Contact</a>
+
+</div>
+
+<div style=" background-color: cadetblue; text-align: center">
+    <h2> Main</h2>
+    <p>In main e mast</p>
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("menu");
+        if (x.className === "topnav") {
+            x.className += " opened";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+</body>
+</html>
