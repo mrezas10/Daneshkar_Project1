@@ -33,7 +33,7 @@ p{
     justify-content: space-evenly;
 }
 .shopitem{
-    width: 20rem;
+    width: 22.5rem;
     height: 30rem;
 }
 img{
@@ -60,3 +60,4 @@ img{
         align-items: center;
     }
 }
+

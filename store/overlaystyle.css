@@ -3,8 +3,8 @@
 .overlay{
     display: inline-block;
     border-radius: 50%;
-    height: 15rem;
-    width: 15rem;
+    height: 17rem;
+    width: 17rem;
     background-color: rgba(29, 26, 25, 0.5);
     box-sizing: border-box;
     color: white;
@@ -12,9 +12,7 @@
     text-align: center;
     visibility: hidden;
     position: relative;
-    /* top: 256px; */
-    /* right: 0px; */
-     left: 2.5rem;
+    left: 2.5rem;
     bottom: 22rem;
     transition: visibility .5s;
 }
