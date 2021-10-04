@@ -3,9 +3,12 @@
 .container{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     justify-items: center;
     align-items: center;
+    gap: 20vh;
     background-color:rgb(244,239,222);
+    height: 150vh;
 }
 .title{
     width: 43.515rem;
