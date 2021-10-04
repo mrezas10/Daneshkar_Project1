@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+.overlay{
+    display: inline-block;
+    border-radius: 50%;
+    height: 15rem;
+    width: 15rem;
+    background-color: rgba(29, 26, 25, 0.5);
+    box-sizing: border-box;
+    color: white;
+    padding: 2rem 0rem 0rem 0rem;
+    text-align: center;
+    visibility: hidden;
+    position: relative;
+    /* top: 256px; */
+    /* right: 0px; */
+     left: 2.5rem;
+    bottom: 22rem;
+    transition: visibility .5s;
+}
+.overlay h1 {
+    font-size: 1.5rem;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: inherit;
+}
+.overlay b {
+    font-family: Sacramento, sans-serif;
+    font-size: 1.5rem;
+}
+.overlay:hover {
+    visibility: visible;
+    cursor: pointer;
+}
+.overlay h1:hover {
+    cursor: pointer;
+}
+.overlay b:hover {
+    color: #c7d93b;
+    cursor: pointer;
+}
