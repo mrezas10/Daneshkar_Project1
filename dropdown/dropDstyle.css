@@ -7,10 +7,12 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #ffff;
+    max-height: 0;
+    transition: max-height 0.5s;
 }
 
 .topnav a {
-    float: left;
+    /*float: left;*/
     display: block;
     color: black ;
     text-align: center;
@@ -27,9 +29,19 @@ body {
     color: white;
 }
 
-.topnav .icon {
+.click-icon .icon {
     display: none;
 }
+
+.click-icon a {
+    display: block;
+    color: black ;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
 @media screen and (min-width: 600px) {
     .topnav{
         display: none;
@@ -37,23 +49,24 @@ body {
 
 }
 @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-        border-bottom: none;
-        float: left;
-        display: block;
+    /*.topnav a:not(:first-child) {display: none;}*/
+    /*.topnav a.icon {*/
+    /*    border-bottom: none;*/
+    /*    float: left;*/
+    /*    display: block;*/
 
-    }
+    /*}*/
 }
 
 @media screen and (max-width: 600px) {
     .topnav.opened {
         position: relative;
         max-height: 200px;
-
+        transition: max-height 0.5s;
+        visibility: visible;
     }
-    .topnav.opened .icon {
-        position: absolute;
+    .click-icon .icon {
+        display: block;
 
     }
     .topnav.opened a {
