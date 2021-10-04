@@ -3,16 +3,14 @@ body {
     margin: 0;
     font-family: Alice,serif;
 }
-
 .topnav {
+    transition: max-height .5s;
+    max-height: 0;
     overflow: hidden;
     background-color: #ffff;
-    max-height: 0;
-    transition: max-height 0.5s;
 }
-
 .topnav a {
-    /*float: left;*/
+ /*   float: left;*/
     display: block;
     color: black ;
     text-align: center;
@@ -20,10 +18,7 @@ body {
     text-decoration: none;
     font-size: 17px;
     border-bottom: 1px solid rgba(0,0,0,.1);
-
-
 }
-
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
@@ -46,7 +41,6 @@ body {
     .topnav{
         display: none;
     }
-
 }
 @media screen and (max-width: 600px) {
     /*.topnav a:not(:first-child) {display: none;}*/
