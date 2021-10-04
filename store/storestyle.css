@@ -60,4 +60,9 @@ img{
         align-items: center;
     }
 }
+::selection{
+    background: #f15a22;
+    color: #fff;
+    text-shadow: none;
+}
 
