@@ -1,11 +1,11 @@
 .thoughts-picture {
     width: 100vw;
-    height: 20rem;
+    height: 22rem;
     background: url("../img/img_blog_header.jpg");
     background-position-y: center;
     /*object-fit: cover;*/
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
     justify-content: center;
     justify-items: center;
     align-content: center;

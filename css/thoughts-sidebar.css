@@ -8,7 +8,9 @@
 .twiter {
     text-decoration: none;
     font-family: 'Playfair Display SC', serif;
-    color: #262626;
+    color: #444444;
+
+
 
 }
 .twiter:hover {
@@ -16,6 +18,7 @@
 }
 .post-twiter {
     width: 20rem;
+    margin-top: 5rem;
 }
 .twiter-thoughts-page {
     display: grid;
@@ -398,7 +401,7 @@ time {
 
 
 .recent-post {
-    width: 60%;
+    width: 73%;
     display: grid;
     font-family: "Playfair Display SC",serif;
     font-weight: normal;

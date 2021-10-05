@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750aab5e-e6fc-4ba6-8a87-c5533e676663" name="Changes" comment="added images">
-      <change afterPath="$PROJECT_DIR$/JS/jsHomePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/loadUpScarf.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/loadUpScarf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_28_2021_10_53_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_28_2021_10_53_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_28_2021_10_53_AM__Changes_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_9_28_2021_10_53_AM__Changes_1.xml" afterDir="false" />
+    <list default="true" id="750aab5e-e6fc-4ba6-8a87-c5533e676663" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/thoughts-main-posts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-main-posts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/thoughts-picture.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-picture.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/thoughts-sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-sidebar.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632834443725</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add scarf commit">
+      <created>1633451795500</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1633451795500</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +170,8 @@
     <MESSAGE value="added header and other adjustments to media query" />
     <MESSAGE value="minor changes" />
     <MESSAGE value="added thoughts top picture and blog posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="added thoughts top picture and blog posts" />
+    <MESSAGE value="add scarf" />
+    <MESSAGE value="add scarf commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="add scarf commit" />
   </component>
 </project>

@@ -1,0 +1,29 @@
+Index: java script/openCloseEmailBox.js
+===================================================================
+diff --git a/java script/openCloseEmailBox.js b/java script/openCloseEmailBox.js
+new file mode 100644
+--- /dev/null	
++++ b/java script/openCloseEmailBox.js	
+@@ -0,0 +1,21 @@
++// Get the modal
++let modal = document.getElementById("closeTab");
++
++// Get the image and insert it inside the modal - use its "alt" text as a caption
++let a = document.getElementById("login");
++let modalImg = document.getElementById("img");
++let captionText = document.getElementById("caption");
++img.onclick = function(){
++    modal.style.display = "block";
++    modalImg.src = this.src;
++    captionText.innerHTML = this.alt;
++
++}
++
++// Get the <span> element that closes the modal
++let span = document.getElementsByClassName("close")[0];
++
++// When the user clicks on <span> (x), close the modal
++span.onclick = function() {
++    modal.style.display = "none";
++}
+\ No newline at end of file
