@@ -191,11 +191,11 @@ body {
 
 #group9 {
     z-index: 3; /* slide over group 7 */
-    height: 30rem;
+    height: 25rem;
 }
 #group9 .parallax__layer--base {
     background: white;
-    height: 30rem;
+    height: 25rem;
 }
 
 #group10 {
