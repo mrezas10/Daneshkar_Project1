@@ -170,6 +170,7 @@ input[type=submit]{
     border: 0;
     padding: 0;
     background: 0;
+
 }
 .two-line{
 width: 50%;
@@ -354,6 +355,9 @@ input[type=number]{
         text-align: center;
         font-weight: bolder;
         margin: 0;
+    }
+    input[type=submit]{
+        width: 70vw;
     }
 }
 
