@@ -39,6 +39,7 @@ body {
     font-weight: normal;
     font-size: 3rem;
     font-family: 'Playfair Display SC', serif;
+    color: #444444;
 }
 
 .thoughts-main-posts-intro-date {
@@ -59,6 +60,8 @@ body {
     font-weight: normal;
     font-size: 3rem;
     font-family: 'Playfair Display SC', serif;
+    color: #444444;
+
 }
 
 .thoughts-main-posts-box-date {
@@ -77,6 +80,8 @@ body {
     font-weight: normal;
     font-size: 1rem;
     margin: 2rem 0;
+    color: #444444;
+
 }
 .thoughts-main-pagenumber {
     height: 10rem;
@@ -88,6 +93,26 @@ body {
     align-items: center;
     gap: 2rem;
     font-size: 1.5rem;
+}
+
+.site-video-cat {
+    color: #444444;
+
+}
+
+.site-video-cat:hover {
+    color: olive;
+
+}
+
+.link-title {
+    color: #444444;
+    text-decoration: none;
+}
+
+.link-title:hover {
+    color: olive;
+    text-decoration: none;
 }
 @media screen and (max-width:1166px){
     .thoughts-main {
