@@ -5,11 +5,14 @@
 .shopwrapper{
     display: flex;
     flex-direction: column;
+    gap: 4rem;
+    overflow: hidden;
 }
 .shoprows{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 2rem;
 }
 .rowtitle{
     text-align: center;
