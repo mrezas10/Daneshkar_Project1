@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+.lines {
+    /*width: 100vw;*/
+    /*background: orange;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+.hr-header
+{
+    height: 1px;
+    margin: 0;
+    width: 12rem;
+    background-color: #37444c;
+    border: 0;
+    opacity: 0.5;
+}
+.catscarf-logo {
+    font-size: 0.8rem;
+    margin-right: 2.5rem;
+    margin-top: .8rem;
+}
+
+.leftline {
+    margin-right: 6.5rem;
+    width: 11rem;
+}
+.rightline {
+    margin-left: 6.5rem;
+    width: 14rem;
+}
+
+body{height: 100%;}
+
+#header{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 4rem;
+    font-family: Alice, serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: .1rem;
+    opacity: 0.7;
+}
+
+.avatar-logo {
+    width: 6rem;
+    line-height: 2em;
+
+}
+.basket{position: absolute;
+    right: 1rem;
+    width: 1.5rem;
+}
+
+.catscarf {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    letter-spacing: .1em;
+    opacity: .7;
+}
