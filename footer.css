@@ -1,0 +1,112 @@
+#myFooter {
+    background-color: #f5a432;
+    color: white;
+    padding-top: 10px;
+
+}
+
+#myFooter .footer-copyright {
+    background-color: #995f12;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+
+
+#myFooter .footer-copyright p {
+    margin-bottom: 5px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 0.6rem;
+    color: #ccc;
+}
+
+
+.catscarf-logo{
+
+    width:100%;
+    height: 6rem;
+
+}
+.arrengement{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+}
+.logo-text{
+    font-size: 0.5rem;
+    font-weight: lighter;
+    font-family: serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+.icons{display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 5%;
+}
+.text-description{text-align: center;
+    color: white;
+    font-family: serif;
+    font-size: 1.2rem;
+    margin-bottom: 5%}
+.login{width: 15%;
+    height: 90%;
+    background-color: purple;
+    position: fixed;
+    top: 93%;
+    right: 0;
+    width: 15%;
+    margin-right: 5%;
+
+    background-color: #c4ea33;
+    border-radius: 1%;}
+.login-text{
+    font-family: serif;
+    font-size: 1rem;
+    color: white;
+    line-height: 3rem;
+    width: 50ch;
+    text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    min-height: 200px;
+}
+
+#myFooter{
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
