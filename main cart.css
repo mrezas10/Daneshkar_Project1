@@ -12,6 +12,7 @@
     font-weight: lighter;
     text-align: center;
     font-size: 2.5rem;
+    color: #474542;
 
 
 }
@@ -33,27 +34,29 @@ tbody td{
 }
 
 tbody {
-    border-bottom: 0.5px solid gray;
+    border-bottom: 0.001rem solid gray;
+    color: #454340;
 }
 tfoot{
-    border-bottom: 0.5px solid gray;
+    border-bottom: 0.001rem solid gray;
     vertical-align: baseline;
     margin: 0;
     padding: 0;
+    color: #474542;
 }
 
 
 th {
-    border-bottom: 0.5px solid gray;
-    border-top: 0.5px solid gray;
-    font-size: 0.5rem;
+    border-bottom: 0.001rem solid gray;
+    border-top: 0.001rem solid gray;
+    font-size: 1rem;
     font-weight: lighter;
     vertical-align: baseline;
-padding-top: 1%;
+    padding-top: 1%;
     padding-bottom: 1%;
     font-family: "Playfair Display SC",serif;
     font-style: normal;
-
+    color: #454340;
 }
 .remove{
     width: 5%;
@@ -146,7 +149,7 @@ padding-bottom: 0;
 
     margin-bottom: 5%;
     border-radius: 5%;
-    border: 1px solid darkgrey;
+    border: 0.001rem solid darkgrey;
     outline: 0;
     padding: 0;
     box-sizing: border-box;
@@ -182,6 +185,7 @@ width: 50%;
     font-style: normal;
     font-weight: lighter;
     transition:all 0.2s;
+    color: #4c4a47;
 
 margin-right: 2rem;
 }
@@ -217,7 +221,7 @@ margin-right: 2rem;
 }
 .checkout{
     font-family: 'Sacramento';
-    transition:all 0.2s;
+    transition:all 0.5s;
 }
 .checkout:hover{
    color: #c9df52;
@@ -240,7 +244,8 @@ button{
     font-size: 1rem;
     margin: 0;
     padding-top: 2%;
-    transition:all 0.8s;
+    transition:all 0.5s;
+    color: #474542;
 }
 .shopping:hover{
     color: #c9df52;
@@ -300,7 +305,7 @@ input[type=number]{
     }
 
     .note-special {
-        border-bottom: 1px solid gray;
+        border-bottom: 0.001rem solid gray;
         width: 100%;
     }
 
@@ -336,7 +341,7 @@ input[type=number]{
 
     .cart-title {
         font-size: 3rem;
-        border-bottom: 0.5px solid gray;
+        border-bottom: 0.001rem solid gray;
     }
 
     .note-up {
@@ -356,10 +361,16 @@ input[type=number]{
         font-weight: bolder;
         margin: 0;
     }
-    input[type=submit]{
-        width: 70vw;
+
+    .cart-update-subtotal {
+        width: 85vw;
+
+        text-align: right;
     }
+
+
 }
+
 
 
 

@@ -2,6 +2,7 @@ body {
     margin: 0;
     height: 100%;
 
+
 }
 .lines {
     /*width: 100vw;*/
@@ -74,5 +75,6 @@ hr
 .shop{
     font-size: 0.8rem;
     font-family: 'Alice', serif;
+    color: #43413e;
 
 }

@@ -9,6 +9,8 @@
     background-color: #995f12;
     padding-bottom: 3px;
     text-align: center;
+    font-family: "Playfair Display SC",serif;
+    font-weight: normal;
 }
 
 
@@ -53,28 +55,10 @@
 }
 .text-description{text-align: center;
     color: white;
-    font-family: serif;
+    font-family: "Playfair Display SC",serif;
     font-size: 1.2rem;
     margin-bottom: 5%}
-.login{width: 15%;
-    height: 90%;
-    background-color: purple;
-    position: fixed;
-    top: 93%;
-    right: 0;
-    width: 15%;
-    margin-right: 5%;
 
-    background-color: #c4ea33;
-    border-radius: 1%;}
-.login-text{
-    font-family: serif;
-    font-size: 1rem;
-    color: white;
-    line-height: 3rem;
-    width: 50ch;
-    text-decoration: none;
-}
 
 
 
