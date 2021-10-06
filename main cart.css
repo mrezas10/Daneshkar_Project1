@@ -49,7 +49,7 @@ tfoot{
 th {
     border-bottom: 0.001rem solid gray;
     border-top: 0.001rem solid gray;
-    font-size: 1rem;
+    font-size: 0.5rem;
     font-weight: lighter;
     vertical-align: baseline;
     padding-top: 1%;
@@ -88,6 +88,9 @@ th {
     text-align: right;
     width: 15%;
 }
+.trash{
+    cursor: pointer;
+}
 .item-pic-scarf{
     width: 30%;
     text-align: left;
@@ -99,8 +102,7 @@ th {
 .pic-scarf{
     width: 7rem;
     text-align: left;
-
-
+    cursor: pointer;
 }
 .the-squrrel{
    margin-bottom: 1rem;
@@ -108,11 +110,16 @@ th {
     font-family: "Playfair Display SC",serif;
     font-style: normal;
     font-weight: lighter;
-    transition:all 0.2s;
+    cursor: pointer;
+}
+.squrrel-link:hover{
+    color: #c9df52;
 
 }
-.the-squrrel:hover{
-    color: #c9df52;
+.squrrel-link{
+    color: #454340;
+    transition:all 0.2s;
+    text-decoration: none;
 }
 .kiwi{
     font: inherit;
@@ -186,6 +193,7 @@ width: 50%;
     font-weight: lighter;
     transition:all 0.2s;
     color: #4c4a47;
+    cursor: pointer;
 
 margin-right: 2rem;
 }
@@ -222,6 +230,7 @@ margin-right: 2rem;
 .checkout{
     font-family: 'Sacramento';
     transition:all 0.5s;
+    cursor: pointer;
 }
 .checkout:hover{
    color: #c9df52;
@@ -246,6 +255,7 @@ button{
     padding-top: 2%;
     transition:all 0.5s;
     color: #474542;
+    cursor: pointer;
 }
 .shopping:hover{
     color: #c9df52;
