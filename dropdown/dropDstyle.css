@@ -8,6 +8,7 @@ body {
     max-height: 0;
     overflow: hidden;
     background-color: #ffff;
+
 }
 .topnav a {
  /*   float: left;*/
@@ -22,6 +23,10 @@ body {
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
+}
+
+.click-icon {
+    background-color: white;
 }
 
 .click-icon .icon {
