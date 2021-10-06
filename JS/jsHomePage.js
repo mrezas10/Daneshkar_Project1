@@ -32,7 +32,7 @@
 window.onscroll = function () {
     let top = document.getElementById("mySpan")
     if(window.scrollY >= 500) {
-        top.className = "";
+        top.className = "test2";
     }
     else {
         top.className = "test";
