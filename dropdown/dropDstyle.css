@@ -60,7 +60,8 @@ body {
         visibility: visible;
     }
     .click-icon .icon {
-        display: block;
+        display: inline-block;
+
 
     }
     .topnav.opened a {
@@ -68,4 +69,25 @@ body {
         display: block;
         text-align: center;
     }
+}
+    .logotype-small{
+    font-family: "Playfair Display SC",serif;
+    font-weight: 400;
+    letter-spacing: .5em;
+    font-size: 65%;
+}
+.squirrel-svg{
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 0 .5em;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.squirrel-logo{
+    height: 50px;
+    width: 50px;
+    margin: 0 .5em;
+    cursor: pointer;
+    vertical-align: middle;
 }
