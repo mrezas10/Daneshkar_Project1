@@ -36,7 +36,7 @@ p{
     justify-content: space-evenly;
 }
 .shopitem{
-    width: 20rem;
+    width: 22.5rem;
     height: 30rem;
 }
 img{
@@ -63,3 +63,9 @@ img{
         align-items: center;
     }
 }
+::selection{
+    background: #f15a22;
+    color: #fff;
+    text-shadow: none;
+}
+
