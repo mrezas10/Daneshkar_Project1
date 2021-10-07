@@ -22,9 +22,11 @@ body {
     opacity: 0.5;
 }
 .catscarf-logo {
-    font-size: 0.8rem;
+    font-size: 0.65rem;
     margin-right: 2.5rem;
     margin-top: .8rem;
+    margin-bottom: 1.5rem;
+    font-weight: lighter;
 }
 .leftline {
     margin-right: 6.5rem;
@@ -48,7 +50,7 @@ body{height: 100%;}
     font-family: Alice, serif;
     font-size: 1rem;
     line-height: 2rem;
-    letter-spacing: .1rem;
+    letter-spacing: 0.01rem;
     opacity: 0.7;
     margin-top: 0.8rem;
 }
@@ -69,4 +71,8 @@ body{height: 100%;}
     justify-content: center;
     letter-spacing: .1em;
     opacity: .7;
+}
+.arrengement {
+    margin-bottom: 1rem;
+    font-weight: 100;
 }

@@ -1,7 +1,8 @@
 .thoughts-picture {
     width: 100vw;
-    height: 22rem;
+    height: 41vh;
     background: url("../img/img_blog_header.jpg");
+    background-size: 100%;
     background-position-y: center;
     /*object-fit: cover;*/
     display: flex;
@@ -10,7 +11,7 @@
     justify-items: center;
     align-content: center;
     align-items: center;
-    margin: 1.2rem 0;
+    /*margin: 1.2rem 0;*/
 }
 
 .thoughts-picture-text {
