@@ -1,5 +1,6 @@
 body {
     margin: 0;
+
 }
 .lines {
     /*width: 100vw;*/
@@ -25,7 +26,6 @@ body {
     margin-right: 2.5rem;
     margin-top: .8rem;
 }
-
 .leftline {
     margin-right: 6.5rem;
     width: 11rem;
@@ -50,6 +50,7 @@ body{height: 100%;}
     line-height: 2rem;
     letter-spacing: .1rem;
     opacity: 0.7;
+    margin-top: 0.8rem;
 }
 
 .avatar-logo {

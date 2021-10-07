@@ -9,16 +9,14 @@
     text-decoration: none;
     font-family: 'Playfair Display SC', serif;
     color: #444444;
-
-
+    font-size: 1.44rem;
 
 }
-.twiter:hover {
-    color: #a8a802;
-}
+
 .post-twiter {
     width: 20rem;
     margin-top: 5rem;
+    padding: 1rem;
 }
 .twiter-thoughts-page {
     display: grid;
@@ -65,10 +63,6 @@ h1 {
     font-weight: lighter;
 
 }
-.link-id-one:hover{
-    color: #2b7bb9;
-
-}
 
 .icon {
     margin: 0rem 0 1rem 0;
@@ -100,6 +94,7 @@ div .under-text-id a{
     /*position: absolute;*/
     /*clip: rect(4rem,23rem,15rem,0rem);*/
     border-radius: 1rem 1rem 0 0 ;
+
 
 
 }
@@ -158,6 +153,7 @@ time {
 
 .post-twiter-two {
     width: 20rem;
+    padding: 1rem;
 }
 .post-twiter-thoughts-page-two {
     display: grid;
@@ -238,7 +234,7 @@ div .under-text-id-post-two a{
 .picture-post-two-twiter {
     /*position: absolute;*/
     /*clip: rect(4rem,23rem,15rem,0rem);*/
-    /*border-radius: 1rem 1rem 0 0 ;*/
+    border-radius: 0.17rem;
 
 
 }
@@ -280,6 +276,7 @@ time {
 
 .post-twiter-three {
     width: 20rem;
+    padding: 1rem;
 }
 .post-twiter-thoughts-page-three {
     display: grid;
@@ -326,10 +323,7 @@ h1 {
     font-weight: lighter;
 
 }
-.link-id-one-post-three:hover{
-    color: #2b7bb9;
 
-}
 
 .icon {
     margin: 0rem 0 1rem 0;
@@ -360,7 +354,8 @@ div .under-text-id-post-three a{
 .picture-post-three-twiter {
     /*position: absolute;*/
     /*clip: rect(4rem,23rem,15rem,0rem);*/
-    /*border-radius: 1rem 1rem 0 0 ;*/
+    border-radius: 0.17rem;
+
 
 
 }
@@ -424,11 +419,7 @@ div #list-recent-post a {
     color: silver;
 
 }
-#list-recent-post span:nth-child(odd):hover{
-    color: #a8a802;
-    text-decoration: none;
 
-}
 .thoughts-sidebar {
     margin: 1rem;
     display: flex;

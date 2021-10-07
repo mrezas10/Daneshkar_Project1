@@ -2,8 +2,7 @@ body {
     margin: 0;
     font-family: Alice,serif;
 }
-.thoughts-main-posts-hr
-{
+.thoughts-main-posts-hr {
     height: 1px;
     background-color: #909090;
     margin: 2rem 0;
@@ -14,7 +13,9 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+.thoughts {
+   color: #c7d93b;
+}
 .thoughts-main {
     display: grid;
     width: 100vw;
