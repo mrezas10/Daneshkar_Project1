@@ -31,6 +31,10 @@ hr
     margin-right: 2rem;
     color: white;
 }
+.catscarf-logo:hover{
+    cursor: pointer;
+    color: #c7d93b;
+}
 
 .leftline {
     margin-right: 6rem;
@@ -68,12 +72,14 @@ body{
     color: #fff;
     border-bottom: 1px solid rgba(255,255,255,.3);
 }
+#header a:hover{
+    color: #c7d93b;
+    cursor: pointer;
+}
 .hidden{
     max-height: 0;
     opacity: 0;
     visibility: collapse;
-
-
 }
 .visible{
     max-height: 7rem;
