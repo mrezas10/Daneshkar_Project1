@@ -57,7 +57,7 @@ body {
     /*}*/
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     .topnav.opened {
         position: relative;
         max-height: 200px;
@@ -89,7 +89,7 @@ body {
     cursor: pointer;
     vertical-align: middle;
 }
-.squirrel-logo{
+.squirrel-logo {
     height: 50px;
     width: 50px;
     margin: 0 .5em;
