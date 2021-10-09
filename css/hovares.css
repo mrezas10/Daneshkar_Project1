@@ -1,3 +1,13 @@
+#header a:hover{
+    text-decoration: none;
+    color: #a8a802;
+}
+
+.catscarf a:hover {
+    color: #a8a802;
+
+}
+
 .twiter:hover {
     color: #a8a802;
 }

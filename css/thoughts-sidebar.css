@@ -10,12 +10,15 @@
     font-family: 'Playfair Display SC', serif;
     color: #444444;
     font-size: 1.44rem;
+    padding-top: 5rem;
 
 }
-
+.text-twiter {
+    margin-top: 5rem;
+}
 .post-twiter {
     width: 20rem;
-    margin-top: 3rem;
+    /*margin-top: 3rem;*/
     padding: 1rem;
 }
 .twiter-thoughts-page {
