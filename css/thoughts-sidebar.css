@@ -15,7 +15,7 @@
 
 .post-twiter {
     width: 20rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
     padding: 1rem;
 }
 .twiter-thoughts-page {
@@ -126,12 +126,6 @@ div .under-text-id a{
     grid-template-columns: 3rem 10rem 11rem;
     color: grey;
     padding-top: 1rem ;
-}
-time {
-    line-height: 3rem;
-    margin-left: 2.1rem;
-    font-size: 0.8rem;
-    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
 }
 .date-post {
     text-decoration: none;
@@ -246,18 +240,6 @@ div .under-text-id-post-two a{
 
 }
 
-.line-icon {
-    display: grid;
-    grid-template-columns: 3rem 10rem 11rem;
-    color: grey;
-    padding-top: 1rem ;
-}
-time {
-    line-height: 3rem;
-    margin-left: 2.1rem;
-    font-size: 0.8rem;
-    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
-}
 .date-post-two {
     text-decoration: none;
     color: gray;
@@ -325,8 +307,9 @@ h1 {
 }
 
 
-.icon {
-    margin: 0rem 0 1rem 0;
+.icon-twiter{
+    margin: 0 0 2rem 0;
+    padding: 0 0 0 1.5rem;
 
 
 }
@@ -338,7 +321,7 @@ div .under-text-id-post-three a{
 
 }
 .under-text-id-post-three {
-    padding: 0 0 2rem 0;
+    padding: 0.8rem 0 2rem 0;
     font-size: 0.8rem;
     /*margin-top: 1.2rem;*/
     font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
@@ -374,7 +357,7 @@ div .under-text-id-post-three a{
     padding-top: 1rem ;
 }
 time {
-    line-height: 3rem;
+    /*line-height: 3rem;*/
     margin-left: 2.1rem;
     font-size: 0.8rem;
     font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
@@ -404,6 +387,7 @@ time {
     margin-top: 0.8rem;
     line-height: 1.8rem;
     font-weight: 100;
+    margin-left: 1rem;
 
 }
 #list-recent-post {
@@ -422,9 +406,9 @@ div #list-recent-post a {
 }
 
 .thoughts-sidebar {
-    margin: 1rem;
+    margin: 1rem 20% 1rem 2%;
     display: flex;
     flex-direction: column;
     align-content: center;
-    align-items: center;
+    /*align-items: center;*/
 }

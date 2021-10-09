@@ -1,6 +1,9 @@
 body {
     margin: 0;
     font-family: Alice,serif;
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
 }
 .thoughts-main-posts-hr {
     height: 1px;
@@ -25,7 +28,7 @@ body {
 
 
 .thoughts-main-posts {
-    margin: 1.5rem 5%;
+    margin: 3% 10% 10% 10%;
     display: flex;
     flex-direction: column;
 }
@@ -109,12 +112,23 @@ body {
 .link-title {
     color: #444444;
     text-decoration: none;
+    font-size: 3.7499375rem;
 }
 
 .link-title:hover {
     color: olive;
     text-decoration: none;
 }
+
+div .thoughts-main-pagenumber a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.2rem;
+}
+div .thoughts-main-pagenumber a:first-child{
+    color: olive;
+}
+
 @media screen and (max-width:1166px){
     .thoughts-main {
         grid-template: 100fr / 100fr;

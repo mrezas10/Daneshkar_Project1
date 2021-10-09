@@ -14,10 +14,10 @@ body {
 }
 .hr-header
 {
-    height: 1px;
+    height: 0.5px;
     margin: 0;
-    width: 12rem;
-    background-color: #37444c;
+    /*width: 70rem;*/
+    background-color: silver;
     border: 0;
     opacity: 0.5;
 }
@@ -29,12 +29,12 @@ body {
     font-weight: lighter;
 }
 .leftline {
-    margin-right: 6.5rem;
-    width: 11rem;
+    margin-right: 5rem;
+    width: 14rem;
 }
 .rightline {
-    margin-left: 6.5rem;
-    width: 14rem;
+    margin-left: 5rem;
+    width: 15rem;
 }
 
 body{height: 100%;}

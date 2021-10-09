@@ -36,3 +36,10 @@
     border-radius: 0.09rem;
 
 }
+
+
+::selection {
+    background: #f15a22;
+    color: #fff;
+    text-shadow: none;
+}
