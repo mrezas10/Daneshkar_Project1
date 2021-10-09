@@ -39,6 +39,7 @@
 }
 .test2:hover {
     top: -5px;
+    cursor: pointer;
 }
 /*div h1 {*/
 /*    height: 50rem;*/

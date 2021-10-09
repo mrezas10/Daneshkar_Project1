@@ -6,7 +6,7 @@ body {
 }
 #parallax {
     height: 500px; /* fallback for older browsers */
-    height: 60rem;
+    height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-perspective: 300px;
@@ -315,6 +315,13 @@ body {
 
     #group16 {
         height: 60rem;
+    }
+
+    .visible {
+        max-height: 0;
+    }
+    #mySpan {
+        visibility: hidden;
     }
 }
 

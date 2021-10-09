@@ -20,6 +20,12 @@ body {
     border: 0;
     opacity: 0.5;
 }
+
+.hr-header a:hover {
+    color: #c7d93b;
+    cursor: pointer;
+}
+
 .transparent-catscarf-logo {
     font-size: 0.8rem;
     margin-right: 2.5rem;
@@ -50,6 +56,11 @@ body{height: 100%;}
     line-height: 2rem;
     letter-spacing: .1rem;
     opacity: 0.7;
+}
+
+#header a:hover {
+    color: #c7d93b;
+    cursor: pointer;
 }
 
 .avatar-logo {

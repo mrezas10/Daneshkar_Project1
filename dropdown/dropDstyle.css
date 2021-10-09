@@ -8,7 +8,6 @@ body {
     max-height: 0;
     overflow: hidden;
     background-color: #ffff;
-
 }
 .topnav a {
  /*   float: left;*/
@@ -19,6 +18,7 @@ body {
     text-decoration: none;
     font-size: 17px;
     border-bottom: 1px solid rgba(0,0,0,.1);
+    z-index: 10;
 }
 .topnav a.active {
     background-color: #04AA6D;
@@ -62,7 +62,8 @@ body {
         position: relative;
         max-height: 200px;
         transition: max-height 0.5s;
-        visibility: visible;
+        /*visibility: visible;*/
+        z-index: 10;
     }
     .click-icon .icon {
         display: inline-block;
