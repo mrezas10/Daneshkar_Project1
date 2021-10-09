@@ -38,18 +38,18 @@
 #form-horizontal{
     margin-left: 8%;
 }
-#select{
+#select-item{
 
     font-size: 0.9rem;
     width:88.9%;
     height: 2.7rem;
     font-family: 'Inter', sans-serif;
-    color: #333333;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
     color: rgba(92,92,78,0.86);
 }
+
 option{
     font-size: 1rem;
 }
@@ -105,4 +105,13 @@ margin-top: -0.5rem;
     font-size: 1em;
    cursor: pointer;
 
+}
+#email-address:hover{
+    background-color: whitesmoke;
+}
+select option {
+    background-color: whitesmoke;
+}
+#select-item:hover{
+    background-color: whitesmoke;
 }
