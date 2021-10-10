@@ -8,8 +8,8 @@
 
 }
 
-.twiter:hover {
-    color: #a8a802;
+.twitter:hover {
+    color:#c7d93b;
 }
 .link-id-one:hover{
     color: #2b7bb9;
@@ -19,6 +19,7 @@
     color: #2b7bb9;
 
 }
+
 .link-id-one-post-three:hover{
     color: #2b7bb9;
 
@@ -27,38 +28,43 @@
     color: silver;
 }
 #list-recent-post span:nth-child(odd):hover{
-    color: #a8a802;
+    color: #c7d93b;
     text-decoration: none;
 
 }
-.post-twiter:hover {
+.one-post-twitter:hover {
     background-color: #ecf7fa;
     border-radius: 0.09rem;
 
 
 }
-.post-twiter-two:hover {
+.two-post-twitter:hover {
     background-color: #ecf7fa;
     border-radius: 0.09rem;
 
 
 }
-.post-twiter-three:hover {
+.three-post-twitter:hover {
     background-color: #ecf7fa;
     border-radius: 0.09rem;
 
 }
 
 .site-video-cat:hover {
-    color: olive;
+    color: #c7d93b;
 
 }
 .thoughts-main-page-number a:hover {
-    color: olive;
+    color: #c7d93b;
 
 }
 ::selection {
     background: #f15a22;
     color: #fff;
     text-shadow: none;
+}
+
+
+.footer-logo-text:hover {
+    color: #c7d93b;
 }
