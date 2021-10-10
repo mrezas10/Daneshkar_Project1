@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="750aab5e-e6fc-4ba6-8a87-c5533e676663" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/dropdown.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/jsHomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/jsHomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dropDown.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dropDown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/hovares.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/thoughts-main-posts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-main-posts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/thoughts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/likeicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icons/likeicon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/shareicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icons/shareicon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/thoughts-page-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-page-footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thoughts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +84,7 @@
       <workItem from="1633027526481" duration="1433000" />
       <workItem from="1633598783330" duration="11353000" />
       <workItem from="1633757343878" duration="28097000" />
-      <workItem from="1633845093327" duration="8364000" />
+      <workItem from="1633845093327" duration="11314000" />
     </task>
     <task id="LOCAL-00001" summary="added shop text top and preload animation">
       <created>1632501193291</created>
@@ -186,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633792842728</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="rename files">
+      <created>1633854845138</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1633854845138</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +218,8 @@
     <MESSAGE value="add icons like and share commit" />
     <MESSAGE value="resize icons like and share commit" />
     <MESSAGE value="responsive desktop" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive desktop" />
+    <MESSAGE value="rename files" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,42 +12,27 @@
     gap: 5rem;
 }
 
-#footer-thoughts-page .footer-copyright {
-    background-color: #995f12;
-    padding-bottom: 3px;
-    text-align: center;
-    width: 100%;
-}
-
-#footer-thoughts-page .footer-copyright p {
-    margin-bottom: 5px;
-    padding-top: 10px;
-    font-weight: lighter;
-    font-size: 1rem;
-    color: #ccc;
-}
-
-
-.catscarf-logo-footer{
-
+.footer-catscarf-logo{
 
 }
-.arrengement{
+.arrangement{
     width: 6.5rem;
     gap: 2rem;
     margin-top: 3rem;
 }
-.logo-text{
+.footer-logo-text{
     text-decoration: none;
-    font-size: 0.5rem;
-    letter-spacing: .1rem;
+    font-size: 0.6rem;
+    letter-spacing: 0.14rem;
     font-weight: lighter;
     font-family: Alice, serif;
     color: white;
     text-align: center;
-    margin-left: -4.9rem;
+    margin-top: 0;
 }
-
+.footer-catscarf-logo p{
+    margin-top: 0;
+}
 .icons-thoughts-page{display: flex;
     flex-direction: row;
     gap: 5rem;
@@ -69,4 +54,18 @@
     font-style: normal;
     font-size: 1.5rem;
     /*margin-bottom: 5%*/
+}
+#footer-thoughts-page .footer-copyright {
+    background-color: #995f12;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 100%;
+}
+
+#footer-thoughts-page .footer-copyright p {
+    margin-bottom: 5px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 1rem;
+    color: #ccc;
 }
