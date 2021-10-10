@@ -1,11 +1,24 @@
-.gird-page {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    padding-right: 8rem;
+/*.gird-page {*/
+/*    display: grid;*/
+/*    grid-template-columns: 3fr 1fr;*/
+/*    padding-right: 8rem;*/
 
 
+/*}*/
+.thoughts-sidebar {
+    margin: 1rem 20% 1rem 2%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /*align-items: center;*/
 }
-.twiter {
+
+
+.text-twitter {
+    margin-top: 5rem;
+}
+
+.twitter {
     text-decoration: none;
     font-family: 'Playfair Display SC', serif;
     color: #444444;
@@ -13,51 +26,35 @@
     padding-top: 5rem;
 
 }
-.text-twiter {
-    margin-top: 5rem;
-}
-.post-twiter {
+
+one-post-twitter {
     width: 20rem;
     /*margin-top: 3rem;*/
     padding: 1rem;
 }
-.twiter-thoughts-page {
+.twitter-thoughts-page {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
 
 }
-
-.image-post {
-    border: 0.02rem gainsboro solid;
-    border-radius: 1rem;
-    margin-right: 5rem;
-
-}
-.avatar-twiter {
+.avatar-twitter {
     width: 2.2rem;
     height: 2.2rem;
     border-radius: 50px;
 
 }
-h1 {
-    font-family: 'Playfair Display SC', serif;
-    line-height: 0.9rem;
 
+.link-id-one {
+    color: #444444;
+    text-decoration: none;
 }
 .sidebar-h3 {
     font-size: 0.7rem;
     font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
     line-height: 0;
 
-
 }
-.link-id-one {
-    color: #444444;
-    text-decoration: none;
 
-
-
-}
 .link-id-two {
     font-size: 0.7rem;
     color: #657786;
@@ -67,9 +64,17 @@ h1 {
 
 }
 
-.icon {
-    margin: 0rem 0 1rem 0;
+.icon-twitter{
+    margin: 0 0 2rem 0;
+    padding: 0 0 0 1.5rem;
 
+}
+
+.under-text-id {
+    padding: 0 0 2rem 0;
+    font-size: 0.8rem;
+    /*margin-top: 1.2rem;*/
+    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
 
 }
 
@@ -79,28 +84,29 @@ div .under-text-id a{
     font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
 
 }
-.under-text-id {
-    padding: 0 0 2rem 0;
-    font-size: 0.8rem;
-    /*margin-top: 1.2rem;*/
-    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
 
-}
-.main-post-twiter {
+.main-post-twitter {
     display: grid;
     grid-template-rows: 3fr 1rem 1rem 1rem;
     /*width: 20rem;*/
 
 
 }
-.picture-post-twiter {
+
+.style-image-post-one {
+    border: 0.02rem gainsboro solid;
+    border-radius: 1rem;
+    margin-right: 5rem;
+
+}
+
+.picture-post-twitter {
     /*position: absolute;*/
     /*clip: rect(4rem,23rem,15rem,0rem);*/
     border-radius: 1rem 1rem 0 0 ;
 
-
-
 }
+
 .sidebar-h2 {
     font-size: 0.7rem;
     padding: 0 0 0 1rem;
@@ -108,12 +114,14 @@ div .under-text-id a{
     font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
 
 }
-.text-post-twiter {
+
+.text-post-twitter {
     font-size: 0.7rem;
     padding: 0 0 0 1rem;
     font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
 
 }
+
 .url-people {
     text-decoration: none;
     color: grey;
@@ -124,19 +132,42 @@ div .under-text-id a{
 
 
 }
+
 .line-icon {
     display: grid;
     grid-template-columns: 3rem 10rem 11rem;
     color: grey;
     padding-top: 1rem ;
 }
+
 .date-post {
     text-decoration: none;
     color: #2b7bb9;
 }
-.date-post:hover {
-    color: silver;
+
+h1 {
+    font-family: 'Playfair Display SC', serif;
+    line-height: 0.9rem;
+
 }
+
+
+.icon {
+    margin: 0rem 0 1rem 0;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /*post two*/
 
@@ -148,11 +179,11 @@ div .under-text-id a{
 
 }
 
-.post-twiter-two {
+.two-post-twitter {
     width: 20rem;
     padding: 1rem;
 }
-.post-twiter-thoughts-page-two {
+.post-twitter-thoughts-page-two {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     margin-top: 1rem;
@@ -314,7 +345,6 @@ h1 {
     margin: 0 0 2rem 0;
     padding: 0 0 0 1.5rem;
 
-
 }
 
 div .under-text-id-post-three a{
@@ -408,10 +438,3 @@ div #list-recent-post a {
 
 }
 
-.thoughts-sidebar {
-    margin: 1rem 20% 1rem 2%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    /*align-items: center;*/
-}

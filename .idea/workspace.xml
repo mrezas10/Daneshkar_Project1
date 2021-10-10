@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750aab5e-e6fc-4ba6-8a87-c5533e676663" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/css/thoughts-sidebar-post-two.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/thoughts-page-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-page-footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/thoughts-page-hovares.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-page-hovares.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/thoughts-sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-sidebar-post-one.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/thoughts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thoughts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +34,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1yasEu2vNCzXOpSOAeLpJ6UYgl7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -84,7 +95,7 @@
       <workItem from="1633027526481" duration="1433000" />
       <workItem from="1633598783330" duration="11353000" />
       <workItem from="1633757343878" duration="28097000" />
-      <workItem from="1633845093327" duration="11314000" />
+      <workItem from="1633845093327" duration="14375000" />
     </task>
     <task id="LOCAL-00001" summary="added shop text top and preload animation">
       <created>1632501193291</created>
@@ -184,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633854845138</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="clean code footer">
+      <created>1633858160735</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1633858160735</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +237,8 @@
     <MESSAGE value="resize icons like and share commit" />
     <MESSAGE value="responsive desktop" />
     <MESSAGE value="rename files" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename files" />
+    <MESSAGE value="clean code footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean code footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -23,7 +23,9 @@
     color: #2b7bb9;
 
 }
-
+.date-post:hover {
+    color: silver;
+}
 #list-recent-post span:nth-child(odd):hover{
     color: #a8a802;
     text-decoration: none;
