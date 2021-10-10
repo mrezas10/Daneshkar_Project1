@@ -119,7 +119,7 @@ body {
     /*z-index: 6;*/
 }
 .collection-caption {
-    font-size: 7rem;
+    font-size: 6rem;
     font-family: 'Playfair Display SC', serif;
     font-weight: lighter;
     font-style: italic;
@@ -127,16 +127,20 @@ body {
     margin: 0;
 }
 .collection-line {
-    width: 75rem;
+    width: 70rem;
     background-color: white;
     border-color: white;
 }
 .collection-subtext {
     font-family: Sacramento, sans-serif;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: lighter;
     color: white;
     margin: 0 2rem;
+}
+.collection-subtext:hover {
+    color: #c7d93b;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 650px) {
