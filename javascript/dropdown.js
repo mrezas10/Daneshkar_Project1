@@ -1,8 +1,8 @@
 function myFunction() {
     var x = document.getElementById("menu");
-    if (x.className === "topnav") {
+    if (x.className === "top-nav") {
         x.className += " opened";
     } else {
-        x.className = "topnav";
+        x.className = "top-nav";
     }
 }

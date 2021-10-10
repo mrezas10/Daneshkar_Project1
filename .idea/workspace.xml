@@ -5,18 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750aab5e-e6fc-4ba6-8a87-c5533e676663" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_8_2021_10_57_PM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_8_2021_10_57_PM_[Changes]1/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_8_2021_10_57_PM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_8_2021_10_57_PM__Changes_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS/dropdown.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/jsHomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/jsHomePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/dropDown.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dropDown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/hovares.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/hovares.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/hovares.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/thoughts-main-posts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-main-posts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/thoughts-sidebar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-sidebar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/thoughts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/likeicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icons/likeicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/shareicon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/icons/shareicon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -46,6 +46,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -68,6 +69,7 @@
       <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zahra\WebstormProjects\Daneshkar_Project1\icons" />
       <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1\img" />
       <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1" />
       <recent name="C:\Users\mreza\WebstormProjects\Daneshkar_Project1\css" />
@@ -90,7 +92,8 @@
       <workItem from="1632932463780" duration="182000" />
       <workItem from="1633027526481" duration="1433000" />
       <workItem from="1633598783330" duration="11353000" />
-      <workItem from="1633757343878" duration="21792000" />
+      <workItem from="1633757343878" duration="28097000" />
+      <workItem from="1633845093327" duration="8364000" />
     </task>
     <task id="LOCAL-00001" summary="added shop text top and preload animation">
       <created>1632501193291</created>
@@ -176,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633768537872</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="responsive desktop">
+      <created>1633792842728</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1633792842728</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,13 +219,14 @@
     <MESSAGE value="new css hover pages commit" />
     <MESSAGE value="add icons like and share commit" />
     <MESSAGE value="resize icons like and share commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="resize icons like and share commit" />
+    <MESSAGE value="responsive desktop" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive desktop" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/JS/jsHomePage.js</url>
+          <url>file://$PROJECT_DIR$/javascript/jsHomePage.js</url>
           <line>31</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

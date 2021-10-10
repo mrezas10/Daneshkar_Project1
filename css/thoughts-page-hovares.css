@@ -47,7 +47,14 @@
 
 }
 
+.site-video-cat:hover {
+    color: olive;
 
+}
+.thoughts-main-page-number a:hover {
+    color: olive;
+
+}
 ::selection {
     background: #f15a22;
     color: #fff;

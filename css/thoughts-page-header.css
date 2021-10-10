@@ -59,8 +59,8 @@ body{height: 100%;}
     color: #444444;
 }
 
-#header .thoughts a.active{
-    color: olive;
+#header .thoughts a{
+    color: olive;!important;
 }
 .avatar-logo {
     width: 6rem;

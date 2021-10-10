@@ -1,0 +1,115 @@
+/*@media screen and (min-width: 1141px) {*/
+
+/*    */
+/*}*/
+@media screen and (min-width: 1141px) {
+    .top-nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1141px) {
+    .thoughts-main {
+        grid-template: 100fr / 100fr;
+        grid-template-areas: "posts";
+    }
+
+    .thoughts-sidebar {
+        visibility: hidden;
+        height: 0;
+        overflow: hidden;
+    }
+
+    /*hidden header desktop*/
+    #header {
+        visibility: hidden;
+        max-height: 100px;
+    }
+
+    .lines {
+        visibility: hidden;
+        max-height: 100px;
+    }
+
+    .catscarf {
+        visibility: hidden;
+        max-height: 100px;
+    }
+
+    /*show header mobile*/
+    .top-nav.opened {
+        position: relative;
+        max-height: 200px;
+        transition: max-height 0.5s;
+        visibility: visible;
+    }
+
+    .click-icon .icon {
+        display: inline-block;
+
+
+    }
+
+    .top-nav.opened a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+.logotype-small {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    letter-spacing: .5em;
+    font-size: 65%;
+}
+
+.squirrel-svg {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 0 .5em;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.squirrel-logo {
+    height: 50px;
+    width: 50px;
+    margin: 0 .5em;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.thoughts-main-posts {
+    display: inline-block;
+    color: #000;
+    cursor: pointer;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    width: 80%;
+
+}
+.link-title {
+    /*font-size: 2.30625rem;*/
+
+}
+@media screen and (max-width: 1140px) {
+    /*.thoughts-main-posts-box-title {*/
+    /*    font-size: 1.5rem;*/
+    /*}*/
+
+    .thoughts-main-posts-box-date {
+        font-size: 0.8125rem;
+
+    }
+
+    .link-title {
+        font-size: 2.25rem;
+    }
+}
+@media screen and (max-width: 570px){
+
+}
+

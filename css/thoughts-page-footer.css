@@ -1,6 +1,6 @@
-#myFooter {
+#footer-thoughts-page {
     margin-top: 5rem;
-    background-color: #f5a432;
+    background-color: #dba539;
     color: white;
     padding-top: 10px;
     display: flex;
@@ -12,16 +12,14 @@
     gap: 5rem;
 }
 
-#myFooter .footer-copyright {
+#footer-thoughts-page .footer-copyright {
     background-color: #995f12;
     padding-bottom: 3px;
     text-align: center;
     width: 100%;
 }
 
-
-
-#myFooter .footer-copyright p {
+#footer-thoughts-page .footer-copyright p {
     margin-bottom: 5px;
     padding-top: 10px;
     font-weight: lighter;
@@ -40,16 +38,17 @@
     margin-top: 3rem;
 }
 .logo-text{
-    font-size: 0.7rem;
+    text-decoration: none;
+    font-size: 0.5rem;
     letter-spacing: .1rem;
     font-weight: lighter;
     font-family: Alice, serif;
     color: white;
     text-align: center;
-    margin: 0;
+    margin-left: -4.9rem;
 }
 
-.icons{display: flex;
+.icons-thoughts-page{display: flex;
     flex-direction: row;
     gap: 5rem;
     justify-content: center;
@@ -58,7 +57,7 @@
     /*margin-bottom: 5%;*/
 }
 
-.icons-picture {
+.icons-footer {
     width: 1.8rem;
 }
 
