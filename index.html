@@ -14,12 +14,6 @@
 </head>
 
 <body>
-<!--<div class="debug">-->
-<!--    <label><input type="checkbox"> Debug</label>-->
-<!--</div>-->
-<!--<div class="demo__info">-->
-<!--    Pure CSS parallax scroll demo #3 by Keith Clark. Please read the <a href="../">blog post</a> for more information.-->
-<!--</div>-->
 <div class="preload">
     <img class="preload-img" src="img/img_preloader.gif" alt="preload">
 </div>
@@ -223,7 +217,7 @@
         <img class="basket" src="https://img.icons8.com/office/16/000000/shopping-cart.png"/>
     </div>
 </div>
-<a id="mySpan" class="test" onclick='let group2 = document.querySelector("#group2");group2.scrollIntoView({behavior : "smooth" , block : "end"});'><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="152.135px" viewBox="0 0 36 152.135" enable-background="new 0 0 36 152.135" xml:space="preserve">
+<a id="mySpan" class="test" onclick='let header = document.querySelector("#main-page-header");header.scrollIntoView({behavior : "smooth" , block : "end"});'><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="152.135px" viewBox="0 0 36 152.135" enable-background="new 0 0 36 152.135" xml:space="preserve">
 <path class="scarf" d="M23.721,0.017c-0.25,0.069-0.402,0.336-0.333,0.587
   c0.028,0.102,0.056,0.205,0.083,0.308c-0.047-0.016-0.097-0.024-0.147-0.024c-0.042,0-0.084,0.005-0.125,0.017
   c-3.088,0.888-6.226,1.628-9.413,2.056c0.042-0.005,0.085-0.011,0.127-0.016C11.171,3.307,8.38,3.446,5.631,3.099
@@ -307,19 +301,14 @@
   S24.564,125.442,24.489,125.544z M24.421,126.497c0,0.013,0,0.026,0,0.039C24.421,126.522,24.421,126.509,24.421,126.497z"></path>
 </svg></a>
 <div id="parallax">
-    <!--    <div id="group1" class="parallax__group">-->
-    <!--        <div class="parallax__layer parallax__layer&#45;&#45;base">-->
-    <!--            <div class="title">Base Layer</div>-->
-    <!--        </div>-->
-    <!--    </div>-->
     <div class="topnav" id="menu" >
-        <a  onclick='let shop = document.querySelector("#group3");shop.scrollIntoView({behavior : "smooth" , block : "end"});'>shop</a>
-        <a  onclick='let about = document.querySelector("#group7");about.scrollIntoView({behavior : "smooth" , block : "end"});'>About</a>
+        <a  onclick='let shop = document.querySelector("#main-page-shop");shop.scrollIntoView({behavior : "smooth" , block : "end"});'>shop</a>
+        <a  onclick='let about = document.querySelector("#main-page-about");about.scrollIntoView({behavior : "smooth" , block : "end"});'>About</a>
         <a  href="">Thoughts</a>
-        <a  onclick='let contact = document.querySelector("#group9");contact.scrollIntoView({behavior : "smooth" , block : "end"});'>Contact</a>
+        <a  onclick='let contact = document.querySelector("#main-page-contact");contact.scrollIntoView({behavior : "smooth" , block : "end"});'>Contact</a>
 
     </div>
-    <div id="group2" class="parallax__group">
+    <div id="main-page-header" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
             <div class="click-icon">
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()"><b class="logotype-small">CatScarf</b></a>
@@ -514,7 +503,7 @@
 
         </div>
     </div>
-    <div id="group3" class="parallax__group">
+    <div id="main-page-shop" class="parallax__group">
         <!--        <div class="parallax__layer parallax__layer&#45;&#45;fore">-->
         <!--            <div class="title">Foreground Layer</div>-->
         <!--        </div>-->
@@ -695,39 +684,27 @@
     </div>
     <div id="group10" class="parallax__group">
         <div class="parallax__layer parallax__layer--back">
-            <!--            <div class="title"></div>-->
         </div>
         <div class="parallax__layer parallax__layer--base">
-            <!--            <div class="title"></div>-->
         </div>
     </div>
     <div id="group4" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
-<!--            <div class="title"></div>-->
         </div>
         <div class="parallax__layer parallax__layer--back">
-<!--            <div class="title"></div>-->
         </div>
-        <!--        <div class="parallax__layer parallax__layer&#45;&#45;deep">-->
-        <!--            <div class="title">Deep Background Layer</div>-->
-        <!--        </div>-->
     </div>
     <div id="group5" class="parallax__group">
-        <!--        <div class="parallax__layer parallax__layer&#45;&#45;fore">-->
-        <!--            <div class="title">Foreground Layer</div>-->
-        <!--        </div>-->
         <div class="parallax__layer parallax__layer--base">
         </div>
     </div>
     <div id="group6" class="parallax__group">
         <div class="parallax__layer parallax__layer--back">
-<!--            <div class="title"></div>-->
         </div>
         <div class="parallax__layer parallax__layer--base">
-<!--            <div class="title"></div>-->
         </div>
     </div>
-    <div id="group7" class="parallax__group">
+    <div id="main-page-about" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
             <div class="container">
                 <div class="title">
@@ -777,7 +754,7 @@
         <!--            <div class="title"></div>-->
         <!--        </div>-->
     </div>
-    <div id="group8" class="parallax__group">
+    <div id="main-page-footer-img" class="parallax__group">
         <div class="parallax__layer parallax__layer--back">
 <!--            <div class="title"></div>-->
         </div>
@@ -785,7 +762,7 @@
 <!--            <div class="title"></div>-->
         </div>
     </div>
-    <div id="group9" class="parallax__group">
+    <div id="main-page-contact" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
             <footer id="myFooter">
                 <div class="catscarf-logo-footer">
