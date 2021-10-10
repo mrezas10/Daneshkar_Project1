@@ -5,21 +5,13 @@ body {
     height: 100%;
     overflow-x: hidden;
 }
-
-.thoughts-main-posts-hr {
-    height: 1px;
-    background-color: #909090;
-    margin: 2rem 0;
-    border: 0;
-    opacity: 0.5;
-}
-
 .thoughts-main-container {
     display: flex;
     flex-direction: column;
 }
 
-.thoughts-main {
+
+.thoughts-main-page {
     display: grid;
     width: 100vw;
     grid-template: 100fr / 70fr 30fr;
@@ -53,6 +45,13 @@ body {
     font-size: 1rem;
     font-family: 'Playfair Display SC', serif;
     color: #c7c7c7;
+}
+.thoughts-main-posts-hr {
+    height: 1px;
+    background-color: #909090;
+    margin: 2rem 0;
+    border: 0;
+    opacity: 0.5;
 }
 
 .thoughts-main-posts-box {
@@ -107,15 +106,11 @@ body {
 
 }
 
-
-
 .link-title {
     color: #444444;
     text-decoration: none;
     font-size: 3.7499375rem;
 }
-
-
 
 div .thoughts-main-page-number a {
     text-decoration: none;

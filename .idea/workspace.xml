@@ -6,12 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="750aab5e-e6fc-4ba6-8a87-c5533e676663" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dropDown.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dropDown.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/thoughts-main-posts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-main-posts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/thoughts-page-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-page-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/thoughts-page-hovares.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-page-hovares.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/thoughts-page-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-page-responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript/dropdown.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thoughts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +93,7 @@
       <workItem from="1633027526481" duration="1433000" />
       <workItem from="1633598783330" duration="11353000" />
       <workItem from="1633757343878" duration="28097000" />
-      <workItem from="1633845093327" duration="32306000" />
+      <workItem from="1633845093327" duration="33574000" />
     </task>
     <task id="LOCAL-00001" summary="added shop text top and preload animation">
       <created>1632501193291</created>
@@ -218,11 +214,28 @@
       <option name="project" value="LOCAL" />
       <updated>1633886323418</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="clean code recent post twitter and footer">
+      <created>1633896280486</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1633896280486</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -257,7 +270,8 @@
     <MESSAGE value="clean code sidebar post one twitter" />
     <MESSAGE value="clean code sidebar post two twitter" />
     <MESSAGE value="clean code sidebar post two and three twitter" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean code sidebar post two and three twitter" />
+    <MESSAGE value="clean code recent post twitter and footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean code recent post twitter and footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
