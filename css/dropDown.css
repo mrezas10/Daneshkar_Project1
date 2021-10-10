@@ -3,13 +3,13 @@ body {
     margin: 0;
     font-family: Alice,serif;
 }
-.top-nav{
+.top-navigation-bar{
     transition: max-height .5s;
     max-height: 0;
     overflow: hidden;
     background-color: #ffff;
 }
-.top-nav a {
+.top-navigation-bar a {
     /*   float: left;*/
     display: block;
     color: black ;
@@ -19,7 +19,7 @@ body {
     font-size: 17px;
     border-bottom: 1px solid rgba(0,0,0,.1);
 }
-.top-nav a.active {
+.top-navigation-bar a.active {
     background-color: #04AA6D;
     color: white;
 }

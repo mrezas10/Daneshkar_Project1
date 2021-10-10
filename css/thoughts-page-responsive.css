@@ -3,9 +3,10 @@
 /*    */
 /*}*/
 @media screen and (min-width: 1141px) {
-    .top-nav {
+    .top-navigation-bar {
         display: none;
     }
+
 }
 
 @media screen and (max-width: 1141px) {
@@ -21,9 +22,9 @@
     }
 
     /*hidden header desktop*/
-    #header {
-        visibility: hidden;
-        max-height: 100px;
+    #header-thoughts {
+        display: none;
+
     }
 
     .lines {
@@ -31,13 +32,13 @@
         max-height: 100px;
     }
 
-    .catscarf {
+    .catscarf-thoughts-page {
         visibility: hidden;
         max-height: 100px;
     }
 
     /*show header mobile*/
-    .top-nav.opened {
+    .top-navigation-bar.opened {
         position: relative;
         max-height: 200px;
         transition: max-height 0.5s;
@@ -50,7 +51,7 @@
 
     }
 
-    .top-nav.opened a {
+    .top-navigation-bar.opened a {
         float: none;
         display: block;
         text-align: center;
