@@ -41,12 +41,12 @@ hr{
 .about-feature{
     width: 25.75rem;
 }
-.feature>h3{
+.about-feature>h3{
     font-weight:normal;
     font-size: 2rem;
     font-family: "Playfair Display SC",serif;
 }
-.feature>p{
+.about-feature>p{
     font-family: Alice,serif;
     text-align: justify;
 }
