@@ -1,11 +1,40 @@
 
 body{
-    overflow: hidden;
+    /*overflow: hidden;*/
     margin: 0;
-    background-color: #333333;
-
+    /*background-color: #333333;*/
 }
+
+#login-page-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.login-hidden {
+    visibility: hidden;
+}
+
+.login-opened {
+    visibility: visible;
+}
+
 #login-page{
+
     max-width: 27rem;
     height: 28rem;
     background-color: white;
@@ -13,7 +42,7 @@ body{
     flex-direction: column;
     border-radius: 1%;
     color: #333333;
-    margin-left: 35%;
+    z-index: 34;
 }
 .login-title{
     font-family: 'Inter', sans-serif;

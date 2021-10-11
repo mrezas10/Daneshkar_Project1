@@ -81,7 +81,9 @@
     margin-top: 0.3rem;
     font-size: 1rem;
     background-color: #c4ea33;
-    border-radius: 1%;}
+    border-radius: 1%;
+    text-align: center;
+}
 .login-text{position: relative;
     top: 2.5%;
     font-family: Alice;

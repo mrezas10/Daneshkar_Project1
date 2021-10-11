@@ -14,6 +14,35 @@
     <title>Title</title>
 </head>
 <body>
+<div id="login-page-container" class="login-hidden">
+    <div id="login-page">
+        <a href="javascript:void(0);" onclick="closePopUp()" class="close-button">close</a>
+        <h3 class="login-title">EMAIL WHEN AVAILABLE</h3>
+        <p class="login-title paragraph">
+            Register your email address below to receive an email as soon as this becomes available again.
+        </p>
+        <hr class="line-divider-login">
+        <h4 class="product-name-login">The Sid & Nancy</h4>
+        <form id="form-horizontal">
+            <select name="color" id="select-item-product">
+                <option value="charcoal">Charcoal/Coral</option>
+                <option value="MUSTARD">Charcoal/Mustard</option>
+                <option value="white">Black/White</option>
+                <option value="charcoal">Charcoal/Silver</option>
+
+            </select>
+
+            <input type="EMAIL" id="email-address" placeholder="Enter Email">
+            <div class="btn-login-page">
+                <button type="submit" class="btn-login-page-success"><h3 class="login-email-submit">Email me when available</h3></button></div>
+        </form>
+        <p class="notify-text">We'll notify you when this CatScarf is in stock. We don't share your address with anybody else.
+        </p>
+        <p class="notify-text text-right">Powered by
+            <a href="https://backinstock.org/?utm_source=referral&utm_medium=powered-by&utm_campaign=catscarf.myshopify.com" target="_blank">Back in Stock</a></p>
+    </div>
+</div>
+
 <div class="preload">
     <img class="preload-img" src="img/img_preloader.gif" alt="preload">
 </div>
@@ -365,6 +394,9 @@
         <div class="footer-copyright">
             <p>© 2015 CATSCARF </p>
         </div>
+        <div class="login">
+            <a href="javascript:void(0);" onclick="popUp()" class="login-text">EMAIL ME WHEN AVAILABLE</a></div>
+</div>
     </footer>
 </div>
 
@@ -372,4 +404,5 @@
 
 <script src="java-script/close-image.js"> </script>
 <script src="java-script/drop-donw.js"></script>
+<script src="js/login.js"></script>
 </html>
