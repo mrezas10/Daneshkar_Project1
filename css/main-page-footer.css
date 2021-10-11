@@ -57,6 +57,10 @@
     /*margin-bottom: 5%;*/
 }
 
+.footer-icons a:hover {
+    filter: invert(42%) sepia(50%) saturate(4680%) hue-rotate(347deg) brightness(90%) contrast(85%);
+}
+
 .footer-icons-picture {
     width: 1.8rem;
 }

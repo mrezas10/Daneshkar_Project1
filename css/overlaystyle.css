@@ -10,7 +10,7 @@
     color: white;
     padding: 2rem 0rem 0rem 0rem;
     text-align: center;
-    visibility: hidden;
+    /*visibility: hidden;*/
     opacity: 0;
     position: relative;
     left: 2.5rem;
