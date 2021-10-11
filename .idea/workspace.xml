@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750aab5e-e6fc-4ba6-8a87-c5533e676663" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_3_2021_1_45_PM_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_10_3_2021_1_45_PM__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dropDown.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dropDown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/thoughts-page-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-page-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/thoughts-page-hovares.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-page-hovares.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/thoughts-main-posts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-main-posts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/thoughts-page-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-page-responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/thoughts-sidebar-post-one.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/thoughts-sidebar-post-one.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thoughts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +93,7 @@
       <workItem from="1633598783330" duration="11353000" />
       <workItem from="1633757343878" duration="28097000" />
       <workItem from="1633845093327" duration="33898000" />
-      <workItem from="1633930833213" duration="11076000" />
+      <workItem from="1633930833213" duration="15390000" />
     </task>
     <task id="LOCAL-00001" summary="added shop text top and preload animation">
       <created>1632501193291</created>
@@ -234,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633898535443</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="responsive mobile">
+      <created>1633951727489</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1633951727489</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +286,8 @@
     <MESSAGE value="clean code sidebar post two and three twitter" />
     <MESSAGE value="clean code recent post twitter and footer" />
     <MESSAGE value="clean code finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean code finish" />
+    <MESSAGE value="responsive mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive mobile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
