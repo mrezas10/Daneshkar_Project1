@@ -12,9 +12,6 @@
     font-family: "Playfair Display SC",serif;
     font-weight: normal;
 }
-
-
-
 #footer-cart-page .copyright-footer p {
     margin-bottom: 5px;
     padding-top: 20px;
@@ -22,16 +19,12 @@
     font-size: 0.6rem;
     color: #ccc;
 }
-
-
 .logo-footer-cart{
-
     width:100%;
     height: 6rem;
     cursor: pointer;
 }
 .catscarf-logo-footer-cart{
-
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -74,8 +67,6 @@
     font-size: 1.5rem;
     margin-bottom: 5%
 }
-
-
 
 
 @media screen and (max-width: 767px) {
