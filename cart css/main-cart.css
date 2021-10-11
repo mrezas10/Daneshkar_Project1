@@ -1,0 +1,284 @@
+.main-cart{
+    width: 85%;
+    margin-left: 7%;
+    margin-right: 3%;
+    display: block;
+   padding: 0;
+
+}
+.main-cart-title{
+    font-family: "Playfair Display SC",serif;
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3.3rem;
+    color: #474542;
+}
+.main-cart-table{
+    width: 100%;
+    margin: 0;
+    border-collapse: collapse;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+tbody td{
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+tbody {
+    border-bottom: 0.001rem solid #c7c7c7;
+    color: #454340;
+    width: 85vw;
+}
+tfoot{
+    border-bottom: 0.001rem solid #c7c7c7;
+    width: 85vw;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    color: #474542;
+}
+th {
+    border-bottom: 0.001rem solid #c7c7c7;
+    border-top: 0.001rem solid #c7c7c7;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    vertical-align: baseline;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: "Playfair Display SC",serif;
+    font-style: normal;
+    color: #454340;
+
+}
+.main-cart-remove{
+    width: 5%;
+    text-align: left;
+}
+.main-cart-image{
+    width: 29%;
+    text-align: left;
+}
+.main-cart-image-scarf{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.main-cart-description{
+    width: 30%;
+    text-align: left;
+}
+.main-cart-price{
+    text-align:right;
+    width: 15%;
+}
+.main-cart-quantity{
+    text-align: right;
+    width: 10%;
+}
+.main-cart-total{
+    text-align: right;
+    width: 15%;
+}
+.trash{
+    cursor: pointer;
+}
+.main-cart-image-catscarf{
+    width: 12rem;
+    text-align: left;
+    cursor: pointer;
+}
+.the-squirrel{
+   margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: "Playfair Display SC",serif;
+    font-style: normal;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.squirrel-link:hover{
+    color: #c7d93b;
+}
+.squirrel-link{
+    font-size: 2rem;
+    color: #454340;
+    transition:all 0.2s;
+    text-decoration: none;
+}
+.kiwi{
+    font: inherit;
+    font-weight: lighter;
+    font-size: 1.16rem;
+}
+.color{
+    color: #262626;
+}
+.main-cart-price-dollar{
+    font-family: "Playfair Display SC",serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.8rem;
+}
+td{
+    padding: 0;
+}
+.note-special-cart{
+padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 0;
+}
+.note-special-cart-yourslef{
+    width: 100%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: 0.001rem solid darkgrey;
+    outline: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 6em;
+}
+.note-special-cart-top{
+    font-family: "Playfair Display SC",serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+input[type=submit]{
+    border: 0;
+    padding: 0;
+    background: 0;
+}
+.update-cart{
+    font-size: 1.1rem;
+    text-align: right;
+    font-family: "Playfair Display SC",serif;
+    font-style: normal;
+    font-weight: lighter;
+    transition:all 0.2s;
+    color: #4c4a47;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+.update-cart:hover{
+    color: #c9df52;
+}
+.subtotal-cart{
+    font-size: 1.1rem;
+    text-align: left;
+    display: inline-block;
+    font-family: "Playfair Display SC",serif;
+    font-style: normal;
+    font-weight: lighter;
+}
+.last-price-cart{
+    text-align: right;
+    font-family: "Playfair Display SC",serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.6rem;
+}
+.checkout-cart{
+    text-align: right;
+}
+.checkout{
+    font-family: 'Sacramento';
+    transition:all 0.5s;
+    cursor: pointer;
+}
+.checkout:hover{
+   color: #c9df52;
+}
+button{
+    border: 0;
+    background: 0;
+    outline: 0;
+    padding: 0;
+    font-size: 4rem;
+}
+.shopping{
+    text-align: center;
+    font-family: "Playfair Display SC",serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    margin: 0;
+    padding-top: 2%;
+    color: #474542;
+    cursor: pointer;
+    height: 7rem;
+}
+.shopping a{
+    text-decoration: none;
+    color: #474542;
+    transition:all 0.5s;
+}
+.shopping a:hover{
+    color: #c9df52;
+}
+input[type=number]{
+    max-width: 20%;
+    margin: 0;
+    border: 1px solid #999;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+#choose-number{
+    font-family: "Playfair Display SC",serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+.main-cart-total-price{
+    font-family: "Playfair Display SC",serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 1.8rem;
+}
+.update-subtotal-cart{
+    text-align: right;
+    padding-bottom: 0;
+}
+.preload {
+    margin: 0;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    /*transform: translateY(-100%);*/
+    position: fixed;
+    animation-duration: 2s;
+    animation-name: preload-fadeOut;
+    animation-timing-function: cubic-bezier(1,.01,.36,-0.16);
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    z-index: 1;
+
+}
+.preload-img {
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes preload-fadeOut {
+    0% {opacity: 1; visibility: visible}
+    100% {opacity: 0; visibility: hidden}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
