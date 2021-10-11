@@ -1,7 +1,7 @@
 @import "shop-text-top.css";
 @import "preload.css";
-@import "imageleftpagestyle.css";
-@import "productdown.css";
+@import "product-picture.css";
+@import "products-select.css";
 /*@import "products.css";*/
 @import "shop-main.css";
 @import "header-products.css";
@@ -9,3 +9,5 @@
 @import "hovers-products.css";
 @import "responsive-products.css";
 @import "drop-down.css";
+@import "login.css";
+

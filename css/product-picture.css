@@ -1,27 +1,16 @@
-.gird-main {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 1rem;
-}
-
-
 .product-picture {
     grid-area: picture;
     width: 100%;
     /*margin-left: 3rem;*/
 }
 
-#product-green-scarf{
+#product-brown-scarf{
     width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-#product-green-scarf:hover {
-    background: grey;
-}
-
-/*.product-specifications{*/
-/*    padding: 0 11rem 0 3rem;*/
-/*}*/
 .product-description {
     font-family: Serif;
     color: #444444;
@@ -29,13 +18,8 @@
 }
 
 
-#product-green-scarf {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
 
-#product-green-scarf:hover {opacity: 0.7;}
+
 
 /* The Modal (background) */
 .modal {
