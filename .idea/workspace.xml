@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750aab5e-e6fc-4ba6-8a87-c5533e676663" name="Changes" comment="a">
+    <list default="true" id="750aab5e-e6fc-4ba6-8a87-c5533e676663" name="Changes" comment="fixed links between thoughts and main page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main-page-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main-page-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/transparent-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/transparent-header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/highfashionstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/highfashionstyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thoughts-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/thoughts-page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -263,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633957615424</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="fixed links between thoughts and main page">
+      <created>1633976116871</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1633976116871</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +321,8 @@
     <MESSAGE value="clean code finish" />
     <MESSAGE value="responsive mobile" />
     <MESSAGE value="responsive final mobile" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive final mobile" />
+    <MESSAGE value="fixed links between thoughts and main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed links between thoughts and main page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
