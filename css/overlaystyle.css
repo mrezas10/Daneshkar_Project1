@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+.shop-rows-item-overlay{
+    display: inline-block;
+    border-radius: 50%;
+    height: 17rem;
+    width: 17rem;
+    background-color: rgba(29, 26, 25, 0.5);
+    box-sizing: border-box;
+    color: white;
+    padding: 2rem 0rem 0rem 0rem;
+    text-align: center;
+    /*visibility: hidden;*/
+    opacity: 0;
+    position: relative;
+    left: 2.5rem;
+    bottom: 22rem;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transform: translateY(10px);
+}
+.shop-rows-item-overlay h1 {
+    font-size: 1.5rem;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: inherit;
+}
+.shop-rows-item-overlay hr{
+    width:50% ;
+    text-align:center;
+}
+.shop-rows-item-overlay b {
+    font-family: Sacramento, sans-serif;
+    font-size: 1.5rem;
+}
+.shop-rows-item-overlay:hover {
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+}
+.shop-rows-item-overlay h1:hover {
+    cursor: pointer;
+}
+.shop-rows-item-overlay b:hover {
+    color: #c7d93b;
+    cursor: pointer;
+}
+.shop-rows-item-overlay .button{
+    font-size: 2rem;
+    font-weight: inherit;
+}
+@media screen and (max-width: 1166px) {
+    .shop-rows-item-overlay{
+        border-radius: 0;
+        position: relative;
+        bottom: 4rem;
+        left: auto;
+        right: auto;
+        background: transparent;
+        color: black;
+        width: 23rem;
+        visibility: visible;
+        opacity: 1;
+        font-size: 1rem;
+        height: 2px;
+    }
+    .shop-rows-item-overlay hr{
+        width: 22rem;
+    }
+    .shop-rows-item img{
+        width: 307px;
+        height: 354px;
+        margin-left: 2rem;
+    }
+
+}

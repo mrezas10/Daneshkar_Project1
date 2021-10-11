@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+.shop-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    overflow: hidden;
+}
+.shop-rows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.shop-rows-title{
+    text-align: center;
+}
+.logotype-small{
+    display: block;
+    font-weight: 400;
+    letter-spacing: .5em;
+    font-size: 65%;
+
+}
+h1{
+    font-family: "Playfair Display SC", serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 4rem;
+}
+.shop-rows-title h1{
+    letter-spacing: .1em;
+    border-bottom: 1px solid #49423b;
+    margin-top: 0;
+}
+p{
+    font-family: "alice", serif;
+    font-size: 1.16667rem;
+}
+.shop-rows-items{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.shop-rows-item {
+    width: 22.5rem;
+    height: 30rem;
+}
+img{
+    max-width: 100%;
+}
+.shop-rows-item:hover .overlay{
+    visibility: visible;
+}
+@media screen and (max-width: 1166px){
+    .shop-rows-item:hover .overlay{
+        display: none;
+    }
+    .shop-wrapper {
+        align-items: center;
+    }
+    .shop-rows {
+        align-content: center;
+    }
+    .shop-rows-items {
+        flex-direction: column;
+        align-items: center;
+    }
+    .shop-rows-item {
+        align-items: center;
+    }
+}
+::selection{
+    background: #f15a22;
+    color: #fff;
+    text-shadow: none;
+}
+

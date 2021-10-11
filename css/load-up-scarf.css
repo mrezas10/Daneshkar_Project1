@@ -1,0 +1,30 @@
+
+.scroll-scarf-hidden {
+    top: -150px;
+    transition: top .5s;
+}
+.scroll-scarf-visible {
+    top: -25px;
+    transition: top .5s;
+}
+.scroll-scarf-visible:hover {
+    top: -5px;
+    cursor: pointer;
+}
+
+.scarf {
+    fill: #6f7431;
+
+}
+#scroll-scarf {
+    position: fixed;
+    left: 2rem;
+    z-index: 6;
+}
+
+@media screen and (max-width: 1166px) {
+
+    #scroll-scarf {
+        visibility: hidden;
+    }
+}
