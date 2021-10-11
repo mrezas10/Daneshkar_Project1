@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Alice,serif;
+}
+hr
+{
+    height: 1px;
+    background-color: #37444c;
+    margin: 0;
+    border: 0;
+    opacity: 0.5;
+}
+.shop-container {
+    display: grid;
+    margin: 5rem 5vw;
+    width: 90vw;
+    grid-template: 100fr / 60fr 40fr;
+    grid-template-areas: "picture ttext";
+}
+.shop-product-text-socials {
+    display: flex;
+    flex-direction: row;
+}
+.shop-product-text-socials-icons {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 5px;
+    transition: filter 0.2s;
+}
+.shop-product-text-socials-icons:hover {
+    filter: invert(100%) sepia(79%) saturate(1625%) hue-rotate(7deg) brightness(95%) contrast(78%);
+}
+.shop-picture {
+    grid-area: picture;
+}
+.shop-product {
+    grid-area: ttext;
+    width: 90%;
+    display: grid;
+    grid-template: repeat(2 , 40rem) / 100fr;
+    grid-template-areas: "description" "measurements";
+}
+.shop-product-text {
+    grid-area: description;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.shop-product-text-caption {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: normal;
+    font-size: 4rem;
+    margin: 0;
+    color: #444444;
+}
+.shop-product-text-description {
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: gray;
+}
+
+.shop-product-text-price {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: normal;
+    font-size: 3rem;
+    margin: 0;
+    color: #444;
+}
+
+.shop-product-text-list {
+    height: 3rem;
+    width: 40%;
+    border-radius: 5px;
+    border-width: 1px;
+    font-family: Alice, serif;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.shop-product-text-preview {
+    display: flex;
+    flex-direction: row;
+}
+.shop-product-text-preview-image {
+    opacity: 0.8;
+    transition: opacity 0.5s;
+}
+.shop-product-text-preview-image:hover {
+    opacity: 1;
+}
+.shop-product-text-preview-selected {
+    opacity: 0.4;
+    transition: opacity 0.5s;
+}
+.shop-product-text-preview-selected:hover {
+    opacity: 0.6;
+}
+
+

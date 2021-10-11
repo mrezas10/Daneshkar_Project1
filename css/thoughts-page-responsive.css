@@ -1,0 +1,231 @@
+/*@media screen and (min-width: 1141px) {*/
+
+/*    */
+/*}*/
+@media screen and (min-width: 1141px) {
+    .top-navigation-bar {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1141px) {
+    .thoughts-main-page {
+        grid-template: 100fr / 100fr;
+        grid-template-areas: "posts";
+    }
+
+    .thoughts-sidebar {
+        visibility: hidden;
+        height: 0;
+        overflow: hidden;
+    }
+
+    /*hidden header desktop*/
+    #header-thoughts {
+        display: none;
+
+    }
+
+    .lines {
+        visibility: hidden;
+        max-height: 100px;
+    }
+
+    .catscarf-thoughts-page {
+        visibility: hidden;
+        max-height: 100px;
+    }
+
+    /*show header mobile*/
+    .top-navigation-bar.opened {
+        position: relative;
+        max-height: 200px;
+        transition: max-height 0.5s;
+        visibility: visible;
+    }
+
+    .click-icon .icon {
+        display: inline-block;
+
+
+    }
+
+    .top-navigation-bar.opened a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+.logotype-small {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    letter-spacing: .5em;
+    font-size: 65%;
+}
+
+.squirrel-svg {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 0 .5em;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.squirrel-logo {
+    height: 50px;
+    width: 50px;
+    margin: 0 .5em;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.thoughts-main-posts {
+    display: inline-block;
+    color: #000;
+    cursor: pointer;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+    width: 80%;
+
+}
+.link-title {
+    /*font-size: 2.30625rem;*/
+
+}
+@media screen and (max-width: 1140px) {
+    /*.thoughts-main-posts-box-title {*/
+    /*    font-size: 1.5rem;*/
+    /*}*/
+
+    .thoughts-main-posts-box-date {
+        font-size: 0.8125rem;
+
+    }
+
+    .link-title {
+        font-size: 2.25rem;
+    }
+}
+@media screen and (max-width: 570px){
+    .thoughts-picture {
+        width: 100%;
+        height: 30vh;
+        background: url("../img/img_blog_header.jpg");
+        background-size: 100%;
+        background-position-y: center;
+        /*object-fit: cover;*/
+        display: flex;
+        /*flex-direction: column;*/
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        /*margin: 1.2rem 0;*/
+    }
+
+    .thoughts-picture-text {
+        font-family: "Sacramento", Serif;
+        font-size: 3rem;
+        color: white;
+    }
+    .thoughts-main-posts {
+        margin: 3% 10% 10% 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .thoughts-main-posts-box-picture {
+        width: 100%;
+        height: 100%;
+    }
+    .thoughts-main-posts-box {
+        margin:0;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 418px){
+    .thoughts-picture {
+        width: 100%;
+        height: 27vh;
+        background: url("../img/img_blog_header.jpg");
+        background-size: 100%;
+        background-position-y: center;
+        /*object-fit: cover;*/
+        display: flex;
+        /*flex-direction: column;*/
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        /*margin: 1.2rem 0;*/
+    }
+    .thoughts-main-posts {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+
+    }
+    /*.thoughts-main-posts-box-picture {*/
+    /*    width: 100vw;*/
+    /*    height: 100vh;*/
+
+    /*}*/
+    .thoughts-main-posts-box {
+        margin:0;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media screen and (max-width: 375px){
+    .thoughts-picture {
+        width: 100%;
+        height: 22vh;
+        background: url("../img/img_blog_header.jpg");
+        background-size: 100%;
+        background-position-y: center;
+        /*object-fit: cover;*/
+        display: flex;
+        /*flex-direction: column;*/
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        /*margin: 1.2rem 0;*/
+    }
+    .thoughts-main-posts {
+        /*margin: 0 10% 0 10%;*/
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+
+    }
+
+}
+@media screen and (max-width: 307px){
+.thoughts-picture {
+    width: 100%;
+    height: 19vh;
+    background: url("../img/img_blog_header.jpg");
+    background-position-y: 0%;
+    background-size: auto;
+    background-size: 100%;
+    background-position-y: center;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    margin: 1.2rem 0;
+}
+}

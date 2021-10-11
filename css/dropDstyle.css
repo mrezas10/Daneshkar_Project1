@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+body {
+    margin: 0;
+    font-family: Alice,serif;
+}
+.top-nav {
+    transition: max-height .5s;
+    max-height: 0;
+    overflow: hidden;
+    background-color: #ffff;
+}
+.top-nav a {
+ /*   float: left;*/
+    display: block;
+    color: black ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    z-index: 10;
+}
+.top-nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.click-icon {
+    background-color: white;
+}
+
+.click-icon .icon {
+    display: none;
+}
+
+.click-icon a {
+    display: block;
+    color: black ;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+@media screen and (min-width: 600px) {
+    .top-nav{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    /*.topnav a:not(:first-child) {display: none;}*/
+    /*.topnav a.icon {*/
+    /*    border-bottom: none;*/
+    /*    float: left;*/
+    /*    display: block;*/
+
+    /*}*/
+}
+
+@media screen and (max-width: 650px) {
+    .top-nav.opened {
+        position: relative;
+        max-height: 200px;
+        transition: max-height 0.5s;
+        /*visibility: visible;*/
+        z-index: 10;
+    }
+    .click-icon .icon {
+        display: inline-block;
+
+
+    }
+    .top-nav.opened a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+    .logotype-small{
+    font-family: "Playfair Display SC",serif;
+    font-weight: 400;
+    letter-spacing: .5em;
+    font-size: 65%;
+}
+.squirrel-svg{
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin: 0 .5em;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.squirrel-logo {
+    height: 50px;
+    width: 50px;
+    margin: 0 .5em;
+    cursor: pointer;
+    vertical-align: middle;
+}

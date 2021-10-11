@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Alice, serif;
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+}
+.thoughts-main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.thoughts-main-page {
+    display: grid;
+    width: 100vw;
+    grid-template: 100fr / 70fr 30fr;
+    grid-template-areas: "posts" "sidebar";
+}
+
+
+.thoughts-main-posts {
+    margin: 3% 10% 10% 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.thoughts-main-posts-intro {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.thoughts-main-posts-intro-caption {
+    margin: 0;
+    font-weight: normal;
+    font-size: 3rem;
+    font-family: 'Playfair Display SC', serif;
+    color: #444444;
+}
+
+.thoughts-main-posts-intro-date {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1rem;
+    font-family: 'Playfair Display SC', serif;
+    color: #c7c7c7;
+}
+.thoughts-main-posts-hr {
+    height: 1px;
+    background-color: #909090;
+    margin: 2rem 0;
+    border: 0;
+    opacity: 0.5;
+}
+
+.thoughts-main-posts-box {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.thoughts-main-posts-box-title {
+    margin: 0;
+    font-weight: normal;
+    font-size: 3rem;
+    font-family: 'Playfair Display SC', serif;
+    color: #444444;
+
+}
+
+.thoughts-main-posts-box-date {
+    margin: 0;
+    font-weight: normal;
+    font-size: 1rem;
+    font-family: 'Playfair Display SC', serif;
+    color: #c7c7c7;
+}
+
+.thoughts-main-posts-box-picture {
+    width: 100%;
+    height: 100%;
+
+}
+
+.thoughts-main-posts-box-description {
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 2rem 0;
+    color: #444444;
+
+}
+
+.thoughts-main-page-number {
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.site-video-cat {
+    color: #444444;
+
+}
+
+.link-title {
+    color: #444444;
+    text-decoration: none;
+    font-size: 3.7499375rem;
+}
+
+div .thoughts-main-page-number a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.2rem;
+}
+
+div .thoughts-main-page-number a:first-child {
+    color: olive;
+}

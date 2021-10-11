@@ -1,0 +1,83 @@
+
+.custom-select-size {
+    margin: 1rem 0 0.5rem 0;
+    background-color: white;
+    text-align: left;
+    padding: 0.5rem;
+    width: 17rem;
+    height: 3rem;
+    border: 0.03rem silver solid;
+    border-radius: 0.20rem;
+    font-family: 'Alice', serif;
+    font-size: 1.1rem;
+    color: #333333;
+    /*z-index: 99;*/
+}
+.custom-select-size:hover {
+    background-color: #fcf7fb;
+}
+
+.neck-length {
+    margin: 0 0 0.5rem 0;
+    background-color: white;
+    text-align: left;
+    padding: 0.5rem;
+    width: 17rem;
+    height: 3rem;
+    border: 0.03rem silver solid;
+    border-radius: 0.20rem;
+    font-family: 'Alice', serif;
+    font-size: 1.1rem;
+    color: #333333;
+
+}
+.neck-length:hover{
+    background-color: #fcf7fb;
+}
+
+.cat-height {
+    margin: 0 0 0.5rem 0;
+    background-color: white;
+    text-align: left;
+    padding: 0.5rem;
+    width: 17rem;
+    height: 3rem;
+    border: 0.03rem silver solid;
+    border-radius: 0.20rem;
+    font-family: 'Alice', serif;
+    font-size: 1.1rem;
+    color: #333333;
+
+}
+.cat-height:hover{
+    background-color: #fcf7fb;
+
+}
+hr {
+    margin: 2rem 0 2rem 0;
+    color: gainsboro;
+}
+#add {
+    color: #262626;
+    font-family: Sacramento,sans-serif;
+    font-size: 4rem;
+    display: block;
+    background: none;
+    border: none;
+
+}
+#button-inventory {
+    color: #262626;
+    font-family: Sacramento,sans-serif;
+    font-size: 2rem;
+    display: block;
+    background: none;
+    border: none;
+}
+
+#add:hover {
+    color: olive;
+}
+#button-inventory:hover {
+    color: olive;
+}

@@ -1,0 +1,193 @@
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+#parallax {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 300px;
+    perspective: 300px;
+}
+
+.parallax__group {
+    position: relative;
+    height: 60rem;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.parallax__layer--base {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 4;
+}
+
+.parallax__layer--back {
+    -webkit-transform: translateZ(-300px) scale(2.02);
+    transform: translateZ(-300px) scale(2.02);
+    z-index: 3;
+}
+
+.parallax__group {
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+
+#group1 {
+    z-index: 5;
+}
+#group1 .parallax__layer--base {
+    background: transparent;
+}
+
+#main-page-header {
+    z-index: 3;
+}
+#main-page-header .parallax__layer--back {
+    background: url("../img/img_homepage_slider1.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#main-page-shop {
+    z-index: 4;
+}
+#main-page-shop .parallax__layer--base {
+    background: white;
+    height: 200rem;
+}
+
+#main-page-about {
+    z-index: 3;
+}
+#main-page-about .parallax__layer--base {
+    background: white;
+    height: 90rem;
+}
+
+#main-page-footer-img {
+    z-index: 2;
+}
+#main-page-footer-img .parallax__layer--back {
+    background: url("../img/img_homepage_footer.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#main-page-contact {
+    z-index: 3;
+    height: 25rem;
+}
+#main-page-contact .parallax__layer--base {
+    background: white;
+    height: 25rem;
+}
+
+#parallax-filler-one {
+    z-index: 2;
+    height: 0;
+    overflow: hidden;
+}
+#parallax-filler-one .parallax__layer--back {
+    background-image: url("../img/img_homepage_footer.jpg");
+    background-size: cover;
+}
+
+#parallax-filler-two {
+    z-index: 2;
+}
+#parallax-filler-two .parallax__layer--back {
+    background: white;
+}
+
+#parallax-filler-three {
+    z-index: 3;
+}
+#parallax-filler-three .parallax__layer--base {
+    background: white;
+    height: 0;
+}
+
+#parallax-filler-four {
+    z-index: 2;
+}
+#parallax-filler-four .parallax__layer--back {
+    background: url("../img/img_homepage_divider.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#parallax-filler-five {
+    z-index: 2;
+    height: 0;
+    overflow: hidden;
+}
+#parallax-filler-five .parallax__layer--back {
+    background-image: url("../img/img_homepage_footer.jpg");
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 1166px) {
+    #main-page-shop .parallax__layer--base {
+        height: 430rem;
+    }
+
+    #parallax-filler-one {
+        height: 240rem;
+    }
+
+    #main-page-about .parallax__layer--base {
+        height: 150rem;
+    }
+
+    #parallax-filler-five {
+        height: 60rem;
+    }
+}
+
+.preload {
+    margin: 0;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    animation-duration: 2s;
+    animation-name: preload-fadeOut;
+    animation-timing-function: cubic-bezier(1,.01,.36,-0.16);
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    z-index: 7;
+
+}
+.preload-img {
+    width: 100px;
+    height: 100px;
+}
+
+@keyframes preload-fadeOut {
+    0% {opacity: 1; visibility: visible}
+    100% {opacity: 0; visibility: hidden}
+}
+

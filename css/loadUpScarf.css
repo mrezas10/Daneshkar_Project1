@@ -1,0 +1,54 @@
+body {
+    width: 100%;
+    height: 2000px;
+}
+html {
+    scroll-behavior: smooth;
+}
+/*.bottomMenu {*/
+/*    display: none;*/
+/*    position: fixed;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*    height: 60px;*/
+/*    border-top: 1px solid #000;*/
+/*    background: red;*/
+/*    z-index: 1;*/
+/*}*/
+/*.scrollPast {*/
+/*    width: 100%;*/
+/*    height: 150px;*/
+/*    background: grey;*/
+/*    position: relative;*/
+/*    top: 50px;*/
+/*    margin: 20px 0;*/
+/*}*/
+/*h1 {*/
+/*    display:none;*/
+/*    position: absolute;*/
+/*    bottom:0;*/
+/*}*/
+
+.test {
+    top: -150px;
+    transition: top .5s;
+}
+.test2 {
+    top: -25px;
+    transition: top .5s;
+}
+.test2:hover {
+    top: -5px;
+}
+div h1 {
+    height: 50rem;
+    color: #eeeeee;
+}
+.scarf {
+    fill: #6f7431;
+
+}
+#mySpan {
+    position: fixed;
+    left: 2rem;
+}

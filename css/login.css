@@ -1,0 +1,159 @@
+
+body{
+    /*overflow: hidden;*/
+    margin: 0;
+    /*background-color: #333333;*/
+}
+
+#login-page-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.login-hidden {
+    visibility: hidden;
+}
+
+.login-opened {
+    visibility: visible;
+}
+
+#login-page{
+
+    max-width: 27rem;
+    height: 28rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1%;
+    color: #333333;
+    z-index: 34;
+}
+.login-title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.paragraph{
+    font-size: 0.89rem;
+    margin-top: 0;
+}
+.line-divider-login{
+    width: 83%;
+    margin-top: 2%; margin-left: 8%;
+    border: 0;
+    border-top: 1px solid #eeeeee;
+}
+.product-name-login{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 8%;
+    font-weight: lighter;
+    margin-top: 2%;
+}
+#form-horizontal{
+    margin-left: 8%;
+}
+#select-item-product{
+
+    font-size: 0.9rem;
+    width:88.9%;
+    height: 2.7rem;
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: rgba(92,92,78,0.86);
+}
+
+option{
+    font-size: 1rem;
+}
+#email-address{
+    font-size: 1rem;
+    width: 87.4%;
+    height: 2.4rem;
+    margin-top: 3%;
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+.btn-login-page{
+    margin-top:3%;
+    font-family: 'Inter', sans-serif;
+    align-self: center;
+
+}
+.btn-login-page-success{
+    font-size: 1rem;
+    background-color: #c7d93b;
+    color: #FFFFFF;
+    padding: 5%;
+    border: 1px solid transparent;
+    border-radius: 3px
+}
+.notify-text{
+    font-size: 0.8rem;
+    margin-left: 8%;
+    margin-right: 8%;
+    /*width: 47ch;*/
+    font-family: 'Inter', sans-serif;
+}
+.text-right a{
+    color: inherit;
+}
+.text-right{
+margin-right: 8%;
+     text-align: right;
+    margin-top: 0;
+}
+
+button[type=submit]{
+width: 89%;
+height:3rem;
+
+
+}
+.login-email-submit{
+margin-top: -0.5rem;
+    font-size: 1em;
+   cursor: pointer;
+
+}
+#email-address:hover{
+    background-color: whitesmoke;
+}
+select option {
+    background-color: whitesmoke;
+}
+#select-item:hover{
+    background-color: whitesmoke;
+}
+@media screen and (min-width: 500px) {
+    #login-page{
+        max-width: 460px;
+        height: 30rem;
+        position: fixed;
+        top: 20%;
+
+    }
+}

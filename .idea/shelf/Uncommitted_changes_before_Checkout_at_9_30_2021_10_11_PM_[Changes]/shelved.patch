@@ -1,0 +1,148 @@
+Index: css/homepage.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>body, html {\r\n    height: 100%;\r\n}\r\n\r\n.parallax {\r\n    text-align:center;\r\n    line-height: 13;\r\n    color: black;\r\n    background-image:url('../image/Sleepy Cat Slider.jpg');\r\n    width:93.875rem;\r\n    height:56.875rem;\r\n\r\n}\r\n/*.text-silder-home-page {*/\r\n/*    position: absolute;*/\r\n\r\n/*}*/\r\n.centered {\r\n    position: absolute;\r\n    top: 50%;\r\n    left: 50%;\r\n    transform: translate(-50%, -50%);\r\n}
+===================================================================
+diff --git a/css/homepage.css b/css/homepage.css
+--- a/css/homepage.css	
++++ b/css/homepage.css	
+@@ -1,23 +1,68 @@
+-body, html {
+-    height: 100%;
++body {
++    padding: 0;
++    margin: 0;
++    background-image: url("../image/img_homepage_divider.jpg");
++    background-repeat: no-repeat;
++    background-color: grey;
++    background-size: 100%;
+ }
++/*.forefront-element {*/
++/*    -webkit-transform: translateZ(999px) scale(.7);*/
++/*    transform: translateZ(999px) scale(.7);*/
++/*    z-index: 1;*/
++/*}*/
++
++/*.base-element {*/
++/*    -webkit-transform: translateZ(0);*/
++/*    transform: translateZ(0);*/
++/*    z-index: 4;*/
++/*}*/
+ 
+-.parallax {
+-    text-align:center;
+-    line-height: 13;
+-    color: black;
+-    background-image:url('../image/Sleepy Cat Slider.jpg');
+-    width:93.875rem;
+-    height:56.875rem;
++/*.background-element {*/
++/*    -webkit-transform: translateZ(-999px) scale(2);*/
++/*    transform: translateZ(-999px) scale(2);*/
++/*    z-index: 3;*/
++/*}*/
+ 
++
++#main1 {
++    background-image: url("../image/Sleepy Cat Slider.jpg");
++    background-position: top center;
++    background-attachment:scroll;
++    background-size: cover;
++    height: 80vh;
++    width: 100%;
+ }
++#placeholdersoyoucanscroll{
++    height:100vh
++}
++/*body, html {*/
++/*    height: 100%;*/
++/*}*/
++
++/*.parallax {*/
++/*    text-align:center;*/
++/*    line-height: 13;*/
++/*    color: black;*/
++/*    background-image:url('../image/Sleepy Cat Slider.jpg');*/
++/*    width:93.875rem;*/
++/*    height:56.875rem;*/
++
++/*}*/
+ /*.text-silder-home-page {*/
+ /*    position: absolute;*/
+ 
++/*}*/
++/*.centered {*/
++/*    position: absolute;*/
++/*    top: 50%;*/
++/*    left: 50%;*/
++/*    transform: translate(-50%, -50%);*/
+ /*}*/
+-.centered {
+-    position: absolute;
+-    top: 50%;
+-    left: 50%;
+-    transform: translate(-50%, -50%);
+-}
+\ No newline at end of file
++/*h1 hr h2 {*/
++/*    position: absolute;*/
++/*    top:2rem;*/
++/*    bottom: 5rem;*/
++/*    right: 11rem;*/
++/*    left: 6rem;*/
++/*}*/
+\ No newline at end of file
+Index: html/homepage.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>home page</title>\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n    <link rel=\"stylesheet\" href=\"../css/homepage.css\">\r\n</head>\r\n<body>\r\n\r\n\r\n\r\n<div class=\"silder-home-page\">\r\n    <img src=\"../image/Sleepy Cat Slider.jpg\" height=\"910\" width=\"1502\"/>\r\n\r\n<div class=\"centered\">\r\n    <h1>2020 Collection</h1>\r\n    <hr>\r\n    <h2>coming soon</h2>\r\n</div>\r\n\r\n\r\n\r\n\r\n</body>\r\n</html>\r\n
+===================================================================
+diff --git a/html/homepage.html b/html/homepage.html
+--- a/html/homepage.html	
++++ b/html/homepage.html	
+@@ -6,21 +6,39 @@
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="../css/homepage.css">
+ </head>
+-<body>
+ 
+ 
+ 
+-<div class="silder-home-page">
+-    <img src="../image/Sleepy Cat Slider.jpg" height="910" width="1502"/>
++<!--<div class="silder-home-page">-->
++<!--    <img src="../image/Sleepy Cat Slider.jpg" height="910" width="1502"/>-->
+ 
+-<div class="centered">
++<!--<div class="centered">-->
++<!--    <h1>2020 Collection</h1>-->
++<!--    <hr>-->
++<!--    <h2>coming soon</h2>-->
++<!--</div>-->
++    <body id="body">
++    </div>
+     <h1>2020 Collection</h1>
+     <hr>
+     <h2>coming soon</h2>
+-</div>
++    <main>
++        <div id="main1">
++        </div>
++        <div id="placeholdersoyoucanscroll">
+ 
+ 
++    </main>
+ 
+-
++    <script>
++    document.getElementById("body").onscroll = function myFunction() {
++    var scrolltotop = document.scrollingElement.scrollTop;
++    var target = document.getElementById("main1");
++    var xvalue = "center";
++    var factor = 0.5;
++    var yvalue = scrolltotop * factor;
++    target.style.backgroundPosition = xvalue + " " + yvalue + "px";
++    }
++    </script>
+ </body>
+ </html>

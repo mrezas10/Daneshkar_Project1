@@ -1,0 +1,39 @@
+#header-products a:hover{
+    text-decoration: none;
+    color: #a8a802;
+}
+
+.catscarf-products-page a:hover{
+    color: #a8a802;
+
+}
+product-brown-scarf:hover {
+    opacity: 0.7;
+    background: gray;
+}
+.custom-select-size:hover {
+    background-color: #fcf7fb;
+}
+
+
+.neck-length:hover{
+    background-color: #fcf7fb;
+}
+
+.cat-height:hover{
+    background-color: #fcf7fb;
+
+}
+
+
+#add:hover {
+    color: olive;
+}
+#button-inventory:hover{
+    color: olive;
+}
+::selection {
+    background: #f15a22;
+    color: #fff;
+    text-shadow: none;
+}
