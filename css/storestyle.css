@@ -17,6 +17,13 @@
 .shop-rows-title{
     text-align: center;
 }
+.logotype-small{
+    display: block;
+    font-weight: 400;
+    letter-spacing: .5em;
+    font-size: 65%;
+
+}
 h1{
     font-family: "Playfair Display SC", serif;
     font-style: italic;
@@ -24,10 +31,13 @@ h1{
     font-size: 4rem;
 }
 .shop-rows-title h1{
+    letter-spacing: .1em;
     border-bottom: 1px solid #49423b;
+    margin-top: 0;
 }
 p{
-    font-family: "Playfair Display SC", serif;
+    font-family: "alice", serif;
+    font-size: 1.16667rem;
 }
 .shop-rows-items{
     display: flex;
