@@ -1,0 +1,86 @@
+@media screen and (max-width: 1000px) {
+    .shop-container {
+        display: grid;
+        margin: 0 5vw;
+        width: 90vw;
+        grid-template: repeat(2, auto) / 100fr;
+        grid-template-areas: "picture" "ttext";
+    }
+
+    /*hidden header desktop*/
+    #header-products {
+        display: none;
+
+    }
+
+    .lines {
+        visibility: hidden;
+        max-height: 100px;
+    }
+
+    .catscarf-products-page {
+        visibility: hidden;
+        max-height: 100px;
+    }
+
+    /*show header mobile*/
+    .top-navigation-bar.opened {
+        position: relative;
+        max-height: 200px;
+        transition: max-height 0.5s;
+        visibility: visible;
+    }
+
+    .click-icon .icon {
+        display: inline-block;
+
+    }
+
+    .top-navigation-bar.opened a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .logotype-small {
+        font-family: "Playfair Display SC", serif;
+        font-weight: 400;
+        letter-spacing: .5em;
+        font-size: 65%;
+    }
+
+    .squirrel-svg {
+        float: left;
+        height: 50px;
+        width: 50px;
+        margin: 0 .5em;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+
+    .squirrel-logo {
+        height: 50px;
+        width: 50px;
+        margin: 0 .5em;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+}
+
+/*@media screen and (max-width: 650px) {*/
+/*    #header {*/
+/*        visibility: hidden;*/
+/*    }*/
+/*    .avatar-logo {*/
+/*        visibility: visible;*/
+/*    }*/
+/*    .basket {*/
+/*        visibility: visible;*/
+/*    }*/
+/*    .catscarf {*/
+/*        justify-content: left;*/
+/*    }*/
+/*    .lines {*/
+/*        visibility: hidden;*/
+/*    }*/
+/*}*/

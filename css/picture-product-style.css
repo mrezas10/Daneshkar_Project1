@@ -1,0 +1,97 @@
+.gird-main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+
+
+.product-picture {
+    grid-area: picture;
+    width: 100%;
+    /*margin-left: 3rem;*/
+}
+
+#product-brown-scarf{
+    width: 100%;
+}
+
+
+
+/*.product-specifications{*/
+/*    padding: 0 11rem 0 3rem;*/
+/*}*/
+.product-description {
+    font-family: Serif;
+    color: #444444;
+    font-size: 1.09rem;
+}
+
+
+#product-brown-scarf {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    /*z-index: 1; !* Sit on top *!*/
+    padding-top: 0; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    cursor: crosshair;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: 3% auto;
+    display: block;
+    width: 80%;
+    max-width: 80vw;
+    border-radius: 10px;
+}
+
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    /*color: #f1f1f1;*/
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.close:hover,
+.close:focus {
+    /*color: #bbb;*/
+    text-decoration: none;
+    cursor: pointer;
+}

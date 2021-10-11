@@ -1,0 +1,82 @@
+#header-products{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+    gap: 4rem;
+    font-family: Alice, serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0.01rem;
+    opacity: 0.7;
+    margin-top: 0.8rem;
+}
+#header-products a{
+    text-decoration: none;
+    color: #444444;
+}
+
+.avatar-logo-white {
+    width: 6rem;
+    line-height: 2em;
+
+}
+.basket-products-page{position: absolute;
+    right: 1rem;
+    width: 1.5rem;
+    margin-right: 2rem;
+}
+
+.lines {
+    /*width: 100vw;*/
+    /*background: orange;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+.hr-header-products
+{
+    height: 0.5px;
+    margin: 0;
+    /*width: 70rem;*/
+    background-color: silver;
+    border: 0;
+    opacity: 0.5;
+}
+
+.leftline {
+    margin-right: 5rem;
+    width: 14rem;
+}
+.rightline {
+    margin-left: 5rem;
+    width: 15rem;
+}
+
+.catscarf-products-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    letter-spacing: .1em;
+    opacity: .7;
+}
+.catscarf-products-page a {
+    text-decoration: none;
+    color: #444444;
+}
+
+.catscarf-logo-text-products {
+    font-size: 0.65rem;
+    margin-right: 2.5rem;
+    margin-top: .8rem;
+    margin-bottom: 1.5rem;
+    font-weight: lighter;
+}
+
+body{height: 100%;}
+
