@@ -93,6 +93,11 @@ body{height: 100%;}
     transition: max-height .5s;
 }
 
+#scroll-header a {
+    text-decoration: none;
+    color: #444444;
+}
+
 .scroll-hidden {
     max-height: 0;
 }
