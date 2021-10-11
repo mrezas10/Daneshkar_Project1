@@ -1,4 +1,4 @@
-.all-main-cart{
+.main-cart{
     width: 85%;
     margin-left: 7%;
     margin-right: 3%;
@@ -6,7 +6,7 @@
    padding: 0;
 
 }
-.cart-title{
+.main-cart-title{
     font-family: "Playfair Display SC",serif;
     font-style: normal;
     font-weight: lighter;
@@ -18,7 +18,7 @@
 }
 
 
-.table-cart{
+.main-cart-table{
 width: 100%;
  margin: 0;
 
@@ -34,11 +34,13 @@ tbody td{
 }
 
 tbody {
-    border-bottom: 0.001rem solid gray;
+    border-bottom: 0.001rem solid #c7c7c7;
     color: #454340;
+    width: 85vw;
 }
 tfoot{
-    border-bottom: 0.001rem solid gray;
+    border-bottom: 0.001rem solid #c7c7c7;
+    width: 85vw;
     vertical-align: baseline;
     margin: 0;
     padding: 0;
@@ -47,8 +49,8 @@ tfoot{
 
 
 th {
-    border-bottom: 0.001rem solid gray;
-    border-top: 0.001rem solid gray;
+    border-bottom: 0.001rem solid #c7c7c7;
+    border-top: 0.001rem solid #c7c7c7;
     font-size: 0.5rem;
     font-weight: lighter;
     vertical-align: baseline;
@@ -58,33 +60,33 @@ th {
     font-style: normal;
     color: #454340;
 }
-.remove{
+.main-cart-remove{
     width: 5%;
     text-align: left;
 
 
 }
-.image{
+.main-cart-image{
     width: 29%;
     text-align: left;
 }
-.image-scarf{
+.main-cart-image-scarf{
     padding-bottom: 3rem;
     padding-top: 3rem;
 }
-.description{
+.main-cart-description{
     width: 30%;
     text-align: left;
 }
-.price{
+.main-cart-price{
     text-align:right;
     width: 15%;
 }
-.quantity{
+.main-cart-quantity{
     text-align: right;
     width: 10%;
 }
-.total{
+.main-cart-total{
     text-align: right;
     width: 15%;
 }
@@ -99,12 +101,12 @@ th {
     padding-top: 3%;
 
 }
-.pic-scarf{
+.main-cart-image-catscarf{
     width: 7rem;
     text-align: left;
     cursor: pointer;
 }
-.the-squrrel{
+.the-squirrel{
    margin-bottom: 1rem;
     font-size: 1.5rem;
     font-family: "Playfair Display SC",serif;
@@ -112,11 +114,11 @@ th {
     font-weight: lighter;
     cursor: pointer;
 }
-.squrrel-link:hover{
+.squirrel-link:hover{
     color: #c9df52;
 
 }
-.squrrel-link{
+.squirrel-link{
     color: #454340;
     transition:all 0.2s;
     text-decoration: none;
@@ -129,7 +131,7 @@ th {
 .color{
     color: #262626;
 }
-.price-dollar{
+.main-cart-price-dollar{
     font-family: "Playfair Display SC",serif;
     font-style: normal;
     font-weight: lighter;
@@ -144,14 +146,14 @@ td{
 .two-note{
 
 }
-.note-special{
+.note-special-cart{
 padding-bottom: 0;
     padding-top: 0;
     margin-top: 0;
 
 }
 
-.note-yourslef{
+.note-special-cart-yourslef{
     width: 100%;
 
     margin-bottom: 5%;
@@ -163,7 +165,7 @@ padding-bottom: 0;
     min-height: 6em;
 
 }
-.note-up{
+.note-special-cart-top{
     font-family: "Playfair Display SC",serif;
     font-style: normal;
     font-weight: lighter;
@@ -200,7 +202,7 @@ margin-right: 2rem;
 .update-cart:hover{
     color: #c9df52;
 }
-.subtotal{
+.subtotal-cart{
     font-size: 1rem;
     text-align: left;
     display: inline-block;
@@ -213,7 +215,7 @@ margin-right: 2rem;
 
 
 }
-.last-price{
+.last-price-cart{
     text-align: right;
     font-family: "Playfair Display SC",serif;
     font-style: normal;
@@ -250,14 +252,19 @@ button{
     font-family: "Playfair Display SC",serif;
     font-style: normal;
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0;
     padding-top: 2%;
-    transition:all 0.5s;
     color: #474542;
     cursor: pointer;
+    height: 7rem;
 }
-.shopping:hover{
+.shopping a{
+    text-decoration: none;
+    color: #474542;
+    transition:all 0.5s;
+}
+.shopping a:hover{
     color: #c9df52;
 }
 input[type=number]{
@@ -267,21 +274,21 @@ input[type=number]{
     border-radius: 0.5em;
     padding: 0.5em;
 }
-#chose-number{
+#choose-number{
     font-family: "Playfair Display SC",serif;
     font-style: normal;
     font-weight: lighter;
     font-size: 1rem;
 
 }
-.total-price{
+.main-cart-total-price{
     font-family: "Playfair Display SC",serif;
     font-style: normal;
     font-weight: lighter;
     font-size: 1rem;
 
 }
-.cart-update-subtotal{
+.update-subtotal-cart{
     text-align: right;
     padding-bottom: 0;
 }
@@ -291,7 +298,14 @@ input[type=number]{
         display: block;
     }
 
-    th, .price {
+    th, .main-cart-price , .catscarf-header-cart {
+        display: none;
+    }
+
+    #header-cart-black {
+        display: none;
+    }
+    .catscarf{
         display: none;
     }
 
@@ -302,7 +316,7 @@ input[type=number]{
     }
 
 
-    .image, .description, .price, .quantity {
+    .main-cart-image, .main-cart-description, .main-cart-price, .main-cart-quantity {
         width: 100%;
         text-align: left;
         margin: 0;
@@ -310,20 +324,20 @@ input[type=number]{
         padding-bottom: 0;
     }
 
-    .note-yourslef, .note-up {
+    .note-special-cart-yourslef, .note-special-cart-top {
         width: 100%;
     }
 
-    .note-special {
-        border-bottom: 0.001rem solid gray;
+    .note-special-cart {
+        border-bottom: 0.001rem solid #c7c7c7;
         width: 100%;
     }
 
-    .pic-scarf {
+    .main-cart-image-catscarf {
         width: 10rem;
     }
 
-    .the-squrrel {
+    .the-squirrel {
         font-size: 2.2rem;
         padding-bottom: 0;
         padding-top: 0;
@@ -339,28 +353,32 @@ input[type=number]{
 
     }
 
-    .total-price {
+    .main-cart-total-price {
         font-size: 1.8rem;
 
     }
 
-    .total {
+    .main-cart-total {
         padding-bottom: 10%;
         padding-top: 5%;
     }
 
-    .cart-title {
-        font-size: 3rem;
-        border-bottom: 0.001rem solid gray;
+    .main-cart-title {
+        font-size: 4rem;
+        border-bottom: 1px solid #c7c7c7;
+        margin-top: 0;
+        padding-top: 0;
     }
 
-    .note-up {
+    .note-special-cart-top {
         margin-top: 0;
         margin-bottom: 10%;
 
+
+font-size: 2rem;
     }
 
-    .last-price {
+    .last-price-cart {
         text-align: center;
         font-size: 2.5rem;
         margin: 0;
@@ -372,14 +390,32 @@ input[type=number]{
         margin: 0;
     }
 
-    .cart-update-subtotal {
+    .update-subtotal-cart {
         width: 85vw;
 
         text-align: right;
     }
-
-
+    .shopping{
+        height: 5rem;
+        margin-top: 1.9rem;
+        font-size: 1.4rem;
+        font-family: "Playfair Display SC",serif;
+    }
+    .update-cart{
+        font-size: 0.8rem;
+        text-align: left;
+    }
 }
+@media screen and (min-width: 640px){
+.basket-header-cart-mobile{
+    display: none;
+}
+}
+@media screen and (max-width: 450px) {
+    .content-cart-page {
+        overflow-x: hidden ;
+
+    }}
 
 
 
