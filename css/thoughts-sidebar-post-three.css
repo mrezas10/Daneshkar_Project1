@@ -1,0 +1,109 @@
+
+.gird-page {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding-right: 8rem;
+
+
+}
+
+.three-post-twitter {
+    width: 20rem;
+    padding: 1rem;
+}
+.post-twitter-thoughts-page-three {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin-top: 1rem;
+
+}
+
+/*.image-post-three {*/
+
+/*    margin-right: 5rem;*/
+
+/*}*/
+.avatar-twitter-post-three {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50px;
+
+}
+
+.link-id-one-post-three {
+    color: #444444;
+    text-decoration: none;
+
+
+
+}
+.link-id-two-post-three {
+    font-size: 0.7rem;
+    color: #657786;
+    text-decoration: none;
+    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+    font-weight: lighter;
+
+}
+.sidebar-h3 {
+    font-size: 0.7rem;
+    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+    line-height: 0;
+
+
+}
+
+.icon-twitter{
+    margin: 0 0 2rem 0;
+    padding: 0 0 0 1.5rem;
+
+}
+
+div .under-text-id-post-three a{
+    text-decoration: none;
+    color: #2b7bb9;
+    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+
+}
+.under-text-id-post-three {
+    padding: 0.8rem 0 2rem 0;
+    font-size: 0.8rem;
+    /*margin-top: 1.2rem;*/
+    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+
+}
+.main-post-twitter-three {
+    display: grid;
+    grid-template-rows: 3fr 1rem 1rem 1rem;
+    /*width: 20rem;*/
+
+
+}
+.style-image-post-three {
+    /*position: absolute;*/
+    /*clip: rect(4rem,23rem,15rem,0rem);*/
+    border-radius: 0.17rem;
+
+
+
+}
+.sidebar-h2 {
+    font-size: 0.7rem;
+    padding: 0 0 0 1rem;
+    line-height: 0;
+    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+
+}
+
+.line-icon-three {
+    display: grid;
+    grid-template-columns: 3rem 10rem 11rem;
+    color: grey;
+    padding-top: 1rem ;
+}
+
+.date-post-three {
+    text-decoration: none;
+    color: gray;
+}
+

@@ -1,0 +1,118 @@
+Index: JS/dropdwon.js
+===================================================================
+diff --git a/JS/dropdwon.js b/JS/dropdwon.js
+new file mode 100644
+--- /dev/null	
++++ b/JS/dropdwon.js	
+@@ -0,0 +1,8 @@
++function myFunction() {
++    var x = document.getElementById("menu");
++    if (x.className === "topnav") {
++    x.className += " opened";
++} else {
++    x.className = "topnav";
++}
++}
+Index: css/mediaqueri.css
+===================================================================
+diff --git a/css/mediaqueri.css b/css/mediaqueri.css
+new file mode 100644
+--- /dev/null	
++++ b/css/mediaqueri.css	
+@@ -0,0 +1,96 @@
++@media screen and (max-width:1024px){
++    .thoughts-main {
++        /*grid-template: 100fr / 100fr;*/
++        /*grid-template-areas: "posts";*/
++        width: 100vw;
++    }
++    .thoughts-sidebar {
++        visibility: hidden;
++        height: 0;
++        overflow: hidden;
++    }
++    .thoughts-main-posts-hr {
++        height: 1px;
++        background-color: #909090;
++        margin: 2rem 0;
++        border: 0;
++        width: 90%;
++        opacity: 0.5;
++    }
++    #header {
++        visibility: hidden;
++    }
++    .lines {
++        visibility: hidden;
++    }
++    .catscarf-logo {
++        visibility: hidden;
++
++    }
++    #header-moblie {
++        visibility: visible;
++        max-height: 15rem;
++
++    }
++    #menu .topnav{
++        visibility: visible;
++    }
++    .click-icon {
++        display: none;
++    }
++    .thoughts-main-posts-box-title{
++        font-size: 1.5rem;
++
++    }
++    .topnav.opened {
++        position: relative;
++        max-height: 200px;
++        transition: max-height 0.5s;
++        visibility: visible;
++    }
++    .click-icon .icon {
++        display: inline-block;
++
++
++    }
++    .topnav.opened a {
++        float: none;
++        display: block;
++        text-align: center;
++    }
++}
++.logotype-small{
++    font-family: "Playfair Display SC",serif;
++    font-weight: 400;
++    letter-spacing: .5em;
++    font-size: 65%;
++}
++.squirrel-svg{
++    float: left;
++    height: 50px;
++    width: 50px;
++    margin: 0 .5em;
++    cursor: pointer;
++    vertical-align: middle;
++}
++.squirrel-logo {
++    height: 50px;
++    width: 50px;
++    margin: 0 .5em;
++    cursor: pointer;
++    vertical-align: middle;
++}
++
++}
++@media screen and (max-width: 600px) {
++    .thoughts-main-posts-box-title{
++        font-size: 1.5rem;
++
++    }
++    .thoughts-main-posts-box-date{
++
++    }
++
++
++
++}

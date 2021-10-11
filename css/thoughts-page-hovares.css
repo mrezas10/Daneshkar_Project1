@@ -1,0 +1,111 @@
+/*thoughts-page-header*/
+
+#header a:hover{
+    text-decoration: none;
+    color: #a8a802;
+}
+
+#header-thoughts a:hover {
+    color: #a8a802;
+
+}
+.catscarf-thoughts-page a:hover{
+    color: #a8a802;
+
+}
+/*thoughts main page*/
+
+
+
+
+
+
+
+/*thoughts sidebar post one */
+
+.twitter:hover {
+    color:#c7d93b;
+}
+.link-id-one:hover{
+    color: #2b7bb9;
+
+}
+.date-post:hover {
+    color: silver;
+}
+
+.one-post-twitter:hover {
+    background-color: #ecf7fa;
+    border-radius: 0.09rem;
+
+}
+
+
+a .icon--heart:hover {
+    color: indianred;
+    fill: deeppink;
+}
+
+
+
+
+
+
+
+/*thoughts sidebar post two */
+.link-id-one-post-two:hover{
+    color: #2b7bb9;
+
+}
+
+.two-post-twitter:hover {
+    background-color: #ecf7fa;
+    border-radius: 0.09rem;
+
+
+}
+
+/*thoughts sidebar post three */
+.link-id-one-post-three:hover{
+    color: #2b7bb9;
+
+}
+.three-post-twitter:hover {
+    background-color: #ecf7fa;
+    border-radius: 0.09rem;
+
+}
+
+/*recent post sidebar*/
+
+#list-recent-post span:nth-child(odd):hover{
+    color: #c7d93b;
+    text-decoration: none;
+
+}
+
+
+/*main page thoughts*/
+.link-title:hover {
+    color: #c7d93b;
+    text-decoration: none;
+}
+
+.site-video-cat:hover {
+    color: #c7d93b;
+
+}
+.thoughts-main-page-number a:hover {
+    color: #c7d93b;
+
+}
+::selection {
+    background: #f15a22;
+    color: #fff;
+    text-shadow: none;
+}
+
+/*footer thoughts page */
+.footer-logo-text:hover {
+    color: #c7d93b;
+}

@@ -1,0 +1,26 @@
+.recent-post {
+    width: 73%;
+    display: grid;
+    font-family: "Playfair Display SC",serif;
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-top: 0.8rem;
+    line-height: 1.8rem;
+    font-weight: 100;
+    margin-left: 1rem;
+
+}
+#list-recent-post {
+    display: grid;
+    font-size: 1.125rem;
+    font-family: Serif;
+}
+div #list-recent-post a {
+    text-decoration: none;
+    color: #444444;
+}
+#list-recent-post span:nth-child(even){
+    font-size: 0.703125rem;
+    color: silver;
+
+}

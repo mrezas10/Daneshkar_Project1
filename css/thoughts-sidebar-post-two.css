@@ -1,0 +1,92 @@
+.two-post-twitter {
+    width: 20rem;
+    padding: 1rem;
+}
+.post-twitter-thoughts-page-two {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    margin-top: 1rem;
+
+}
+
+.avatar-twitter-post-two {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50px;
+}
+
+.link-id-one-post-two {
+    color: #444444;
+    text-decoration: none;
+
+}
+
+.sidebar-h3 {
+    font-size: 0.7rem;
+    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+    line-height: 0;
+}
+
+.link-id-two-post-two {
+    font-size: 0.7rem;
+    color: #657786;
+    text-decoration: none;
+    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+    font-weight: lighter;
+
+}
+
+.icon-twitter{
+    margin: 0 0 2rem 0;
+    padding: 0 0 0 1.5rem;
+
+}
+.under-text-id-post-two {
+    padding: 0 0 2rem 0;
+    font-size: 0.8rem;
+    /*margin-top: 1.2rem;*/
+    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+
+}
+div .under-text-id-post-two a{
+    text-decoration: none;
+    color: #2b7bb9;
+    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+
+}
+.main-post-twitter-two {
+    display: grid;
+    grid-template-rows: 3fr 1rem 1rem 1rem;
+    /*width: 20rem;*/
+
+}
+
+.style-image-post-two {
+    margin-right: 5rem;
+
+}
+.picture-post-two-twitter {
+    /*position: absolute;*/
+    /*clip: rect(4rem,23rem,15rem,0rem);*/
+    border-radius: 0.17rem;
+
+}
+
+.line-icons-two {
+    display: grid;
+    grid-template-columns: 3rem 10rem 11rem;
+    color: grey;
+    padding-top: 1rem ;
+}
+
+.date-post-two {
+    text-decoration: none;
+    color: gray;
+}
+
+time {
+    /*line-height: 3rem;*/
+    margin-left: 2.1rem;
+    font-size: 0.8rem;
+    font-family: Helvetica,Roboto,"Segoe UI",Calibri,sans-serif;
+}

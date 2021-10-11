@@ -1,0 +1,88 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\" xmlns=\"http://www.w3.org/1999/html\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n\r\n    <meta name=\"viewport\"\r\n          content=\"width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0\">\r\n\r\n    <link rel=\"stylesheet\" href=\"css/global.css\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\r\n    <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\r\n    <link href=\"https://fonts.googleapis.com/css2?family=Alice&family=Sacramento&family=Playfair+Display+SC:wght@400;700&display=swap\" rel=\"stylesheet\">\r\n\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n<div class=\"preload\">\r\n    <img class=\"preload-img\" src=\"img/img_preloader.gif\" alt=\"preload\">\r\n</div>\r\n<div class=\"shop-main-container\">\r\n    <div id=\"header\">\r\n        <a class=\"shop\">Shop</a>\r\n        <a class=\"About\">About</a>\r\n        <img  class=\"avatar-logo\"  src=\"img/catscarfwhite.jpeg\" >\r\n        <a class=\"thoughts\">Thoughts</a>\r\n        <a class=\"contact\">Contact</a>\r\n        <img class=\"basket\" src=\"https://img.icons8.com/office/16/000000/shopping-cart.png\"/>\r\n    </div>\r\n    <div class=\"lines\">\r\n        <hr class=\"hr-header leftline\">\r\n        <hr class=\"hr-header rightline\">\r\n    </div>\r\n    <div class=\"catscarf\">\r\n        <span class=\"catscarf-logo\">C A T S C A R F</span>\r\n    </div>\r\n    <div class=\"shop-container\">\r\n        <div class=\"product-picture\">\r\n            <img id=\"product-green-scarf\" src=\"img/green%20scarf.jpg\" alt=\"green scarf\"/>\r\n            <div id=\"myModal\" class=\"modal\">\r\n                <span class=\"close\">&times;</span>\r\n                <img class=\"modal-content\" id=\"img01\">\r\n            </div>\r\n        </div>\r\n        <div class=\"shop-product\">\r\n            <div class=\"shop-product-text\">\r\n                <h2 class=\"shop-product-text-caption\">The Clyde</h2>\r\n                <div class=\"shop-product-text-socials\">\r\n                    <a href=\"https://google.com\">\r\n                        <img class=\"shop-product-text-socials-icons\" src=\"img/twitter-brands.svg\" alt=\"Twitter\">\r\n                    </a>\r\n                    <a href=\"https://google.com\">\r\n                        <img class=\"shop-product-text-socials-icons\" src=\"img/facebook-brands.svg\" alt=\"Facebook\">\r\n                    </a>\r\n                    <a href=\"https://google.com\">\r\n                        <img class=\"shop-product-text-socials-icons\" src=\"img/pinterest-brands.svg\" alt=\"Pinterest\">\r\n                    </a>\r\n                </div>\r\n                <hr>\r\n                <h3 class=\"shop-product-text-description\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut enim eum, ex expedita nulla numquam obcaecati optio repudiandae voluptatibus.</h3>\r\n                <div class=\"shop-product-text-preview\">\r\n                    <img class=\"shop-product-text-preview-selected\" src=\"img/brown.jpg\" alt=\"\">\r\n                    <img class=\"shop-product-text-preview-image\" src=\"img/cream.jpg\" alt=\"\">\r\n                    <img class=\"shop-product-text-preview-image\" src=\"img/olive.jpg\" alt=\"\">\r\n                    <img class=\"shop-product-text-preview-image\" src=\"img/salt_and_pep.jpg\" alt=\"\">\r\n                </div>\r\n                <div>\r\n                    <form>\r\n                        <label for=\"shop-product-text-color\"></label>\r\n                        <select class=\"custom-select-size\" name=\"shop-product-text-color\" id=\"shop-product-text-color\">\r\n                            <option value=\"0\">Brown</option>\r\n                            <option value=\"1\">Cream</option>\r\n                            <option value=\"2\">Olive</option>\r\n                            <option value=\"3\">salt & Pepper</option>\r\n                        </select>\r\n                    </form>\r\n                </div>\r\n                <h3 class=\"shop-product-text-price\">$39.00</h3>\r\n                <hr>\r\n            </div>\r\n            <div class=\"product-specifications\">\r\n                <!--        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquid assumenda commodi, esse facilis illum libero magni maxime perspiciatis quae rem sapiente sit unde veniamLorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquid assumenda commodi, esse facilis illum libero magni maxime perspiciatis quae rem sapiente sit unde veniamLorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquid assumenda commodi, esse facilis illum libero magni maxime perspiciatis quae rem sapiente sit unde veniam. Accusamus eos harum inventore nesciunt officiis. Illum, iusto, repudiandae! Blanditiis, deleniti dolorem esse fugit incidunt ipsum magni mollitia neque nihil obcaecati possimus quam sit voluptatum? Ab aliquam animi debitis ipsam laudantium nisi quo quod! Consequuntur deleniti excepturi illo impedit inventore pariatur, quia, quod sapiente sunt unde veniam voluptatem? Amet asperiores eius error facilis officia. Ab cum debitis dolorum, ea facere facilis iste, libero neque praesentium, quidem quis quod. Accusamus adipisci aut consequatur dolor ea eaque est eveniet facere hic in itaque laudantium mollitia nam natus necessitatibus neque nobis nulla numquam, odit porro quae quaerat quidem, quo rem rerum, temporibus veritatis voluptatibus. Aliquam beatae deleniti error impedit neque non obcaecati possimus praesentium quaerat, quasi repellendus tempora, tenetur unde vel velit voluptate voluptates. Accusantium aliquam error odit reprehenderit suscipit! Accusamus consequatur dolorem eligendi facilis iusto magni reprehenderit sed ut. Cum debitis dolorum ea, enim ex expedita nobis non, numquam odio odit omnis placeat quasi quia quidem quod ratione rem reprehenderit, sint tempore vero. Accusantium cum eligendi facilis libero modi nesciunt quam quas quo quos voluptates? Tenetur!</p>-->\r\n                <div class=\"product-description\">\r\n                    If you're unsure of your cat's measurements check out our handy <a href=\"https://www.catscarf.com/pages/measuring-your-cat\">measurement guide.</a>\r\n                </div>\r\n\r\n                <div class=\"box-selected\">\r\n                    <select class=\"custom-select-size\">\r\n                        <option data-value=\"0\" selected>Size: (required)</option>\r\n                        <option data-value=\"1\">Baby (6in. or less)</option>\r\n                        <option data-value=\"2\">Kitten (6-8in.)</option>\r\n                        <option data-value=\"3\">Small (8-10in.)</option>\r\n                        <option data-value=\"4\">Medium (10-12in.)</option>\r\n                        <option data-value=\"5\">Large (12-14in.)</option>\r\n                        <option data-value=\"6\">XLarge (More than 14in.)</option>\r\n                    </select>\r\n                </div>\r\n\r\n                <div>\r\n                    <select class=\"neck-length\">\r\n                        <option data-value=\"0\" selected>Neck length</option>\r\n                        <option data-value=\"1\">1in.</option>\r\n                        <option data-value=\"2\">2in.</option>\r\n                        <option data-value=\"3\">3in.</option>\r\n                        <option data-value=\"4\">4in.</option>\r\n                        <option data-value=\"5\">5in.</option>\r\n                        <option data-value=\"6\">6in.</option>\r\n                        <option data-value=\"7\">7in.</option>\r\n                    </select>\r\n                </div>\r\n\r\n                <div>\r\n                    <select class=\"cat-height\">\r\n                        <option data-value=\"0\" selected>Cat Height</option>\r\n                        <option data-value=\"1\">7in. or less</option>\r\n                        <option data-value=\"2\">7in.</option>\r\n                        <option data-value=\"3\">8in.</option>\r\n                        <option data-value=\"4\">9in.</option>\r\n                        <option data-value=\"5\">10in.</option>\r\n                        <option data-value=\"6\">11in.</option>\r\n                        <option data-value=\"6\">12in.</option>\r\n                        <option data-value=\"6\">13in.</option>\r\n                        <option data-value=\"6\">13in. or more</option>\r\n                    </select>\r\n                </div>\r\n                <hr>\r\n                <div id=\"product-add\">\r\n                    <button type=\"submit\" name=\"add\" id=\"add\" style=\"opacity: 1;\">add to cart</button>\r\n                    <button id=\"button-inventory\">Notify me when back in stock</button>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <footer id=\"myFooter\">\r\n        <div class=\"catscarf-logo-footer\">\r\n            <img class=\"arrengement\" src=\"catscarf.jpg\">\r\n\r\n            <p class=\"logo-text\">C A T S C A R F</p>\r\n        </div>\r\n        <div class=\"icons\">\r\n            <a href=\"mailto:concierge@catscraf.com\"><img class=\"icons-picture\" src=\"https://img.icons8.com/ios/16/000000/new-post.png\"/></a>\r\n            <a href=\"https://www.instagram.com/accounts/login/\"><img class=\"icons-picture\" src=\"https://img.icons8.com/small/16/000000/instagram-new.png\"/></a>\r\n            <a href=\"https://twitter.com/catscarf\"><img class=\"icons-picture\" src=\"https://img.icons8.com/ios/16/000000/twitter--v1.png\"/></a>\r\n        </div>\r\n        <div class=\"text-description\">\r\n            <p>A portion of every CatScarf goes to help animals in need</p></div>\r\n\r\n        <div class=\"footer-copyright\">\r\n            <p>© 2015 CATSCARF </p>\r\n            <div class=\"login\">\r\n                <a class=\"login-text\">EMAIL ME WHEN AVAILABLE</a></div>\r\n        </div>\r\n    </footer>\r\n</div>\r\n\r\n</body>\r\n\r\n<script src=\"java%20script/close-image.js\"> </script>\r\n</html>
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	
++++ b/index.html	
+@@ -147,7 +147,7 @@
+         <div class="footer-copyright">
+             <p>© 2015 CATSCARF </p>
+             <div class="login">
+-                <a class="login-text">EMAIL ME WHEN AVAILABLE</a></div>
++                <a href="login.html" class="login-text" target="_blank">EMAIL ME WHEN AVAILABLE</a></div>
+         </div>
+     </footer>
+ </div>
+Index: css/products.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.gird-main {\r\n    display: grid;\r\n    grid-template-columns: repeat(2,1fr);\r\n    grid-gap: 1rem;\r\n}\r\n\r\n\r\n.product-picture {\r\n    width: 100%;\r\n    height: 200%;\r\n    margin-left: 3rem;\r\n}\r\n\r\n#product-green-scarf{\r\n    width: 100%;\r\n    height: 50%;\r\n}\r\n\r\n#product-green-scarf:hover {\r\n    background: grey;\r\n}\r\n\r\n.product-specifications{\r\n    width: 100%;\r\n}\r\n.product-description {\r\n    font-family: Serif;\r\n    color: #444444;\r\n    font-size: 1.09rem;\r\n}\r\n\r\n\r\n#product-green-scarf {\r\n    border-radius: 5px;\r\n    cursor: pointer;\r\n    transition: opacity 0.3s;\r\n}\r\n\r\n#product-green-scarf:hover {opacity: 0.7;}\r\n\r\n/* The Modal (background) */\r\n.modal {\r\n    display: none; /* Hidden by default */\r\n    position: fixed; /* Stay in place */\r\n    /*z-index: 1; !* Sit on top *!*/\r\n    padding-top: 0; /* Location of the box */\r\n    left: 0;\r\n    top: 0;\r\n    width: 100%; /* Full width */\r\n    height: 100%; /* Full height */\r\n    overflow: auto; /* Enable scroll if needed */\r\n    cursor: crosshair;\r\n\r\n}\r\n\r\n/* Modal Content (image) */\r\n.modal-content {\r\n    margin: auto;\r\n    display: block;\r\n    width: 80%;\r\n    max-width: 700px;\r\n}\r\n\r\n\r\n/* Add Animation */\r\n.modal-content, #caption {\r\n    -webkit-animation-name: zoom;\r\n    -webkit-animation-duration: 0.6s;\r\n    animation-name: zoom;\r\n    animation-duration: 0.6s;\r\n}\r\n\r\n@-webkit-keyframes zoom {\r\n    from {-webkit-transform:scale(0)}\r\n    to {-webkit-transform:scale(1)}\r\n}\r\n\r\n@keyframes zoom {\r\n    from {transform:scale(0)}\r\n    to {transform:scale(1)}\r\n}\r\n\r\n/* The Close Button */\r\n.close {\r\n    position: absolute;\r\n    top: 15px;\r\n    right: 35px;\r\n    /*color: #f1f1f1;*/\r\n    font-size: 40px;\r\n    font-weight: bold;\r\n    transition: 0.5s;\r\n}\r\n\r\n.close:hover,\r\n.close:focus {\r\n    /*color: #bbb;*/\r\n    text-decoration: none;\r\n    cursor: pointer;\r\n}\r\n\r\n/*div .box-selected{*/\r\n/*    font-family: 'Alice', serif;*/\r\n/*    font-size: 1.2rem;*/\r\n\r\n/*}*/\r\n\r\n.custom-select-size {\r\n    margin: 1rem 0 0.5rem 0;\r\n    background-color: white;\r\n    text-align: left;\r\n    padding: 0.5rem;\r\n    width: 17rem;\r\n    height: 3rem;\r\n    border: 0.03rem silver solid;\r\n    border-radius: 0.20rem;\r\n    font-family: 'Alice', serif;\r\n    font-size: 1.1rem;\r\n    color: #333333;\r\n    /*z-index: 99;*/\r\n}\r\n.custom-select-size:hover {\r\n    background-color: #fcf7fb;\r\n}\r\n\r\n.neck-length {\r\n    margin: 0 0 0.5rem 0;\r\n    background-color: white;\r\n    text-align: left;\r\n    padding: 0.5rem;\r\n    width: 17rem;\r\n    height: 3rem;\r\n    border: 0.03rem silver solid;\r\n    border-radius: 0.20rem;\r\n    font-family: 'Alice', serif;\r\n    font-size: 1.1rem;\r\n    color: #333333;\r\n\r\n}\r\n.neck-length:hover{\r\n    background-color: #fcf7fb;\r\n}\r\n\r\n.cat-height {\r\n    margin: 0 0 0.5rem 0;\r\n    background-color: white;\r\n    text-align: left;\r\n    padding: 0.5rem;\r\n    width: 17rem;\r\n    height: 3rem;\r\n    border: 0.03rem silver solid;\r\n    border-radius: 0.20rem;\r\n    font-family: 'Alice', serif;\r\n    font-size: 1.1rem;\r\n    color: #333333;\r\n\r\n}\r\n.cat-height:hover{\r\n    background-color: #fcf7fb;\r\n\r\n}\r\nhr {\r\n    /*margin: 2rem 0 2rem 0;*/\r\n    color: gainsboro;\r\n}\r\n#add {\r\n    color: #262626;\r\n    font-family: Sacramento,sans-serif;\r\n    font-size: 4rem;\r\n    display: block;\r\n    background: none;\r\n    border: none;\r\n\r\n}\r\n#button-inventory {\r\n    color: #262626;\r\n    font-family: Sacramento,sans-serif;\r\n    font-size: 2rem;\r\n    display: block;\r\n    background: none;\r\n    border: none;\r\n}\r\n\r\n#add:hover {\r\n    color: olive;\r\n}\r\n#button-inventory:hover{\r\n    color: olive;\r\n}
+===================================================================
+diff --git a/css/products.css b/css/products.css
+--- a/css/products.css	
++++ b/css/products.css	
+@@ -185,4 +185,61 @@
+ }
+ #button-inventory:hover{
+     color: olive;
++}
++
++/*opne close email*/
++
++.modal {
++    display: none; /* Hidden by default */
++    position: fixed; /* Stay in place */
++    z-index: 1; /* Sit on top */
++    padding-top: 100px; /* Location of the box */
++    left: 0;
++    top: 0;
++    width: 100%; /* Full width */
++    height: 100%; /* Full height */
++    overflow: auto; /* Enable scroll if needed */
++    background-color: rgb(0,0,0); /* Fallback color */
++    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
++}
++
++/* Modal Content */
++.modal-content {
++    position: relative;
++    background-color: #fefefe;
++    margin: auto;
++    padding: 0;
++    border: 1px solid #888;
++    width: 80%;
++    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
++    -webkit-animation-name: animatetop;
++    -webkit-animation-duration: 0.4s;
++    animation-name: animatetop;
++    animation-duration: 0.4s
++}
++
++/* Add Animation */
++@-webkit-keyframes animatetop {
++    from {top:-300px; opacity:0}
++    to {top:0; opacity:1}
++}
++
++@keyframes animatetop {
++    from {top:-300px; opacity:0}
++    to {top:0; opacity:1}
++}
++
++/* The Close Button */
++.close {
++    color: white;
++    float: right;
++    font-size: 28px;
++    font-weight: bold;
++}
++
++.close:hover,
++.close:focus {
++    color: #000;
++    text-decoration: none;
++    cursor: pointer;
+ }
+\ No newline at end of file

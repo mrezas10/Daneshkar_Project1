@@ -1,0 +1,174 @@
+.text-twitter {
+    margin-top: 5rem;
+}
+
+.twitter {
+    text-decoration: none;
+    font-family: 'Playfair Display SC', serif;
+    color: #444444;
+    font-size: 1.44rem;
+    padding-top: 5rem;
+
+}
+
+.one-post-twitter {
+    width: 20rem;
+    /*margin-top: 3rem;*/
+    padding: 1rem;
+}
+
+.post-twitter-thoughts-page-one {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+
+}
+
+.avatar-twitter {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50px;
+
+}
+
+.link-id-one {
+    color: #444444;
+    text-decoration: none;
+}
+
+.sidebar-h3 {
+    font-size: 0.7rem;
+    font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+    line-height: 0;
+
+}
+
+.link-id-two {
+    font-size: 0.7rem;
+    color: #657786;
+    text-decoration: none;
+    font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+    font-weight: lighter;
+
+}
+
+.iconify-inline {
+    margin: 0 0 2rem 0;
+    padding: 0 0 0 1.5rem;
+
+}
+
+.under-text-id {
+    padding: 0 0 2rem 0;
+    font-size: 0.8rem;
+    /*margin-top: 1.2rem;*/
+    font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+
+}
+
+div .under-text-id a {
+    text-decoration: none;
+    color: #2b7bb9;
+    font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+
+}
+
+.main-post-twitter {
+    display: grid;
+    grid-template-rows: 3fr 1rem 1rem 1rem;
+    /*width: 20rem;*/
+
+
+}
+
+.style-image-post-one {
+    border: 0.02rem gainsboro solid;
+    border-radius: 1rem;
+    margin-right: 10rem;
+
+}
+
+.picture-post-twitter {
+    /*position: absolute;*/
+    /*clip: rect(4rem,23rem,15rem,0rem);*/
+    border-radius: 1rem 1rem 0 0;
+
+}
+
+.sidebar-h2 {
+    font-size: 0.7rem;
+    padding: 0 0 0 1rem;
+    line-height: 0;
+    font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+
+}
+
+.text-post-twitter {
+    font-size: 0.7rem;
+    padding: 0 0 0 1rem;
+    font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+
+}
+
+.url-people {
+    text-decoration: none;
+    color: grey;
+    display: block;
+    font-size: 0.7rem;
+    padding: 0.2rem 0 1rem 1rem;
+    font-family: Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+
+}
+
+.line-icon {
+    display: grid;
+    grid-template-columns: 3rem 10rem 11rem;
+    color: grey;
+    padding-top: 1rem;
+}
+
+
+.icon--heart {
+    width: .98611em;
+    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20class%3D%22icon%22%20fill%3D%22%23657786%22%20d%3D%22M12%2021.638h-.014C9.403%2021.59%201.95%2014.856%201.95%208.478c0-3.064%202.525-5.754%205.403-5.754%202.29%200%203.83%201.58%204.646%202.73.813-1.148%202.353-2.73%204.644-2.73%202.88%200%205.404%202.69%205.404%205.755%200%206.375-7.454%2013.11-10.037%2013.156H12zM7.354%204.225c-2.08%200-3.903%201.988-3.903%204.255%200%205.74%207.035%2011.596%208.55%2011.658%201.52-.062%208.55-5.917%208.55-11.658%200-2.267-1.822-4.255-3.902-4.255-2.528%200-3.94%202.936-3.952%202.965-.23.562-1.156.562-1.387%200-.015-.03-1.426-2.965-3.955-2.965z%22%2F%3E%3C%2Fsvg%3E);
+}
+.icon-like-twitter {
+    display: inline-block;
+    height: 1.25em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: text-bottom;
+}
+
+.icon--share {
+    width: .98611em;
+    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20class%3D%22icon%22%20fill%3D%22%23657786%22%20d%3D%22M21.78%2011.47l-5.14-5.14c-.292-.292-.767-.292-1.06%200s-.293.77%200%201.062l3.858%203.858H8.918c-.415%200-.75.336-.75.75s.335.75.75.75h10.52l-3.857%203.858c-.29.293-.29.768%200%201.06.148.147.34.22.53.22s.386-.072.53-.22l5.14-5.138c.294-.293.294-.767%200-1.06z%22%2F%3E%3Cpath%20class%3D%22icon%22%20fill%3D%22%23657786%22%20d%3D%22M9.944%2020.5H4.292c-.437%200-.792-.355-.792-.792V4.292c0-.437.355-.792.792-.792h5.652c.414%200%20.75-.336.75-.75S10.358%202%209.944%202H4.292C3.028%202%202%203.028%202%204.292v15.416C2%2020.972%203.028%2022%204.292%2022h5.652c.414%200%20.75-.336.75-.75s-.336-.75-.75-.75z%22%2F%3E%3C%2Fsvg%3E);
+}
+.icon-share-twitter {
+    display: inline-block;
+    height: 1.25em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: text-bottom;
+}
+.icon-twitter{
+    -webkit-text-size-adjust: 100%;
+    direction: ltr;
+    font: normal normal 14px/1.4 Helvetica, Roboto, "Segoe UI", Calibri, sans-serif;
+    color: #292F33;
+    white-space: initial;
+    list-style: none;
+    cursor: pointer;
+    font-size: 15.4px;
+    display: inline-block;
+    height: 1.25em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: text-bottom;
+    width: 1.25em;
+    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2072%2072%22%3E%3Cpath%20fill%3D%22none%22%20d%3D%22M0%200h72v72H0z%22%2F%3E%3Cpath%20class%3D%22icon%22%20fill%3D%22%23e1e8ed%22%20d%3D%22M68.812%2015.14c-2.348%201.04-4.87%201.744-7.52%202.06%202.704-1.62%204.78-4.186%205.757-7.243-2.53%201.5-5.33%202.592-8.314%203.176C56.35%2010.59%2052.948%209%2049.182%209c-7.23%200-13.092%205.86-13.092%2013.093%200%201.026.118%202.02.338%202.98C25.543%2024.527%2015.9%2019.318%209.44%2011.396c-1.125%201.936-1.77%204.184-1.77%206.58%200%204.543%202.312%208.552%205.824%2010.9-2.146-.07-4.165-.658-5.93-1.64-.002.056-.002.11-.002.163%200%206.345%204.513%2011.638%2010.504%2012.84-1.1.298-2.256.457-3.45.457-.845%200-1.666-.078-2.464-.23%201.667%205.2%206.5%208.985%2012.23%209.09-4.482%203.51-10.13%205.605-16.26%205.605-1.055%200-2.096-.06-3.122-.184%205.794%203.717%2012.676%205.882%2020.067%205.882%2024.083%200%2037.25-19.95%2037.25-37.25%200-.565-.013-1.133-.038-1.693%202.558-1.847%204.778-4.15%206.532-6.774z%22%2F%3E%3C%2Fsvg%3E);
+}
+
+.date-post {
+    text-decoration: none;
+    color: #2b7bb9;
+}

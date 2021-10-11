@@ -1,0 +1,93 @@
+
+#header-thoughts{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+    gap: 4rem;
+    font-family: Alice, serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    letter-spacing: 0.01rem;
+    opacity: 0.7;
+    margin-top: 0.8rem;
+}
+#header-thoughts a{
+    text-decoration: none;
+    color: #444444;
+}
+
+#header-thoughts .thoughts a{
+    color: olive;!important;
+}
+
+.avatar-logo-white {
+    width: 6rem;
+    line-height: 2em;
+
+}
+.basket-thoughts-page{position: absolute;
+    right: 1rem;
+    width: 1.5rem;
+    margin-right: 2rem;
+}
+
+.lines {
+    /*width: 100vw;*/
+    /*background: orange;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+.hr-header-thoughts
+{
+    height: 0.5px;
+    margin: 0;
+    /*width: 70rem;*/
+    background-color: silver;
+    border: 0;
+    opacity: 0.5;
+}
+
+.leftline {
+    margin-right: 5rem;
+    width: 14rem;
+}
+.rightline {
+    margin-left: 5rem;
+    width: 15rem;
+}
+
+.catscarf-thoughts-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    letter-spacing: .1em;
+    opacity: .7;
+}
+.catscarf-thoughts-page a {
+    text-decoration: none;
+    color: #444444;
+}
+
+.catscarf-logo-text-thoughts {
+    font-size: 0.65rem;
+    margin-right: 2.5rem;
+    margin-top: .8rem;
+    margin-bottom: 1.5rem;
+    font-weight: lighter;
+}
+
+body{height: 100%;}
+
+
+
+/*.arrengement {*/
+/*    margin-bottom: 1rem;*/
+/*    font-weight: 100;*/
+/*}*/
