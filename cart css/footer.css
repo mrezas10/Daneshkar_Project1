@@ -7,14 +7,14 @@
 
 #footer-cart-page .copyright-footer {
     background-color: #995f12;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: center;
     font-family: "Playfair Display SC",serif;
     font-weight: normal;
 }
 #footer-cart-page .copyright-footer p {
     margin-bottom: 5px;
-    padding-top: 20px;
+    padding-top: 10px;
     font-weight: lighter;
     font-size: 0.6rem;
     color: #ccc;
