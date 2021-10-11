@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 1141px) {
-    .thoughts-main {
+    .thoughts-main-page {
         grid-template: 100fr / 100fr;
         grid-template-areas: "posts";
     }
@@ -111,6 +111,84 @@
     }
 }
 @media screen and (max-width: 570px){
+    .thoughts-picture {
+        width: 100%;
+        height: 30vh;
+        background: url("../img/img_blog_header.jpg");
+        background-size: 100%;
+        background-position-y: center;
+        /*object-fit: cover;*/
+        display: flex;
+        /*flex-direction: column;*/
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        /*margin: 1.2rem 0;*/
+    }
+
+    .thoughts-picture-text {
+        font-family: "Sacramento", Serif;
+        font-size: 3rem;
+        color: white;
+    }
+
 
 }
 
+@media screen and (max-width: 418px){
+    .thoughts-picture {
+        width: 100%;
+        height: 27vh;
+        background: url("../img/img_blog_header.jpg");
+        background-size: 100%;
+        background-position-y: center;
+        /*object-fit: cover;*/
+        display: flex;
+        /*flex-direction: column;*/
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        /*margin: 1.2rem 0;*/
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .thoughts-picture {
+        width: 100%;
+        height: 50%;
+        background: url("../img/img_blog_header.jpg");
+        background-size: 100%;
+        background-position-y: center;
+        /*object-fit: cover;*/
+        display: flex;
+        /*flex-direction: column;*/
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+        /*margin: 1.2rem 0;*/
+    }
+
+}
+@media screen and (max-width: 307px){
+.thoughts-picture {
+    width: 100%;
+    height: 19vh;
+    background: url("../img/img_blog_header.jpg");
+    background-position-y: 0%;
+    background-size: auto;
+    background-size: 100%;
+    background-position-y: center;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    margin: 1.2rem 0;
+}
+}

@@ -39,6 +39,56 @@
     border-radius: 0.09rem;
 
 }
+/*.icon-cont{*/
+/*    height:300px;*/
+/*    width:300px;*/
+/*    background-color: #ff0000;*/
+/*    text-align:center;*/
+/*}*/
+/*.icon-cont:hover{*/
+/*    background-color: transparent;*/
+/*}*/
+/*.icon-cont:hover .icon,*/
+/*.icon-cont:hover .icon::before,*/
+/*.icon-cont:hover .icon::after*/
+/*{*/
+/*    border-color:#ff0000;*/
+/*}*/
+/*.icon{*/
+/*    height:0px;*/
+/*    border-bottom:2px solid #fff;*/
+/*    width:60%;*/
+/*    line-height:300px;*/
+/*    position: relative;*/
+/*    margin:auto;*/
+/*    top:50%;*/
+/*}*/
+/*.icon::before{*/
+/*    content:"";*/
+/*    position: absolute;*/
+/*    top:0;*/
+/*    bottom: 0;*/
+/*    left:-30px;*/
+/*    margin:auto;*/
+/*    height:20px;*/
+/*    width:20px;*/
+/*    border:2px solid #fff;*/
+/*    border-radius:50px;*/
+/*}*/
+
+/*.icon::after{*/
+/*    content:"";*/
+/*    position: absolute;*/
+/*    top:0;*/
+/*    bottom: 0;*/
+/*    right:-30px;*/
+/*    margin:auto;*/
+/*    height:20px;*/
+/*    width:20px;*/
+/*    border:2px solid #fff;*/
+/*    border-radius:50px;*/
+/*}*/
+
 
 
 /*thoughts sidebar post two */
