@@ -3,13 +3,13 @@ body {
     margin: 0;
     font-family: Alice,serif;
 }
-.topnav {
+.top-nav {
     transition: max-height .5s;
     max-height: 0;
     overflow: hidden;
     background-color: #ffff;
 }
-.topnav a {
+.top-nav a {
  /*   float: left;*/
     display: block;
     color: black ;
@@ -20,7 +20,7 @@ body {
     border-bottom: 1px solid rgba(0,0,0,.1);
     z-index: 10;
 }
-.topnav a.active {
+.top-nav a.active {
     background-color: #04AA6D;
     color: white;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 @media screen and (min-width: 600px) {
-    .topnav{
+    .top-nav{
         display: none;
     }
 }
@@ -58,7 +58,7 @@ body {
 }
 
 @media screen and (max-width: 650px) {
-    .topnav.opened {
+    .top-nav.opened {
         position: relative;
         max-height: 200px;
         transition: max-height 0.5s;
@@ -70,7 +70,7 @@ body {
 
 
     }
-    .topnav.opened a {
+    .top-nav.opened a {
         float: none;
         display: block;
         text-align: center;

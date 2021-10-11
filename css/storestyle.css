@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-.shopwrapper{
+.shop-wrapper{
     display: flex;
     flex-direction: column;
     gap: 4rem;
     overflow: hidden;
 }
-.shoprows{
+.shop-rows{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
 }
-.rowtitle{
+.shop-rows-title{
     text-align: center;
 }
 h1{
@@ -23,43 +23,43 @@ h1{
     font-weight: 400;
     font-size: 4rem;
 }
-.rowtitle h1{
+.shop-rows-title h1{
     border-bottom: 1px solid #49423b;
 }
 p{
     font-family: "Playfair Display SC", serif;
 }
-.rowitems{
+.shop-rows-items{
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
 }
-.shopitem{
+.shop-rows-item {
     width: 22.5rem;
     height: 30rem;
 }
 img{
     max-width: 100%;
 }
-.shopitem:hover .overlay{
+.shop-rows-item:hover .overlay{
     visibility: visible;
 }
 @media screen and (max-width: 1166px){
-    .shopitem:hover .overlay{
+    .shop-rows-item:hover .overlay{
         display: none;
     }
-    .shopwrapper{
+    .shop-wrapper {
         align-items: center;
     }
-    .shoprows{
+    .shop-rows {
         align-content: center;
     }
-    .rowitems{
+    .shop-rows-items {
         flex-direction: column;
         align-items: center;
     }
-    .shopitem{
+    .shop-rows-item {
         align-items: center;
     }
 }

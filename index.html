@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main-page.css">
     <title>Main page</title>
     <style>
 
@@ -18,8 +18,8 @@
     <img class="preload-img" src="img/img_preloader.gif" alt="preload">
 </div>
 <div id="transparent-header">
-    <div class="transparent-header-sections"> <a class="shop" onclick='let shop = document.querySelector("#group3");shop.scrollIntoView({behavior : "smooth" , block : "end"});'>Shop</a> </div>
-    <div class="transparent-header-sections" ><a class="About" onclick='let about = document.querySelector("#group7");about.scrollIntoView({behavior : "smooth" , block : "end"});'>About</a></div>
+    <div class="transparent-header-sections"> <a onclick='let shop = document.querySelector("#main-page-shop");shop.scrollIntoView({behavior : "smooth" , block : "end"});'>Shop</a> </div>
+    <div class="transparent-header-sections" ><a onclick='let about = document.querySelector("#main-page-about");about.scrollIntoView({behavior : "smooth" , block : "end"});'>About</a></div>
     <svg class="transparent-squirrel-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 129.213 76.525" enable-background="new 0 0 129.213 76.525" xml:space="preserve">
 <path class="squirrel-logo" fill="#ffff" d="M125.11,20.72c-0.062-0.137,0.296-0.255,0.17-0.339c-0.106-0.246-0.735-0.904-0.737-0.906
   c-0.127-0.375-0.247-0.689-0.33-1.085c-0.082-0.388-0.157-0.763-0.224-1.268c-0.03-0.221-0.062-0.424-0.088-0.646l-0.018-0.139
@@ -200,24 +200,24 @@
   c0.013,0.11,0.024,0.222,0.039,0.33c0.048,0.383,0.114,0.887,0.213,1.394c0.097,0.487,0.208,0.928,0.345,1.348
   c0.039,0.122,0.09,0.236,0.135,0.356C123.267,20.209,123.181,20.219,123.095,20.239z"></path>
 </svg>
-    <div class="transparent-header-sections" > <a class="thoughts">Thoughts</a> </div>
-    <div class="transparent-header-sections" > <a class="contact" onclick='let contact = document.querySelector("#group9");contact.scrollIntoView({behavior : "smooth" , block : "end"});'>Contact</a> </div>
+    <div class="transparent-header-sections" > <a>Thoughts</a> </div>
+    <div class="transparent-header-sections" > <a onclick='let contact = document.querySelector("#main-page-contact");contact.scrollIntoView({behavior : "smooth" , block : "end"});'>Contact</a> </div>
     <img class="transparent-basket" src="https://img.icons8.com/office/16/000000/shopping-cart.png"/>
     <div class="catscarf-type-container">
         <span class="catscarf-type-logo">C A T S C A R F</span>
     </div>
 </div>
-<div id="header-mobile" class="hidden">
-    <div id="header">
-        <a class="shop" onclick='let shop = document.querySelector("#group3");shop.scrollIntoView({behavior : "smooth" , block : "end"});'>Shop</a>
-        <a class="About" onclick='let about = document.querySelector("#group7");about.scrollIntoView({behavior : "smooth" , block : "end"});'>About</a>
-        <img  class="avatar-logo"  src="img/catscarfwhite.jpeg" >
-        <a class="thoughts">Thoughts</a>
-        <a class="contact" onclick='let contact = document.querySelector("#group9");contact.scrollIntoView({behavior : "smooth" , block : "end"});'>Contact</a>
-        <img class="basket" src="https://img.icons8.com/office/16/000000/shopping-cart.png"/>
+<div id="scroll-header" class="scroll-hidden">
+    <div id="default-header">
+        <a onclick='let shop = document.querySelector("#main-page-shop");shop.scrollIntoView({behavior : "smooth" , block : "end"});'>Shop</a>
+        <a onclick='let about = document.querySelector("#main-page-about");about.scrollIntoView({behavior : "smooth" , block : "end"});'>About</a>
+        <img  class="default-avatar-logo"  src="img/main-page-catscarf-white.jpeg" >
+        <a>Thoughts</a>
+        <a onclick='let contact = document.querySelector("#group9");contact.scrollIntoView({behavior : "smooth" , block : "end"});'>Contact</a>
+        <img class="default-basket" src="https://img.icons8.com/office/16/000000/shopping-cart.png"/>
     </div>
 </div>
-<a id="mySpan" class="test" onclick='let header = document.querySelector("#main-page-header");header.scrollIntoView({behavior : "smooth" , block : "end"});'><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="152.135px" viewBox="0 0 36 152.135" enable-background="new 0 0 36 152.135" xml:space="preserve">
+<a id="scroll-scarf" class="scroll-scarf-hidden" onclick='let header = document.querySelector("#main-page-header");header.scrollIntoView({behavior : "smooth" , block : "end"});'><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="36px" height="152.135px" viewBox="0 0 36 152.135" enable-background="new 0 0 36 152.135" xml:space="preserve">
 <path class="scarf" d="M23.721,0.017c-0.25,0.069-0.402,0.336-0.333,0.587
   c0.028,0.102,0.056,0.205,0.083,0.308c-0.047-0.016-0.097-0.024-0.147-0.024c-0.042,0-0.084,0.005-0.125,0.017
   c-3.088,0.888-6.226,1.628-9.413,2.056c0.042-0.005,0.085-0.011,0.127-0.016C11.171,3.307,8.38,3.446,5.631,3.099
@@ -301,7 +301,7 @@
   S24.564,125.442,24.489,125.544z M24.421,126.497c0,0.013,0,0.026,0,0.039C24.421,126.522,24.421,126.509,24.421,126.497z"></path>
 </svg></a>
 <div id="parallax">
-    <div class="topnav" id="menu" >
+    <div class="top-nav" id="top-nav-menu" >
         <a  onclick='let shop = document.querySelector("#main-page-shop");shop.scrollIntoView({behavior : "smooth" , block : "end"});'>shop</a>
         <a  onclick='let about = document.querySelector("#main-page-about");about.scrollIntoView({behavior : "smooth" , block : "end"});'>About</a>
         <a  href="">Thoughts</a>
@@ -311,8 +311,8 @@
     <div id="main-page-header" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
             <div class="click-icon">
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><b class="logotype-small">CatScarf</b></a>
-                <svg href="javascript:void(0);" class="icon squirrel-svg" onclick="myFunction()" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 129.213 76.525" enable-background="new 0 0 129.213 76.525" xml:space="preserve">
+                <a href="javascript:void(0);" class="icon" onclick="dropDownHeader()"><b class="logotype-small">CatScarf</b></a>
+                <svg href="javascript:void(0);" class="icon squirrel-svg" onclick="dropDownHeader()" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 129.213 76.525" enable-background="new 0 0 129.213 76.525" xml:space="preserve">
 <path class="squirrel-logo" fill="#000000" d="M125.11,20.72c-0.062-0.137,0.296-0.255,0.17-0.339c-0.106-0.246-0.735-0.904-0.737-0.906
   c-0.127-0.375-0.247-0.689-0.33-1.085c-0.082-0.388-0.157-0.763-0.224-1.268c-0.03-0.221-0.062-0.424-0.088-0.646l-0.018-0.139
   c-0.025-0.224-0.053-0.442-0.086-0.664c-0.078-0.513-0.186-0.96-0.326-1.367c-0.006-0.148-0.062-0.291-0.16-0.405
@@ -496,7 +496,7 @@
             <div class="collection">
                 <h2 class="collection-caption">2020 Collection</h2>
                 <hr class="collection-line">
-                <a class="collection-subtext" onclick='let shop = document.querySelector("#group3");shop.scrollIntoView({behavior : "smooth" , block : "end"});' >coming soon</a>
+                <a class="collection-subtext" onclick='let shop = document.querySelector("#main-page-shop");shop.scrollIntoView({behavior : "smooth" , block : "end"});' >coming soon</a>
             </div>
         </div>
         <div class="parallax__layer parallax__layer--back" >
@@ -508,9 +508,9 @@
         <!--            <div class="title">Foreground Layer</div>-->
         <!--        </div>-->
         <div class="parallax__layer parallax__layer--base">
-            <div class="shopwrapper">
-                <div class="shoprows">
-                    <div class="rowtitle">
+            <div class="shop-wrapper">
+                <div class="shop-rows">
+                    <div class="shop-rows-title">
                         <h1>
                             Signature
                         </h1>
@@ -518,11 +518,11 @@
                             Autumn colors. Luxurious fibers. High fashion.
                         </p>
                     </div>
-                    <div class="rowitems">
-                        <div class="shopitem">
+                    <div class="shop-rows-items">
+                        <div class="shop-rows-item">
                             <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/Clyde_brown_large.jpg?v=1379412622" >
                             <a >
-                                <div class="overlay">
+                                <div class="shop-rows-item-overlay">
                                     <h1> the <br>
                                         cydle</h1>
                                     <hr style="width:50% ;text-align:center;"/>
@@ -530,10 +530,10 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="shopitem">
+                        <div class="shop-rows-item">
                             <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/Squirrel_kiwi_large.jpg?v=1523821881">
                             <a >
-                                <div class="overlay">
+                                <div class="shop-rows-item-overlay">
                                     <h1> the <br>
                                         sqirrel</h1>
                                     <hr style="width:50% ;text-align:center;"/>
@@ -541,10 +541,10 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="shopitem">
+                        <div class="shop-rows-item">
                             <img src="	https://cdn.shopify.com/s/files/1/0261/4687/products/Sid_Nancy_charcoal_coral_large.jpg?v=1379412706">
                             <a >
-                                <div class="overlay">
+                                <div class="shop-rows-item-overlay">
                                     <h1> the <br>
                                         sid & Nancy</h1>
                                     <hr style="width:50% ;text-align:center;"/>
@@ -554,8 +554,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="shoprows">
-                    <div class="rowtitle">
+                <div class="shop-rows">
+                    <div class="shop-rows-title">
                         <h1>
                             Spring
                         </h1>
@@ -563,11 +563,11 @@
                             Bright. Bold. Adorable.
                         </p>
                     </div>
-                    <div class="rowitems">
-                        <div class="shopitem">
+                    <div class="shop-rows-items">
+                        <div class="shop-rows-item">
                             <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/gus-blue_large.jpg?v=1390356518" alt="">
                             <a >
-                                <div class="overlay">
+                                <div class="shop-rows-item-overlay">
                                     <h1> the <br>
                                         Gus</h1>
                                     <hr style="width:50% ;text-align:center;"/>
@@ -575,10 +575,10 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="shopitem">
+                        <div class="shop-rows-item">
                             <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/mobius_pink_large.jpg?v=1397337924" alt="">
                             <a >
-                                <div class="overlay">
+                                <div class="shop-rows-item-overlay">
                                     <h1> the <br>
                                         mobius</h1>
                                     <hr style="width:50% ;text-align:center;"/>
@@ -586,10 +586,10 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="shopitem">
+                        <div class="shop-rows-item">
                             <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/cowl_bluegrey_large.jpg?v=1397336703" alt="">
                             <a >
-                                <div class="overlay">
+                                <div class="shop-rows-item-overlay">
                                     <h1> the <br>
                                         gwendolyn</h1>
                                     <hr style="width:50% ;text-align:center;"/>
@@ -599,8 +599,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="shoprows">
-                    <div class="rowtitle">
+                <div class="shop-rows">
+                    <div class="shop-rows-title">
                         <h1>
                             Winter
                         </h1>
@@ -608,11 +608,11 @@
                             Striking design. Pure Comfort. High Fashion.
                         </p>
                     </div>
-                    <div class="rowitems">
-                        <div class="shopitem">
+                    <div class="shop-rows-items">
+                        <div class="shop-rows-item">
                             <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/the-ricky2_large.jpg?v=1429669877" alt="">
                             <a >
-                                <div class="overlay">
+                                <div class="shop-rows-item-overlay">
                                     <h1> the <br>
                                         Ricky</h1>
                                     <hr style="width:50% ;text-align:center;"/>
@@ -620,10 +620,10 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="shopitem">
+                        <div class="shop-rows-item">
                             <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/the-felix-grey_large.jpg?v=1429670024" alt="">
                             <a >
-                                <div class="overlay">
+                                <div class="shop-rows-item-overlay">
                                     <h1> the <br>
                                         felix</h1>
                                     <hr style="width:50% ;text-align:center;"/>
@@ -631,10 +631,10 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="shopitem">
+                        <div class="shop-rows-item">
                             <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/theidk2_large.jpg?v=1429669930" alt="">
                             <a >
-                                <div class="overlay">
+                                <div class="shop-rows-item-overlay">
                                     <h1> the <br>
                                         hodge podge</h1>
                                     <hr style="width:50% ;text-align:center;"/>
@@ -644,8 +644,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="shoprows">
-                    <div class="rowtitle">
+                <div class="shop-rows">
+                    <div class="shop-rows-title">
                         <h1>
                             The Hallow's Eve
                         </h1>
@@ -653,11 +653,11 @@
                             Reversible. Comfortable. Badass.
                         </p>
                     </div>
-                    <div class="rowitems">
-                        <div class="shopitem">
+                    <div class="shop-rows-items">
+                        <div class="shop-rows-item">
                             <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/the_hallows_eve_skull_bones_detail_large.jpg?v=1382844328">
                             <a >
-                                <div class="overlay">
+                                <div class="shop-rows-item-overlay">
                                     <h1> the <br>
                                         skull detail</h1>
                                     <hr style="width:50% ;text-align:center;"/>
@@ -665,10 +665,10 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="shopitem">
+                        <div class="shop-rows-item">
                             <img src="https://cdn.shopify.com/s/files/1/0261/4687/products/the_hallows_eve_solid_large.jpg?v=1381798982">
                             <a >
-                                <div class="overlay">
+                                <div class="shop-rows-item-overlay">
                                     <h1> the hollow`s eve  <br>
                                         solid</h1>
                                     <hr style="width:50% ;text-align:center;"/>
@@ -682,23 +682,23 @@
             </div>
         </div>
     </div>
-    <div id="group10" class="parallax__group">
+    <div id="parallax-filler-one" class="parallax__group">
         <div class="parallax__layer parallax__layer--back">
         </div>
         <div class="parallax__layer parallax__layer--base">
         </div>
     </div>
-    <div id="group4" class="parallax__group">
+    <div id="parallax-filler-two" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
         </div>
         <div class="parallax__layer parallax__layer--back">
         </div>
     </div>
-    <div id="group5" class="parallax__group">
+    <div id="parallax-filler-three" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
         </div>
     </div>
-    <div id="group6" class="parallax__group">
+    <div id="parallax-filler-four" class="parallax__group">
         <div class="parallax__layer parallax__layer--back">
         </div>
         <div class="parallax__layer parallax__layer--base">
@@ -706,8 +706,8 @@
     </div>
     <div id="main-page-about" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
-            <div class="container">
-                <div class="title">
+            <div class="about-container">
+                <div class="about-title">
                     <h1>
                         High Fashion
                     </h1>
@@ -716,8 +716,8 @@
                     </p>
 
                 </div>
-                <div class="features">
-                    <div class="feature">
+                <div class="about-features">
+                    <div class="about-feature">
                         <img src="img/img_premiumyarns_anim.gif">
                         <h3>Premium Yarns</h3>
                         <hr>
@@ -725,7 +725,7 @@
                             From the Andes in Peru to South of Beijing, we scoured the globe to find yarns that are both animal-friendly and of the upmost quality. Alpaca, mink, and recycled silk are just some of the fibers we have in our arsenal. When it comes to your cat's comfort, we don't play dice.
                         </p>
                     </div>
-                    <div class="feature">
+                    <div class="about-feature">
                         <img src="img/img_custom_fit_anim.gif">
                         <h3>Custom Fit</h3>
                         <hr>
@@ -733,7 +733,7 @@
                             Fat cat, skinny cat, small cat, tall cat – there's a CatScarf for all. We're here to cater to your cat's specific needs. You tell us your cat's measurements and we craft your loved one a scarf that is not only fashionable and made with love, but has an impeccable fit.
                         </p>
                     </div>
-                    <div class="feature">
+                    <div class="about-feature">
                         <img src="img/img_knitbyhand_anim.gif">
                         <h3>Knit By Hand</h3>
                         <hr>
@@ -746,7 +746,7 @@
             </div>
         </div>
     </div>
-    <div id="group16" class="parallax__group">
+    <div id="parallax-filler-five" class="parallax__group">
         <div class="parallax__layer parallax__layer--back">
             <!--            <div class="title"></div>-->
         </div>
@@ -764,18 +764,18 @@
     </div>
     <div id="main-page-contact" class="parallax__group">
         <div class="parallax__layer parallax__layer--base">
-            <footer id="myFooter">
-                <div class="catscarf-logo-footer">
-                    <img class="arrengement" src="img/catscarf.jpg">
+            <footer id="main-page-footer">
+                <div class="footer-catscarf-logo">
+                    <img class="footer-catscarf-logo-arrangement" src="img/main-page-catscarf.jpg">
 
-                    <p class="logo-text">C A T S C A R F</p>
+                    <p class="footer-logo-text">C A T S C A R F</p>
                 </div>
-                <div class="icons">
-                    <a href="mailto:concierge@catscraf.com"><img class="icons-picture" src="https://img.icons8.com/ios/16/000000/new-post.png"/></a>
-                    <a href="https://www.instagram.com/accounts/login/"><img class="icons-picture" src="https://img.icons8.com/small/16/000000/instagram-new.png"/></a>
-                    <a href="https://twitter.com/catscarf"><img class="icons-picture" src="https://img.icons8.com/ios/16/000000/twitter--v1.png"/></a>
+                <div class="footer-icons">
+                    <a href="mailto:concierge@catscraf.com"><img class="footer-icons-picture" src="https://img.icons8.com/ios/16/000000/new-post.png"/></a>
+                    <a href="https://www.instagram.com/accounts/login/"><img class="footer-icons-picture" src="https://img.icons8.com/small/16/000000/instagram-new.png"/></a>
+                    <a href="https://twitter.com/catscarf"><img class="footer-icons-picture" src="https://img.icons8.com/ios/16/000000/twitter--v1.png"/></a>
                 </div>
-                <div class="text-description">
+                <div class="footer-description">
                     <p>A portion of every CatScarf goes to help animals in need</p></div>
 
                 <div class="footer-copyright">
@@ -786,36 +786,8 @@
     </div>
 </div>
 
-<script>
-    let parallax = document.getElementById("parallax")
-    parallax.onscroll = function () {
-        let top = document.getElementById("header-mobile")
-        let top2 = document.getElementById("mySpan")
-        let top3 = document.getElementById("transparent-header")
-        if(parallax.scrollTop >= 950) {
-            top.className = "visible";
-            top2.className = "test2";
-        }
-        else {
-            top.className = "hidden";
-            top2.className = "test";
-        }
-        if (parallax.scrollTop <= 250)
-        {
-            top3.className = "transparent-visible";
-        }
-        else {
-            top3.className = "transparent-hidden";
-        }
-    }
-    function myFunction() {
-        var x = document.getElementById("menu");
-        if (x.className === "topnav") {
-            x.className += " opened";
-        } else {
-            x.className = "topnav";
-        }
-    }
+<script src="js/main-page.js">
+
 </script>
 <!--<script>-->
 <!--    let parallax = document.getElementById("parallax")-->

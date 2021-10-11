@@ -1,11 +1,9 @@
-/* Parallax base styles
-       --------------------------------------------- */
+
 body {
     margin: 0;
     height: 100vh;
 }
 #parallax {
-    height: 500px; /* fallback for older browsers */
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
@@ -15,7 +13,6 @@ body {
 
 .parallax__group {
     position: relative;
-    height: 500px; /* fallback for older browsers */
     height: 60rem;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
@@ -47,14 +44,14 @@ body {
 }
 
 #group1 {
-    z-index: 5; /* slide over group 2 */
+    z-index: 5;
 }
 #group1 .parallax__layer--base {
     background: transparent;
 }
 
 #main-page-header {
-    z-index: 3; /* slide under groups 1 and 3 */
+    z-index: 3;
 }
 #main-page-header .parallax__layer--back {
     background: url("../img/img_homepage_slider1.jpg") no-repeat center center;
@@ -65,42 +62,15 @@ body {
 }
 
 #main-page-shop {
-    z-index: 4; /* slide over group 2 and 4 */
+    z-index: 4;
 }
 #main-page-shop .parallax__layer--base {
     background: white;
     height: 200rem;
 }
 
-#group4 {
-    z-index: 2; /* slide under group 3 and 5 */
-}
-#group4 .parallax__layer--back {
-    background: white;
-}
-
-#group5 {
-    z-index: 3; /* slide over group 4 and 6 */
-}
-#group5 .parallax__layer--base {
-    background: white;
-    height: 0;
-}
-
-#group6 {
-    z-index: 2; /* slide under group 5 and 7 */
-}
-#group6 .parallax__layer--back {
-    background: url("../img/img_homepage_divider.jpg") no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-
 #main-page-about {
-    z-index: 3; /* slide over group 7 */
+    z-index: 3;
 }
 #main-page-about .parallax__layer--base {
     background: white;
@@ -108,7 +78,7 @@ body {
 }
 
 #main-page-footer-img {
-    z-index: 2; /* slide under group 5 and 7 */
+    z-index: 2;
 }
 #main-page-footer-img .parallax__layer--back {
     background: url("../img/img_homepage_footer.jpg") no-repeat center center;
@@ -116,11 +86,10 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*transform: translateY(200vh);*/
 }
 
 #main-page-contact {
-    z-index: 3; /* slide over group 7 */
+    z-index: 3;
     height: 25rem;
 }
 #main-page-contact .parallax__layer--base {
@@ -128,130 +97,68 @@ body {
     height: 25rem;
 }
 
-#group10 {
-    z-index: 2; /* slide under group 5 and 7 */
+#parallax-filler-one {
+    z-index: 2;
     height: 0;
     overflow: hidden;
 }
-#group10 .parallax__layer--back {
+#parallax-filler-one .parallax__layer--back {
     background-image: url("../img/img_homepage_footer.jpg");
     background-size: cover;
-    /*transform: translateY(200vh);*/
 }
 
-#group11 {
-    z-index: 3; /* slide over group 7 */
-    height: 0;
-    overflow: hidden;
+#parallax-filler-two {
+    z-index: 2;
 }
-#group11 .parallax__layer--base {
+#parallax-filler-two .parallax__layer--back {
     background: white;
-    height: 30vh;
 }
 
-#group13 {
-    z-index: 2; /* slide under group 5 and 7 */
-    height: 0;
-    overflow: hidden;
+#parallax-filler-three {
+    z-index: 3;
 }
-#group13 .parallax__layer--back {
-    background-image: url("../img/img_homepage_footer.jpg");
-    background-size: cover;
-
-    /*transform: translateY(200vh);*/
-}
-
-#group14 {
-    z-index: 2; /* slide under group 5 and 7 */
-    height: 0;
-    overflow: hidden;
-}
-#group14 .parallax__layer--back {
-    background-image: url("../img/img_homepage_footer.jpg");
-    background-size: cover;
-
-    /*transform: translateY(200vh);*/
-}
-
-#group15 {
-    z-index: 2; /* slide under group 5 and 7 */
-    height: 0;
-    overflow: hidden;
-
-
-}
-#group15 .parallax__layer--back {
-    background-image: url("../img/img_homepage_footer.jpg");
-    background-size: cover;
-
-    /*transform: translateY(200vh);*/
-}
-
-#group16 {
-    z-index: 2; /* slide under group 5 and 7 */
-    height: 0;
-    overflow: hidden;
-}
-#group16 .parallax__layer--back {
-    background-image: url("../img/img_homepage_footer.jpg");
-    background-size: cover;
-
-    /*transform: translateY(200vh);*/
-}
-
-
-/* misc
---------------------------------------------- */
-.demo__info {
-    position: absolute;
-    z-index:100;
-    bottom: 1vh;
-    top: auto;
-    font-size:80%;
-    text-align:center;
-    width: 100%;
-}
-#header-mobile {
-    width: 100%;
-    height: 4rem;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
+#parallax-filler-three .parallax__layer--base {
     background: white;
-    z-index: 5;
-    transition: max-height .5s;
+    height: 0;
 }
 
-.hidden {
-    max-height: 0;
+#parallax-filler-four {
+    z-index: 2;
+}
+#parallax-filler-four .parallax__layer--back {
+    background: url("../img/img_homepage_divider.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.visible {
-    max-height: 4rem;
+#parallax-filler-five {
+    z-index: 2;
+    height: 0;
+    overflow: hidden;
 }
+#parallax-filler-five .parallax__layer--back {
+    background-image: url("../img/img_homepage_footer.jpg");
+    background-size: cover;
+}
+
 
 @media screen and (max-width: 1166px) {
-    #group3 .parallax__layer--base {
+    #main-page-shop .parallax__layer--base {
         height: 430rem;
     }
 
-    #group10 {
+    #parallax-filler-one {
         height: 240rem;
     }
 
-    #group7 .parallax__layer--base {
+    #main-page-about .parallax__layer--base {
         height: 150rem;
     }
 
     #group16 {
         height: 60rem;
-    }
-
-    .visible {
-        max-height: 0;
-    }
-    #mySpan {
-        visibility: hidden;
     }
 }
 
@@ -260,7 +167,6 @@ body {
     background-color: white;
     width: 100vw;
     height: 100vh;
-    /*transform: translateY(-100%);*/
     position: fixed;
     animation-duration: 2s;
     animation-name: preload-fadeOut;
@@ -284,3 +190,4 @@ body {
     0% {opacity: 1; visibility: visible}
     100% {opacity: 0; visibility: hidden}
 }
+

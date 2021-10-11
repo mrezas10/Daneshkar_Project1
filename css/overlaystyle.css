@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
-.overlay{
+.shop-rows-item-overlay{
     display: inline-block;
     border-radius: 50%;
     height: 17rem;
@@ -21,28 +21,28 @@
     transition-delay: 0s;
     transform: translateY(10px);
 }
-.overlay h1 {
+.shop-rows-item-overlay h1 {
     font-size: 1.5rem;
     font-family: 'Playfair Display SC', serif;
     font-weight: inherit;
 }
-.overlay b {
+.shop-rows-item-overlay b {
     font-family: Sacramento, sans-serif;
     font-size: 1.5rem;
 }
-.overlay:hover {
+.shop-rows-item-overlay:hover {
     opacity: 1;
     visibility: visible;
     cursor: pointer;
 }
-.overlay h1:hover {
+.shop-rows-item-overlay h1:hover {
     cursor: pointer;
 }
-.overlay b:hover {
+.shop-rows-item-overlay b:hover {
     color: #c7d93b;
     cursor: pointer;
 }
-.overlay .button{
+.shop-rows-item-overlay .button{
     font-size: 2rem;
     font-weight: inherit;
 }

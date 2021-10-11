@@ -1,4 +1,4 @@
-#myFooter {
+#main-page-footer {
     /*margin-top: 5rem;*/
     background-color: #f5a432;
     color: white;
@@ -12,7 +12,7 @@
     gap: 5rem;
 }
 
-#myFooter .footer-copyright {
+#main-page-footer .footer-copyright {
     background-color: #995f12;
     padding-bottom: 3px;
     text-align: center;
@@ -21,7 +21,7 @@
 
 
 
-#myFooter .footer-copyright p {
+#main-page-footer .footer-copyright p {
     margin-bottom: 5px;
     padding-top: 10px;
     font-weight: lighter;
@@ -30,15 +30,15 @@
 }
 
 
-.catscarf-logo-footer{
+.footer-catscarf-logo{
 
 
 }
-.arrengement{
+.footer-catscarf-logo-arrangement{
     width: 10rem;
     gap: 2rem;
 }
-.logo-text{
+.footer-logo-text{
     font-size: 1.2rem;
     letter-spacing: .1rem;
     font-weight: lighter;
@@ -48,7 +48,7 @@
     margin: 0;
 }
 
-.icons{display: flex;
+.footer-icons{display: flex;
     flex-direction: row;
     gap: 5rem;
     justify-content: center;
@@ -57,11 +57,11 @@
     /*margin-bottom: 5%;*/
 }
 
-.icons-picture {
+.footer-icons-picture {
     width: 1.8rem;
 }
 
-.text-description{
+.footer-description{
     margin: 0 2rem;
     text-align: center;
     color: white;

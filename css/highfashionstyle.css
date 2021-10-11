@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
-.container{
+.about-container{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     background-color:rgb(244,239,222);
     height: 90rem;
 }
-.title{
+.about-title{
     width: 43.515rem;
     align-items: center;
     text-align: center;
@@ -27,7 +27,7 @@ h1{
     text-align: center;
     /*border-bottom: 1px solid black;*/
 }
-.features{
+.about-features{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -38,7 +38,7 @@ hr{
     text-align: center;
     width: 50%;
 }
-.feature{
+.about-feature{
     width: 25.75rem;
 }
 .feature>h3{
@@ -52,12 +52,12 @@ hr{
 }
 
 @media screen and (max-width: 1166px) {
-    .container {
+    .about-container {
         height: 150rem;
         /*justify-content: normal;*/
     }
 
-    .features {
+    .about-features {
         flex-direction: column;
         align-items: center;
         gap: 10rem;
