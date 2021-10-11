@@ -1,11 +1,11 @@
-#myFooter {
+#footer-cart-page {
     background-color: #f5a432;
     color: white;
     padding-top: 10px;
 
 }
 
-#myFooter .footer-copyright {
+#footer-cart-page .copyright-footer {
     background-color: #995f12;
     padding-bottom: 3px;
     text-align: center;
@@ -15,7 +15,7 @@
 
 
 
-#myFooter .footer-copyright p {
+#footer-cart-page .copyright-footer p {
     margin-bottom: 5px;
     padding-top: 10px;
     font-weight: lighter;
@@ -24,39 +24,44 @@
 }
 
 
-.catscarf-logo{
+.logo-footer-cart{
 
     width:100%;
     height: 6rem;
     cursor: pointer;
 }
-.arrengement{
+.catscarf-logo-footer-cart{
 
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 5%;
+    width: 5rem;
 }
-.logo-text{
+.logo-text-footer-cart{
     font-size: 0.8rem;
     font-weight: lighter;
     font-family: serif;
     color: white;
     text-align: center;
     margin: 0;
-    transition:all 0.2s;
+
 }
-.logo-text:hover{
+.logo-text-link:hover{
     color: #c9df52;
 }
-.icons{display: flex;
+.logo-text-link{
+    color: white;
+    text-decoration: none;
+    transition:all 0.2s;
+}
+.icon-footer-cart{display: flex;
     flex-direction: row;
     gap: 5rem;
     justify-content: center;
     align-items: center;
     margin-bottom: 5%;
 }
-.text-description{text-align: center;
+.text-description-footer{text-align: center;
     color: white;
     font-family: "Playfair Display SC",serif;
     font-size: 1.2rem;
@@ -66,7 +71,7 @@
 
 
 @media screen and (max-width: 767px) {
-    #myFooter {
+    #footer-cart-page {
         text-align: center;
     }
 }
@@ -93,13 +98,15 @@ body{
     height: 100%;
 }
 
-.content{
+.content-cart-page{
     flex: 1 0 auto;
     -webkit-flex: 1 0 auto;
     min-height: 200px;
+    overflow-x: hidden ;
 }
 
-#myFooter{
+#footer-cart-page{
     flex: 0 0 auto;
     -webkit-flex: 0 0 auto;
+    overflow-x: hidden;
 }
