@@ -1,0 +1,101 @@
+@media screen and (max-width: 640px) {
+    thead {
+        display: block;
+    }
+
+    th, .main-cart-price , .catscarf-header-cart {
+        display: none;
+    }
+
+    #header-cart-black {
+        display: none;
+    }
+    .catscarf{
+        display: none;
+    }
+
+    tfoot, tbody, td {
+        display: block;
+    }
+    .main-cart-image, .main-cart-description, .main-cart-price, .main-cart-quantity {
+        width: 100%;
+        text-align: left;
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .note-special-cart-yourslef, .note-special-cart-top {
+        width: 100%;
+    }
+    .note-special-cart {
+        border-bottom: 0.001rem solid #c7c7c7;
+        width: 100%;
+    }
+    .main-cart-image-catscarf {
+        width: 10rem;
+    }
+    .the-squirrel {
+        font-size: 2.2rem;
+        padding-bottom: 0;
+        padding-top: 0;
+        margin: 0;
+        width: 20ch;
+    }
+    .kiwi {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+    .main-cart-total-price {
+        font-size: 1.8rem;
+    }
+    .main-cart-total {
+        padding-bottom: 10%;
+        padding-top: 5%;
+    }
+    .main-cart-title {
+        font-size: 4rem;
+        border-bottom: 1px solid #c7c7c7;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .note-special-cart-top {
+        margin-top: 0;
+        margin-bottom: 10%;
+        font-size: 2rem;
+    }
+    .last-price-cart {
+        text-align: center;
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    .checkout-cart {
+        text-align: center;
+        font-weight: bolder;
+        margin: 0;
+    }
+    .update-subtotal-cart {
+        width: 85vw;
+        text-align: right;
+    }
+    .shopping{
+        height: 5rem;
+        margin-top: 1.9rem;
+        font-size: 1.4rem;
+        font-family: "Playfair Display SC",serif;
+    }
+    .update-cart{
+        font-size: 0.8rem;
+        text-align: left;
+    }
+}
+@media screen and (min-width: 640px){
+    .basket-header-cart-mobile{
+        display: none;
+    }
+}
+@media screen and (max-width: 450px) {
+    .content-cart-page {
+        overflow-x: hidden ;
+
+    }}
