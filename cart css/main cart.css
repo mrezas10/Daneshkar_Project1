@@ -129,7 +129,7 @@ padding-bottom: 0;
 .note-special-cart-yourslef{
     width: 100%;
     margin-bottom: 5%;
-    border-radius: 5%;
+    border-radius: 5px;
     border: 0.001rem solid darkgrey;
     outline: 0;
     padding: 0;

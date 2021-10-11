@@ -37,8 +37,8 @@
 }
 
 .line-header-bottom{
-    /*width: 100vw;*/
-    /*background: orange;*/
+
+    height: 2px;
     display: flex;
     flex-direction: row;
     justify-content: center;
