@@ -1,0 +1,21 @@
+#header-products a:hover{
+    text-decoration: none;
+    color: #a8a802;
+}
+
+.catscarf-products-page a:hover{
+    color: #a8a802;
+
+}
+
+
+
+
+
+
+
+::selection {
+    background: #f15a22;
+    color: #fff;
+    text-shadow: none;
+}

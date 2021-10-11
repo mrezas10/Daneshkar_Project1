@@ -4,5 +4,6 @@
 @import "productdown.css";
 /*@import "products.css";*/
 @import "shop-main.css";
-@import "header.css";
-@import "footer.css";
+@import "header-products.css";
+@import "footer-products.css";
+@import "hovers-products.css";

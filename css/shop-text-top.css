@@ -51,17 +51,24 @@ hr
     font-weight: normal;
     font-size: 4rem;
     margin: 0;
+    color: #444444;
 }
 .shop-product-text-description {
     font-weight: normal;
     margin: 0;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: gray;
 }
+
 .shop-product-text-price {
     font-family: 'Playfair Display SC', serif;
     font-weight: normal;
     font-size: 3rem;
     margin: 0;
+    color: #444;
 }
+
 .shop-product-text-list {
     height: 3rem;
     width: 40%;

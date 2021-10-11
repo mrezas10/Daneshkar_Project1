@@ -1,5 +1,6 @@
-#myFooter {
-    background-color: #f5a432;
+#footer-products-page {
+    margin-top: 5rem;
+    background-color: #dba539;
     color: white;
     padding-top: 10px;
     display: flex;
@@ -8,46 +9,31 @@
     justify-items: center;
     align-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 5rem;
 }
 
-#myFooter .footer-copyright {
-    background-color: #995f12;
-    padding-bottom: 3px;
-    text-align: center;
-    width: 100%;
-}
-
-
-
-#myFooter .footer-copyright p {
-    margin-bottom: 5px;
-    padding-top: 10px;
-    font-weight: lighter;
-    font-size: 1rem;
-    color: #ccc;
-}
-
-
-.catscarf-logo-footer{
-
+.footer-catscarf-logo{
 
 }
-.arrengement{
-    width: 10rem;
+.arrangement{
+    width: 6.5rem;
     gap: 2rem;
+    margin-top: 3rem;
 }
-.logo-text{
-    font-size: 1.2rem;
-    letter-spacing: .1rem;
+.footer-logo-text{
+    text-decoration: none;
+    font-size: 0.6rem;
+    letter-spacing: 0.14rem;
     font-weight: lighter;
     font-family: Alice, serif;
     color: white;
     text-align: center;
-    margin: 0;
+    margin-top: 0;
 }
-
-.icons{display: flex;
+.footer-catscarf-logo p{
+    margin-top: 0;
+}
+.icons-products-page{display: flex;
     flex-direction: row;
     gap: 5rem;
     justify-content: center;
@@ -56,7 +42,7 @@
     /*margin-bottom: 5%;*/
 }
 
-.icons-picture {
+.icons-footer {
     width: 1.8rem;
 }
 
@@ -64,9 +50,24 @@
     margin: 0 2rem;
     text-align: center;
     color: white;
-    font-family: Alice, serif;
+    font-family: "Playfair Display SC",serif;
+    font-style: normal;
     font-size: 1.5rem;
     /*margin-bottom: 5%*/
+}
+#footer-products-page .footer-copyright {
+    background-color: #995f12;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 100%;
+}
+
+#footer-products-page .footer-copyright p {
+    margin-bottom: 5px;
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 1rem;
+    color: #ccc;
 }
 
 .login{width: 15%;
