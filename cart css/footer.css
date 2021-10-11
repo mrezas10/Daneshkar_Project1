@@ -7,7 +7,7 @@
 
 #footer-cart-page .copyright-footer {
     background-color: #995f12;
-    padding-bottom: 3px;
+    padding-bottom: 20px;
     text-align: center;
     font-family: "Playfair Display SC",serif;
     font-weight: normal;
@@ -17,7 +17,7 @@
 
 #footer-cart-page .copyright-footer p {
     margin-bottom: 5px;
-    padding-top: 10px;
+    padding-top: 20px;
     font-weight: lighter;
     font-size: 0.6rem;
     color: #ccc;
@@ -64,12 +64,13 @@
 }
 .icon-pic-footer{
     width: 1.5rem;
+    cursor: pointer;
 }
 .text-description-footer{
 
     text-align: center;
     color: white;
-    font-family: Alice, serif;
+    font-family: "Playfair Display SC",serif;
     font-size: 1.5rem;
     margin-bottom: 5%
 }
@@ -86,10 +87,6 @@
     cursor: pointer;
     transition:all 0.2s;
 }
-
-
-
-
 /* CSS used for positioning the footers at the bottom of the page. */
 
 
