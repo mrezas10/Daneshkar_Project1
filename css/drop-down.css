@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+body {
+    margin: 0;
+    font-family: Alice,serif;
+}
+.top-navigation-bar{
+    transition: max-height .5s;
+    max-height: 0;
+    overflow: hidden;
+    background-color: #ffff;
+}
+.top-navigation-bar a {
+    /*   float: left;*/
+    display: block;
+    color: #5c5c5c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.top-navigation-bar a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.click-icon .icon {
+    display: none;
+}
+
+.click-icon a {
+    display: block;
+    color: black ;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
