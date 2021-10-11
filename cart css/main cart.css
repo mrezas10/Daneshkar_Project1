@@ -83,7 +83,7 @@ th {
     cursor: pointer;
 }
 .main-cart-image-catscarf{
-    width: 7rem;
+    width: 12rem;
     text-align: left;
     cursor: pointer;
 }
@@ -116,7 +116,7 @@ th {
     font-family: "Playfair Display SC",serif;
     font-style: normal;
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: 1.8rem;
 }
 td{
     padding: 0;
@@ -231,7 +231,7 @@ input[type=number]{
     font-family: "Playfair Display SC",serif;
     font-style: normal;
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: 1.8rem;
 }
 .update-subtotal-cart{
     text-align: right;
